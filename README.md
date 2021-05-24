@@ -17,7 +17,7 @@ Using open source data from open2flights a list of every active airport and airp
 
 
 ## Stack
-This project was created in Javascript backed by Python Flask application. All of the dependencies are saved in a python virtual environment in this repository, so setup and instillation is fairly straight forward
+This project was created in Javascript backed by a Python Flask application. All of the dependencies are saved in a python virtual environment in this repository, so setup and instillation is fairly straight forward
 
 
 ## Setup
