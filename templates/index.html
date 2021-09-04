@@ -1,51 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Portfolio - Stefan </title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    
-    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
 
-    <link rel="stylesheet" href="./static/css/open-iconic-bootstrap.min.css">
-    <link rel="stylesheet" href="./static/css/animate.css">
-    
-    <link rel="stylesheet" href="./static/css/owl.carousel.min.css">
-    <link rel="stylesheet" href="./static/css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="./static/css/magnific-popup.css">
+<head>
+	<title>Portfolio - Stefan </title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link rel="stylesheet" href="./static/css/aos.css">
+	<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
 
-    <link rel="stylesheet" href="./static/css/ionicons.min.css">
-    
-    <link rel="stylesheet" href="./static/css/flaticon.css">
-    <link rel="stylesheet" href="./static/css/icomoon.css">
+	<link rel="stylesheet" href="./static/css/open-iconic-bootstrap.min.css">
+	<link rel="stylesheet" href="./static/css/animate.css">
+
+	<link rel="stylesheet" href="./static/css/owl.carousel.min.css">
+	<link rel="stylesheet" href="./static/css/owl.theme.default.min.css">
+	<link rel="stylesheet" href="./static/css/magnific-popup.css">
+
+	<link rel="stylesheet" href="./static/css/aos.css">
+
+	<link rel="stylesheet" href="./static/css/ionicons.min.css">
+
+	<link rel="stylesheet" href="./static/css/flaticon.css">
+	<link rel="stylesheet" href="./static/css/icomoon.css">
 	<link rel="stylesheet" href="./static/css/style.css">
 	<link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
 	<!-- Hotjar Tracking Code for www.stefanvercillo.com -->
 	<script>
-		(function(h,o,t,j,a,r){
-			h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-			h._hjSettings={hjid:2062711,hjsv:6};
-			a=o.getElementsByTagName('head')[0];
-			r=o.createElement('script');r.async=1;
-			r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+		(function (h, o, t, j, a, r) {
+			h.hj = h.hj || function () { (h.hj.q = h.hj.q || []).push(arguments) };
+			h._hjSettings = { hjid: 2062711, hjsv: 6 };
+			a = o.getElementsByTagName('head')[0];
+			r = o.createElement('script'); r.async = 1;
+			r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
 			a.appendChild(r);
-		})(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+		})(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
 	</script>
 	<script>
-		function disableClick(){ 
-		  document.onclick=function(event){ 
-			if (event.button == 2) { 
-			  alert('Right Click Message'); 
-			  return false; 
-			} 
-		  } 
+		function disableClick() {
+			document.onclick = function (event) {
+				if (event.button == 2) {
+					alert('Right Click Message');
+					return false;
+				}
+			}
 		}
 
-	</script> 
-  </head>
-  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300" onLoad="disableClick()">
+	</script>
+</head>
+
+<body data-spy="scroll" data-target=".site-navbar-target" data-offset="300" onLoad="disableClick()">
 
 	<style>
 		/* #cf {
@@ -63,551 +65,629 @@
 			opacity:0;
 		} */
 	</style>
-    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
-	    <div class="container">
-		  <a class="navbar-brand" href="/" ><span>S</span>tefan Vercillo</a>
-		  
-	      <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-	        <span class="oi oi-menu"></span> Menu
-	      </button>
+	<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
+		<div class="container">
+			<a class="navbar-brand" href="/"><span>S</span>tefan Vercillo</a>
 
-	      <div class="collapse navbar-collapse" id="ftco-nav">
-	        <ul class="navbar-nav nav ml-auto">
-				<li class="nav-item"><a href="#home-section" class="nav-link"><span>Home</span></a></li>
-				<li class="nav-item"><a href="#about-section" class="nav-link"><span>About</span></a></li>
-				<li class="nav-item"><a href="#projects-section" class="nav-link"><span>Projects</span></a></li>
-				<li class="nav-item"><a href="#resume-section" class="nav-link"><span>Resume</span></a></li>
-				<!-- <li class="nav-item"><a href="#services-section" class="nav-link"><span>Services</span></a></li> -->
-				<!-- <li class="nav-item"><a href="#blog-section" class="nav-link"><span>My Blog</span></a></li> -->
-				<li class="nav-item"><a href="#contact-section" class="nav-link"><span>Contact</span></a></li>
-				<li class="nav-item"><a class="photo" id="photo" href="https://github.com/svercillo"><img src="./static/images/github.svg" width="30" height="30" hspace="10"></a>
-				<li class="nav-item"><a class="photo" id="photo" href="https://linkedin.com/in/stefan-vercillo"><img src="./static/images/linkedin.png" width="30" height="30" hspace="10"></a>
-				<li class="nav-item"><a class="photo" id="photo" href="mailto:snvercil@uwaterloo.ca"><img src="./static/images/mail.png" width="30" height="30" hspace="10"></a>
-			</ul>
-	      </div>
-	    </div>
-	  </nav>
-	  <section class="hero-wrap js-fullheight" id="home">
-      <div class="overlay"></div>
-      <div class="container">
-        <div class="row no-gutters slider-text js-fullheight justify-content-center align-items-center">
-          <div class="col-lg-8 col-md-6 ftco-animate d-flex align-items-center">
-          	<div class="text text-center">
-          		<span class="subheading">Hey! I am</span>
-		  				<h1>Stefan Vercillo</h1>
-			  				<h2>I'm an asipring
-								<span
-									class="txt-rotate"
-									data-period="10"
-									data-rotate='[ "software architect.", "CTO.", "innovator."]'></span>
-					</h2>
-				</div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="mouse">
-				<a class="mouse-icon">
-					<div class="mouse-wheel"><span class="ion-ios-arrow-round-down"></span></div>
-				</a>
+			<button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse"
+				data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="oi oi-menu"></span> Menu
+			</button>
+
+			<div class="collapse navbar-collapse" id="ftco-nav">
+				<ul class="navbar-nav nav ml-auto">
+					<li class="nav-item"><a href="#home-section" class="nav-link"><span>Home</span></a></li>
+					<li class="nav-item"><a href="#about-section" class="nav-link"><span>About</span></a></li>
+					<li class="nav-item"><a href="#projects-section" class="nav-link"><span>Projects</span></a></li>
+					<li class="nav-item"><a href="#resume-section" class="nav-link"><span>Resume</span></a></li>
+					<!-- <li class="nav-item"><a href="#services-section" class="nav-link"><span>Services</span></a></li> -->
+					<!-- <li class="nav-item"><a href="#blog-section" class="nav-link"><span>My Blog</span></a></li> -->
+					<li class="nav-item"><a href="#contact-section" class="nav-link"><span>Contact</span></a></li>
+					<li class="nav-item"><a class="photo" id="photo" href="https://github.com/svercillo"><img
+								src="./static/images/github.svg" width="30" height="30" hspace="10"></a>
+					<li class="nav-item"><a class="photo" id="photo" href="https://linkedin.com/in/stefan-vercillo"><img
+								src="./static/images/linkedin.png" width="30" height="30" hspace="10"></a>
+					<li class="nav-item"><a class="photo" id="photo" href="mailto:snvercil@uwaterloo.ca"><img
+								src="./static/images/mail.png" width="30" height="30" hspace="10"></a>
+				</ul>
 			</div>
-    </section>
+		</div>
+	</nav>
+	<section class="hero-wrap js-fullheight" id="home">
+		<div class="overlay"></div>
+		<div class="container">
+			<div class="row no-gutters slider-text js-fullheight justify-content-center align-items-center">
+				<div class="col-lg-8 col-md-6 ftco-animate d-flex align-items-center">
+					<div class="text text-center">
+						<span class="subheading">Hey! I am</span>
+						<h1>Stefan Vercillo</h1>
+						<h2>I'm an asipring
+							<span class="txt-rotate" data-period="10"
+								data-rotate='[ "software architect.", "CTO.", "innovator."]'></span>
+						</h2>
+					</div>
+				</div>
+			</div>
+		</div>
+		</div>
+		<div class="mouse">
+			<a class="mouse-icon">
+				<div class="mouse-wheel"><span class="ion-ios-arrow-round-down"></span></div>
+			</a>
+		</div>
+	</section>
 
-    <section class="ftco-about img ftco-section ftco-no-pt ftco-no-pb" id="about-section">
-    	<div class="container">
-    		<div class="row d-flex no-gutters">
-    			<div class="col-md-6 col-lg-6 d-flex">
-    				<div class="img-about img d-flex align-items-stretch">
+	<section class="ftco-about img ftco-section ftco-no-pt ftco-no-pb" id="about-section">
+		<div class="container">
+			<div class="row d-flex no-gutters">
+				<div class="col-md-6 col-lg-6 d-flex">
+					<div class="img-about img d-flex align-items-stretch">
 						<div class="overlay"></div>
-							<div class="img d-flex align-self-stretch align-items-center" style="background-image:url(./static/images/m35.jpg);">
-							</div>
-    				</div>
-    			</div>
-    			<div class="col-md-6 col-lg-6 pl-md-5 py-5">
-    				<div class="row justify-content-start pb-3">
-		          <div class="col-md-12 heading-section ftco-animate">
-		          	<h1 class="big">About</h1>
-					<h2 class="mb-4">About Me</h2>
-					<p> I'm a software engineer and varisty soccer player, passionate about using technology to create lasting impact on society.</p>
-		            <!-- <p>I'm a third year computer engineering student, and varsity soccer member inifinte utility of technology to create a lasting impact in society.</p> -->
-		            <ul class="about-info mt-4 px-md-0 px-2">
-		            	<li class="d-flex"><span>Name:</span> <span>Stefan Noah Vercillo</span></li>
-		            	<!-- <li class="d-flex"><span>Date of birth:</span> <span>October 28, 2000</span></li> -->
-		            	<li class="d-flex"><span>City:</span> <span> Toronto, ON, Canada</span></li>
-						<li class="d-flex"><span>University:</span> <span>University of Waterloo</span>
-						<li class="d-flex"><span>Major:</span> <span>Computer Engineering</span>
-						<li class="d-flex"><span>Email:</span> <span>snvercil@uwaterloo.ca</span></li>
-						<li class="d-flex"><span>Github:</span> <a href="https://www.github.com/svercillo">github.com/svercillo</a></li>
-						<li class="d-flex"><span>LinkedIn:</span> <a href="https://www.linkedin.com/in/stefan-vercillo">linkedin.com/in/stefan-vercillo</a></li>
-		            </ul>
-		          </div>
-		        </div>
-	          <div class="counter-wrap ftco-animate d-flex mt-md-3">
-              <div class="text">
-              	<p class="mb-4">
-					<span>Over</span>
-	                <span class="number" data-number="50000">0</span>
-	                <span>lines of code written professionally</span>
-                </p>
-                <p><a href="./static/files/RESUME.pdf" download class="btn btn-primary py-3 px-3">Download CV</a></p>
-              </div>
-	          </div>
-	        </div>
-        </div>
-    	</div>
+						<div class="img d-flex align-self-stretch align-items-center"
+							style="background-image:url(./static/images/m35.jpg);">
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-6 pl-md-5 py-5">
+					<div class="row justify-content-start pb-3">
+						<div class="col-md-12 heading-section ftco-animate">
+							<h1 class="big">About</h1>
+							<h2 class="mb-4">About Me</h2>
+							<p> I'm a software engineer and varisty soccer player, passionate about using technology to
+								create lasting impact on society.</p>
+							<!-- <p>I'm a third year computer engineering student, and varsity soccer member inifinte utility of technology to create a lasting impact in society.</p> -->
+							<ul class="about-info mt-4 px-md-0 px-2">
+								<li class="d-flex"><span>Name:</span> <span>Stefan Noah Vercillo</span></li>
+								<!-- <li class="d-flex"><span>Date of birth:</span> <span>October 28, 2000</span></li> -->
+								<li class="d-flex"><span>City:</span> <span> Toronto, ON, Canada</span></li>
+								<li class="d-flex"><span>University:</span> <span>University of Waterloo</span>
+								<li class="d-flex"><span>Major:</span> <span>Computer Engineering</span>
+								<li class="d-flex"><span>Email:</span> <span>snvercil@uwaterloo.ca</span></li>
+								<li class="d-flex"><span>Github:</span> <a
+										href="https://www.github.com/svercillo">github.com/svercillo</a></li>
+								<li class="d-flex"><span>LinkedIn:</span> <a
+										href="https://www.linkedin.com/in/stefan-vercillo">linkedin.com/in/stefan-vercillo</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="counter-wrap ftco-animate d-flex mt-md-3">
+						<div class="text">
+							<p class="mb-4">
+								<span>Over</span>
+								<span class="number" data-number="50000">0</span>
+								<span>lines of code written professionally</span>
+							</p>
+							<p><a href="./static/files/RESUME.pdf" download class="btn btn-primary py-3 px-3">Download
+									CV</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 	</section>
-	
+
 	<section class="ftco-section ftco-partner">
-    	<div class="container">
+		<div class="container">
 			<h4>Worked as a developer for the following companies:</h4>
-    		<div class="row">
+			<div class="row">
 				<div class="col-sm ftco-animate">
-    				<a href="https://ensoconnect.com/" class="partner"><img src="./static/images/enso.png" class="img-fluid" alt="Colorlib Template"></a>
-    			</div>
-				<div class="col-sm ftco-animate">
-    				<a href="https://tradelogiq.com/" class="partner"><img src="./static/images/tradelogiq.jpeg" class="img-fluid" alt="Colorlib Template"></a>
-    			</div>
-    			<div class="col-sm ftco-animate">
-    				<a  class="partner"><img src="./static/images/td.jpg" class="img-fluid" alt="Colorlib Template"></a>
-    			</div>
-    			<div class="col-sm ftco-animate">
-    				<a href="https://www.torontofurnishedrentals.com/our-story/" class="partner"><img src="./static/images/svs3.jpg" class="img-fluid" alt="Colorlib Template"></a>
-    			</div>
-    			<div class="col-sm ftco-animate">
-    				<a  class="partner"><img src="./static/images/ford.png" class="img-fluid" alt="Colorlib Template"></a>
+					<a href="https://ensoconnect.com/" class="partner"><img src="./static/images/enso.png"
+							class="img-fluid" alt="Colorlib Template"></a>
 				</div>
-    		</div>
-    	</div>
+				<div class="col-sm ftco-animate">
+					<a href="https://tradelogiq.com/" class="partner"><img src="./static/images/tradelogiq.jpeg"
+							class="img-fluid" alt="Colorlib Template"></a>
+				</div>
+				<div class="col-sm ftco-animate">
+					<a class="partner"><img src="./static/images/td.jpg" class="img-fluid" alt="Colorlib Template"></a>
+				</div>
+				<div class="col-sm ftco-animate">
+					<a href="https://www.torontofurnishedrentals.com/our-story/" class="partner"><img
+							src="./static/images/svs3.jpg" class="img-fluid" alt="Colorlib Template"></a>
+				</div>
+				<div class="col-sm ftco-animate">
+					<a class="partner"><img src="./static/images/ford.png" class="img-fluid"
+							alt="Colorlib Template"></a>
+				</div>
+			</div>
+		</div>
 	</section>
-	
+
 	<section class="ftco-section ftco-project" id="projects-section">
-    	<div class="container-fluid px-md-0">
-    		<div class="row no-gutters justify-content-center pb-5">
-          <div class="col-md-12 heading-section text-center ftco-animate">
-          	<h1 class="big big-2">Projects</h1>
-            <h2 class="mb-4">Personal Projects</h2>
-            <p>The majority of my work is not open-sourced, however here's a few projects to showcase some of my skills!</p>
-          </div>
-        </div>
-    		<div class="row no-gutters">
-				<div class="col-md-4">
-    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(./static/images/AI.png);">
-    					<div class="overlay"></div>
-	    				<div class="text text-center p-4">
-	    					<h3><a href="https://ai-real-estate-valuator.herokuapp.com/">AI Real Estate Predictor</a></h3>
-	    					<span>Click above to see the demo!</span>
-	    				</div>
-    				</div>
-  				</div>
-    			<div class="col-md-4">
-    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(./static/images/pathfinding.PNG);">
-    					<div class="overlay"></div>
-	    				<div class="text text-center p-4">
-	    					<h3><a class="pathfinder" href="/path-finding-visualization">Path Finding Visualization</a></h3>
-	    					<span>Click above to see the demo!</span>
-	    				</div>
-    				</div>
+		<div class="container-fluid px-md-0">
+			<div class="row no-gutters justify-content-center pb-5">
+				<div class="col-md-12 heading-section text-center ftco-animate">
+					<h1 class="big big-2">Projects</h1>
+					<h2 class="mb-4">Personal Projects</h2>
+					<p>The majority of my work is not open-sourced, however here's a few projects to showcase some of my
+						skills!</p>
 				</div>
-    			 	<div class="col-md-4">
-    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(./static/images/internet.jpg);">
-    					<div class="overlay"></div>
-	    				<div class="text text-center p-4">
-	    					<h3><a href="https://github.com/svercillo/API-performance-evaluation-sockets-GLI">API Performance Evaluator</a></h3>
-	    					<span>GLI tool</span>
-	    				</div>
-    				</div>
+			</div>
+			<div class="row no-gutters">
+				<div class="col-md-4">
+					<div class="project img ftco-animate d-flex justify-content-center align-items-center"
+						style="background-image: url(./static/images/AI.png);">
+						<div class="overlay"></div>
+						<div class="text text-center p-4">
+							<h3><a href="https://ai-real-estate-valuator.herokuapp.com/">AI Real Estate Predictor</a>
+							</h3>
+							<span>Click above to see the demo!</span>
+						</div>
+					</div>
 				</div>
 				<div class="col-md-4">
-    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(./static/images/leet.jpg);">
-    					<div class="overlay"></div>
-	    				<div class="text text-center p-4">
-	    					<h3><a href="https://github.com/svercillo/LeetCode_Algorithms">LeetCode Algorithms</a></h3>
-	    					<span>Algorithms Questions Solved </span>
-	    				</div>
-    				</div>
-    			</div>
-    			<div class="col-md-4">
-    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(./static/images/work-in-progress3.jpg);">
-    					<div class="overlay"></div>
-	    				<div class="text text-center p-4">
-	    					<h3><a href="https://github.com/svercillo/">Checkout my Github</a></h3>
-	    					<span>Click above </span>
-	    				</div>
-    				</div>
-    			</div>
-    			<div class="col-md-4">
-    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(./static/images/work-in-progress3.jpg);">
-    					<div class="overlay"></div>
-	    				<div class="text text-center p-4">
-	    					<h3><a href="https://github.com/svercillo/">Checkout my Github</a></h3>
-	    					<span>Click above</span>
-	    				</div>
-    				</div>
-    			</div>
-    		</div>
-    	</div>
-    </section>
+					<div class="project img ftco-animate d-flex justify-content-center align-items-center"
+						style="background-image: url(./static/images/pathfinding.PNG);">
+						<div class="overlay"></div>
+						<div class="text text-center p-4">
+							<h3><a class="pathfinder" href="/path-finding-visualization">Path Finding Visualization</a>
+							</h3>
+							<span>Click above to see the demo!</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="project img ftco-animate d-flex justify-content-center align-items-center"
+						style="background-image: url(./static/images/OS.jpg);">
+						<div class="overlay"></div>
+						<div class="text text-center p-4">
+							<h3><a href="https://github.com/svercillo/Real-Time-OS-Testing-Framework">Real Time
+									Operating System Testing Framework</a></h3>
+							<span>C / Concurrency / Systems Programming</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="project img ftco-animate d-flex justify-content-center align-items-center"
+						style="background-image: url(./static/images/internet.jpg);">
+						<div class="overlay"></div>
+						<div class="text text-center p-4">
+							<h3><a href="https://github.com/svercillo/API-performance-evaluation-sockets-GLI">API
+									Performance Evaluator</a></h3>
+							<span>GLI tool</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="project img ftco-animate d-flex justify-content-center align-items-center"
+						style="background-image: url(./static/images/leet.jpg);">
+						<div class="overlay"></div>
+						<div class="text text-center p-4">
+							<h3><a href="https://github.com/svercillo/LeetCode_Algorithms">LeetCode Algorithms</a></h3>
+							<span>Algorithms Questions Solved </span>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="project img ftco-animate d-flex justify-content-center align-items-center"
+						style="background-image: url(./static/images/work-in-progress3.jpg);">
+						<div class="overlay"></div>
+						<div class="text text-center p-4">
+							<h3><a href="https://github.com/svercillo/">Checkout my Github</a></h3>
+							<span>Click above</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
 
 
 
 	<section class="ftco-section ftco-no-pb goto-here" id="resume-section">
-    	<div class="container">
-    		<div class="row">
-    			<div class="col-md-3">
-				    <nav id="navi">
-					    <ul>
-					      <li><a href="#page-1">Education</a></li>
-						  <li><a href="#page-2">Experience</a></li>
-						  <li><a href="#page-3">Extracurricular</a></li>
-					      <li><a href="#page-4">Skills</a></li>
-					    </ul>
-					  </nav>
-					</div>
-					<div class="col-md-9">
-					  <div id="page-1" class= "page one">
-					  	<h2 class="heading">Education</h2>
-					    <div class="resume-wrap d-flex ftco-animate">
-					    	<div class="icon d-flex align-items-center justify-content-center">
-					    		<span class="flaticon-innovation"></span>
-					    	</div>
-					    	<div class="text pl-3">
-		    					<span class="date">2018-2023 expected</span>
-		    					<h2>Bachelor of Computer Engineering</h2>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3">
+					<nav id="navi">
+						<ul>
+							<li><a href="#page-1">Education</a></li>
+							<li><a href="#page-2">Experience</a></li>
+							<li><a href="#page-3">Extracurricular</a></li>
+							<li><a href="#page-4">Skills</a></li>
+						</ul>
+					</nav>
+				</div>
+				<div class="col-md-9">
+					<div id="page-1" class="page one">
+						<h2 class="heading">Education</h2>
+						<div class="resume-wrap d-flex ftco-animate">
+							<div class="icon d-flex align-items-center justify-content-center">
+								<span class="flaticon-innovation"></span>
+							</div>
+							<div class="text pl-3">
+								<span class="date">2018-2023 expected</span>
+								<h2>Bachelor of Computer Engineering</h2>
 								<span class="position">University of Waterloo</span>
-								
-								<div>Relevant Courses:</div> 
+
+								<div>Relevant Courses:</div>
 
 								<ul>
 									<li>Concurrency & Systems Program (97%)</li>
-									<li>Data Structures & 
-										 Algorithms </li>
+									<li>Data Structures &
+										Algorithms </li>
 									<li>Compilers</li>
 									<li>Computer Networking</li>
 									<li>Databases</li>
 									<li>Real Time Operating Systems</li>
 								</ul>
-	    					</div>
-	    				</div>
-	    				<div class="resume-wrap d-flex ftco-animate">
-	    					<div class="icon d-flex align-items-center justify-content-center">
-					    		<span class="flaticon-innovation"></span>
-					    	</div>
-					    	<div class="text pl-3">
-		    					<span class="date"></span>
-		    					<h2>IB Diploma Graduate</h2>
-		    					<span class="position">Michael Power HS</span>
-		    					<p>Achieved an average of 94% in the International Baccalaureate program.</p>
-		    				</div>
+							</div>
 						</div>
-						
+						<div class="resume-wrap d-flex ftco-animate">
+							<div class="icon d-flex align-items-center justify-content-center">
+								<span class="flaticon-innovation"></span>
+							</div>
+							<div class="text pl-3">
+								<span class="date"></span>
+								<h2>IB Diploma Graduate</h2>
+								<span class="position">Michael Power HS</span>
+								<p>Achieved an average of 94% in the International Baccalaureate program.</p>
+							</div>
+						</div>
 
-					  </div>
 
-					  <div id="page-2" class= "page two">
-					  	<h2 class="heading">Experience</h2>
+					</div>
+
+					<div id="page-2" class="page two">
+						<h2 class="heading">Experience</h2>
 
 
 						<div class="resume-wrap d-flex ftco-animate">
-					    	<div class="icon d-flex align-items-center justify-content-center">
-					    		<span class="flaticon-innovation"></span>
-					    	</div>
-					    	<div class="text pl-3">
-		    					<span class="date">November-May 2021</span>
-		    					<h2>Lead Developer</h2>
-		    					<span class="position">Enso Connect</span>
-		    					<ul>
-									<li>Led the development from conception to production of an automation test suite and production pipeline, effectively managing a
-										team of 3 people working remotely around the world in pressurized startup environment</li>
-									<li>Created testing framework to encapsulate entire web-app functionality, with Puppeteer driven tests</li>
-									<li>Found and debugged hundreds of bugs / played a large role in refactoring backend for agnostic and test-driven dev</li>
-									<li>Led integration of 2000+ VRBO properties into Enso Connect property management/ communications platforms</li>
-									<li>Took on large independent back-end projects and integrations in Serverles, NoSQL, AWS stack whilst managing team</li>
+							<div class="icon d-flex align-items-center justify-content-center">
+								<span class="flaticon-innovation"></span>
+							</div>
+							<div class="text pl-3">
+								<span class="date">November-May 2021</span>
+								<h2>Lead QA Architect / Backend Engineer</h2>
+								<span class="position">Enso Connect</span>
+								<ul>
+
+									<li> Led the development from conception to production of an automation test suite
+										and GitHub CI/CD end-to-end dev-ops pipeline,
+										effectively managing a team of 3 people working remotely around the world in
+										pressurized startup environment </li>
+									<li> Created testing framework to entire web-app functionality, with Puppeteer
+										driven tests </li>
+									<li> Found and debugged hundreds of bugs / played a large role in refactoring
+										backend for agnostic and test-driven dev </li>
+									<li> Implemented / optimized Elasticsearch indexes and queries on DynamoDB to
+										speed up API performance significantly </li>
+									<li> Led integration of 2000+ VRBO properties into Enso Connect property management
+										/ communications platforms</li>
+									<li> Took on large independent back-end projects and integrations in Serverless,
+										NoSQL, AWS stack whilst managing team</li>
 								</ul>
-		    				</div>
+							</div>
 						</div>
 
 						<div class="resume-wrap d-flex ftco-animate">
-					    	<div class="icon d-flex align-items-center justify-content-center">
-					    		<span class="flaticon-innovation"></span>
-					    	</div>
-					    	<div class="text pl-3">
-		    					<span class="date">January-May 2021</span>
-		    					<h2>Lead Developer</h2>
-		    					<span class="position">TradeLogiq</span>
-		    					<ul>
-									<li>Independently developed a comprehensive testing server complementary to our large-scale feed handler processing real -
+							<div class="icon d-flex align-items-center justify-content-center">
+								<span class="flaticon-innovation"></span>
+							</div>
+							<div class="text pl-3">
+								<span class="date">January-May 2021</span>
+								<h2>Software Engineer Contract</h2>
+								<span class="position">TradeLogiq</span>
+								<ul>
+									<li>Independently developed a comprehensive testing server complementary to our
+										large-scale feed handler processing real -
 										time trading data, with multiple threads utilizing UDP and TCP protocols</li>
-									<li>Optimized retransmission request algorithm for missing data sequences, speeding up feed handler latency exponentially
+									<li>Optimized retransmission request algorithm for missing data sequences, speeding
+										up feed handler latency exponentially
 										from minutes to seconds</li>
-									<li>Conceptualized and created an internal cloud-monitoring full stack application. Collected data and video recorded the
-										status of internal servers using ILO APIs and Puppeteer. Upon critical server errors, mass email/Slack messages are sent
-										allowing the company to save thousands being able to react to server/network failures immediately</li>
-									<li>Created Vue.JS frontend to display both up-to-date and historical server statuses, updated periodically </li>
+									<li>Conceptualized and created an internal cloud-monitoring full stack application.
+										Collected data and video recorded the
+										status of internal servers using ILO APIs and Puppeteer. Upon critical server
+										errors, mass email/Slack messages are sent
+										allowing the company to save thousands being able to react to server/network
+										failures immediately</li>
+									<li>Created Vue.JS frontend to display both up-to-date and historical server
+										statuses, updated periodically </li>
 								</ul>
-		    				</div>
+							</div>
 						</div>
 
-					    <div class="resume-wrap d-flex ftco-animate">
-					    	<div class="icon d-flex align-items-center justify-content-center">
-					    		<span class="flaticon-innovation"></span>
-					    	</div>
-					    	<div class="text pl-3">
-		    					<span class="date">January-May 2021</span>
-		    					<h2>Software Engineer</h2>
-		    					<span class="position">TD Bank</span>
-		    					<ul>
-									<li>Enhanced performance of existing ETL processes and SQL queries for reporting and analytic purposes using SQL server relational databases</li>
-									<li>Experienced in analyzing anomalies in tables and statistical reports to debug faulty streamlines in stored SQL procedures</li>
-									<li>Initiated building and optimization of big data  pipelines  for structured and unstructured data in analytical models </li>
+						<div class="resume-wrap d-flex ftco-animate">
+							<div class="icon d-flex align-items-center justify-content-center">
+								<span class="flaticon-innovation"></span>
+							</div>
+							<div class="text pl-3">
+								<span class="date">January-May 2021</span>
+								<h2>Data Engineer</h2>
+								<span class="position">TD Bank</span>
+								<ul>
+									<li>Enhanced performance of existing ETL processes and SQL queries for reporting and
+										analytic purposes using SQL server relational databases</li>
+									<li>Experienced in analyzing anomalies in tables and statistical reports to debug
+										faulty streamlines in stored SQL procedures</li>
+									<li>Initiated building and optimization of big data pipelines for structured and
+										unstructured data in analytical models </li>
 									<li>Automated C# and Python scripts to load and transform data in ETLs </li>
 								</ul>
-		    				</div>
-	    				</div>
-				
+							</div>
+						</div>
+
 						<div class="resume-wrap d-flex ftco-animate">
-					    	<div class="icon d-flex align-items-center justify-content-center">
-					    		<span class="flaticon-innovation"></span>
-					    	</div>
-					    	<div class="text pl-3">
-		    					<span class="date">January-May 2019</span>
-		    					<h2>Full-Stack Developer</h2>
-		    					<span class="position">Ford Motor Co.</span>
-		    					<ul>
-									<li>Developed web-application in Java; interfaced REST APIs  in Spring/MVC framework  familiarizing myself with modern development</li>
-									<li>Strived in fast-paced Agile (scrum) workflow; skilled with Git version control </li>
-									<li>Designed and implemented UI using HTML, CSS, JavaScipt and associated frameworks JQuery, Knockout, Require.js and Bootstrap</li>
-									<li>Acquired a proficiency using SQL Server and jOOQ Object Oriented Querying, as well as modifying  patch scripts</li>
+							<div class="icon d-flex align-items-center justify-content-center">
+								<span class="flaticon-innovation"></span>
+							</div>
+							<div class="text pl-3">
+								<span class="date">January-May 2021</span>
+								<h2>Lead Software Developer</h2>
+								<span class="position">Sky View Suites</span>
+								<ul>
+									<li>Enhanced performance of existing ETL processes and SQL queries for reporting and
+										analytic purposes using SQL server relational databases</li>
+									<li>Experienced in analyzing anomalies in tables and statistical reports to debug
+										faulty streamlines in stored SQL procedures</li>
+									<li>Initiated building and optimization of big data pipelines for structured and
+										unstructured data in analytical models </li>
+									<li>Automated C# and Python scripts to load and transform data in ETLs </li>
 								</ul>
-		    				</div>
+							</div>
+						</div>
+
+						<div class="resume-wrap d-flex ftco-animate">
+							<div class="icon d-flex align-items-center justify-content-center">
+								<span class="flaticon-innovation"></span>
+							</div>
+							<div class="text pl-3">
+								<span class="date">January-May 2019</span>
+								<h2>Full-Stack Developer</h2>
+								<span class="position">Ford Motor Co.</span>
+								<ul>
+									<li> Created over 50% of PHP Laravel web app resulting in the automation of numerous
+										business processes such as accounting, statistical reporting, and client</li>
+									management, in addition to working on Vue.js PWA and Python project
+									<li> Constructed dynamic user interfaces, creatively displaying API data using
+										JavaScript clean and effectively</li>
+									<li> – Proposed and facilitated the implementation
+										of enterprise CI dev-ops pipeline with Jenkins builds and unit tests </li>
+									<li> Communicated technically complex issues to partners, understanding business
+										implications of software solutions </li>
+								</ul>
+							</div>
 						</div>
 					</div>
-					<div id="page-3" class= "page three">
+					<div id="page-3" class="page three">
 						<h2 class="heading">Extracurricular</h2>
-					  <div class="resume-wrap d-flex ftco-animate">
-						  <div class="icon d-flex align-items-center justify-content-center">
-							  <span class="flaticon-innovation"></span>
-						  </div>
-						  <div class="text pl-3">
-							<!-- <span class="date">May-September 2020</span> -->
-							  <h2>Varsity / Semi-Pro Soccer</h2>
-							  <ul>
-								  <p>Leadership, mental toughness and communication developed playing for the University and with North Mississauga League
-									One, training 5-8 times a week playing against the best in Ontario</p>
-							  </ul>
-						  </div>
-					  </div>
+						<div class="resume-wrap d-flex ftco-animate">
+							<div class="icon d-flex align-items-center justify-content-center">
+								<span class="flaticon-innovation"></span>
+							</div>
+							<div class="text pl-3">
+								<!-- <span class="date">May-September 2020</span> -->
+								<h2>Varsity / Semi-Pro Soccer</h2>
+								<ul>
+									<p>Leadership, mental toughness and communication developed playing for the
+										University and with North Mississauga League
+										One, training 5-8 times a week playing against the best in Ontario</p>
+								</ul>
+							</div>
+						</div>
 
-					  <div class="resume-wrap d-flex ftco-animate">
-						<div class="icon d-flex align-items-center justify-content-center">
-							<span class="flaticon-innovation"></span>
+						<div class="resume-wrap d-flex ftco-animate">
+							<div class="icon d-flex align-items-center justify-content-center">
+								<span class="flaticon-innovation"></span>
+							</div>
+							<div class="text pl-3">
+								<!-- <span class="date">May-September 2020</span> -->
+								<h2>Piano Performance</h2>
+								<!-- <span class="position">Achieved RCM Level 10 </span> -->
+								<ul>
+									<p>Creativity and expressiveness developed through piano performance at the highest
+										level achieve RCM level 10 certification</p>
+								</ul>
+							</div>
 						</div>
-						<div class="text pl-3">
-						  <!-- <span class="date">May-September 2020</span> -->
-							<h2>Piano Performance</h2>
-							<!-- <span class="position">Achieved RCM Level 10 </span> -->
-							<ul>
-								<p>Creativity and expressiveness developed through piano performance at the highest level achieve RCM level 10 certification</p>
-							</ul>
-						</div>
-					   </div>
 
-					   <div class="resume-wrap d-flex ftco-animate">
-						<div class="icon d-flex align-items-center justify-content-center">
-							<span class="flaticon-innovation"></span>
+						<div class="resume-wrap d-flex ftco-animate">
+							<div class="icon d-flex align-items-center justify-content-center">
+								<span class="flaticon-innovation"></span>
+							</div>
+							<div class="text pl-3">
+								<!-- <span class="date">May-September 2020</span> -->
+								<h2>Math / Programming Tutor / Swim Instructor</h2>
+								<span class="position"> </span>
+								<ul>
+									<p>Developed strong language skills being able to communicate technically complex in
+										collaborative setting</p>
+								</ul>
+							</div>
 						</div>
-						<div class="text pl-3">
-						  <!-- <span class="date">May-September 2020</span> -->
-							<h2>Math / Programming Tutor / Swim Instructor</h2>
-							<span class="position"> </span>
-							<ul>
-								<p>Developed strong language skills being able to communicate technically complex in collaborative setting</p>
-							</ul>
-						</div>
-					   </div>
-					   </div>
-					
-					  <div id="page-4" class= "page four">
-						  <h2 class="heading">Skills</h2>
-						  <h2> Proficiency </h2>
-					  	<div class="row progress-circle mb-5">
+					</div>
+
+					<div id="page-4" class="page four">
+						<h2 class="heading">Skills</h2>
+						<h2> Proficiency </h2>
+						<div class="row progress-circle mb-5">
 
 
 							<div class="col-lg-4 mb-4">
 								<div class="bg-white rounded-lg shadow p-4">
-								  <h2 class="h5 font-weight-bold text-center mb-4">Python</h2>
-  
-								  <!-- Progress bar 1 -->
-								  <div class="progress mx-auto" data-value='92'>
-									<span class="progress-left">
-						  <span class="progress-bar border-primary"></span>
-									</span>
-									<span class="progress-right">
-						  <span class="progress-bar border-primary"></span>
-									</span>
-									<div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
-									  <div class="h2 font-weight-bold">95<sup class="small">%</sup></div>
+									<h2 class="h5 font-weight-bold text-center mb-4">Python</h2>
+
+									<!-- Progress bar 1 -->
+									<div class="progress mx-auto" data-value='92'>
+										<span class="progress-left">
+											<span class="progress-bar border-primary"></span>
+										</span>
+										<span class="progress-right">
+											<span class="progress-bar border-primary"></span>
+										</span>
+										<div
+											class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+											<div class="h2 font-weight-bold">95<sup class="small">%</sup></div>
+										</div>
 									</div>
-								  </div>
-								  <!-- END -->
-  
-								  <!-- Demo info -->
-								  <div class="row text-center mt-4">
-									<div class="col-6 border-right">
-									  <div class="h4 font-weight-bold mb-0">75%</div><span class="small text-gray">2018</span>
+									<!-- END -->
+
+									<!-- Demo info -->
+									<div class="row text-center mt-4">
+										<div class="col-6 border-right">
+											<div class="h4 font-weight-bold mb-0">75%</div><span
+												class="small text-gray">2018</span>
+										</div>
+										<div class="col-6">
+											<div class="h4 font-weight-bold mb-0">80%</div><span
+												class="small text-gray">2019</span>
+										</div>
 									</div>
-									<div class="col-6">
-									  <div class="h4 font-weight-bold mb-0">80%</div><span class="small text-gray">2019</span>
-									</div>
-								  </div>
-								  <!-- END -->
+									<!-- END -->
 								</div>
-							  </div>
+							</div>
 
 
 
-														  
-							  <div class="col-lg-4 mb-4">
+
+							<div class="col-lg-4 mb-4">
 								<div class="bg-white rounded-lg shadow p-4">
-								  <h2 class="h5 font-weight-bold text-center mb-4">JavaScript</h2>
-  
-								  <!-- Progress bar 1 -->
-								  <div class="progress mx-auto" data-value='85'>
-									<span class="progress-left">
-						  <span class="progress-bar border-primary"></span>
-									</span>
-									<span class="progress-right">
-						  <span class="progress-bar border-primary"></span>
-									</span>
-									<div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
-									  <div class="h2 font-weight-bold">85<sup class="small">%</sup></div>
+									<h2 class="h5 font-weight-bold text-center mb-4">JavaScript</h2>
+
+									<!-- Progress bar 1 -->
+									<div class="progress mx-auto" data-value='85'>
+										<span class="progress-left">
+											<span class="progress-bar border-primary"></span>
+										</span>
+										<span class="progress-right">
+											<span class="progress-bar border-primary"></span>
+										</span>
+										<div
+											class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+											<div class="h2 font-weight-bold">85<sup class="small">%</sup></div>
+										</div>
 									</div>
-								  </div>
-								  <!-- END -->
-  
-								  <!-- Demo info -->
-								  <div class="row text-center mt-4">
-									<div class="col-6 border-right">
-									  <div class="h4 font-weight-bold mb-0">50%</div><span class="small text-gray">2018</span>
+									<!-- END -->
+
+									<!-- Demo info -->
+									<div class="row text-center mt-4">
+										<div class="col-6 border-right">
+											<div class="h4 font-weight-bold mb-0">50%</div><span
+												class="small text-gray">2018</span>
+										</div>
+										<div class="col-6">
+											<div class="h4 font-weight-bold mb-0">60%</div><span
+												class="small text-gray">2019</span>
+										</div>
 									</div>
-									<div class="col-6">
-									  <div class="h4 font-weight-bold mb-0">60%</div><span class="small text-gray">2019</span>
-									</div>
-								  </div>
-								  <!-- END -->
+									<!-- END -->
 								</div>
-							  </div>
+							</div>
 
 
-					  		<div class="col-lg-4 mb-4">
-						      <div class="bg-white rounded-lg shadow p-4">
-						        <h2 class="h5 font-weight-bold text-center mb-4">C</h2>
+							<div class="col-lg-4 mb-4">
+								<div class="bg-white rounded-lg shadow p-4">
+									<h2 class="h5 font-weight-bold text-center mb-4">C</h2>
 
-						        <!-- Progress bar 1 -->
-						        <div class="progress mx-auto" data-value='90'>
-						          <span class="progress-left">
-                        <span class="progress-bar border-primary"></span>
-						          </span>
-						          <span class="progress-right">
-                        <span class="progress-bar border-primary"></span>
-						          </span>
-						          <div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
-						            <div class="h2 font-weight-bold">90<sup class="small">%</sup></div>
-						          </div>
-						        </div>
-						        <!-- END -->
+									<!-- Progress bar 1 -->
+									<div class="progress mx-auto" data-value='90'>
+										<span class="progress-left">
+											<span class="progress-bar border-primary"></span>
+										</span>
+										<span class="progress-right">
+											<span class="progress-bar border-primary"></span>
+										</span>
+										<div
+											class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+											<div class="h2 font-weight-bold">90<sup class="small">%</sup></div>
+										</div>
+									</div>
+									<!-- END -->
 
-						        <!-- Demo info -->
-						        <div class="row text-center mt-4">
-						          <div class="col-6 border-right">
-						            <div class="h4 font-weight-bold mb-0">33%</div><span class="small text-gray">2018</span>
-						          </div>
-						          <div class="col-6">
-						            <div class="h4 font-weight-bold mb-0">60%</div><span class="small text-gray">2019</span>
-						          </div>
-						        </div>
-						        <!-- END -->
-						      </div>
-						    </div>
+									<!-- Demo info -->
+									<div class="row text-center mt-4">
+										<div class="col-6 border-right">
+											<div class="h4 font-weight-bold mb-0">33%</div><span
+												class="small text-gray">2018</span>
+										</div>
+										<div class="col-6">
+											<div class="h4 font-weight-bold mb-0">60%</div><span
+												class="small text-gray">2019</span>
+										</div>
+									</div>
+									<!-- END -->
+								</div>
+							</div>
 
 
 
-							
 
 
-						  
-					  	</div>
-					  	<div class="row">
-					  		<div class="col-md-6 animate-box">
-									<div class="progress-wrap ftco-animate">
-										<h3>C++</h3>
-										<div class="progress">
-										 	<div class="progress-bar color-1" role="progressbar" aria-valuenow="80"
-										  	aria-valuemin="0" aria-valuemax="100" style="width:80%">
-										    <span>80%</span>
-										  	</div>
+
+
+						</div>
+						<div class="row">
+							<div class="col-md-6 animate-box">
+								<div class="progress-wrap ftco-animate">
+									<h3>C++</h3>
+									<div class="progress">
+										<div class="progress-bar color-1" role="progressbar" aria-valuenow="80"
+											aria-valuemin="0" aria-valuemax="100" style="width:80%">
+											<span>80%</span>
 										</div>
 									</div>
 								</div>
-								<div class="col-md-6 animate-box">
-									<div class="progress-wrap ftco-animate">
-										<h3>SQL</h3>
-										<div class="progress">
-										 	<div class="progress-bar color-2" role="progressbar" aria-valuenow="85"
-										  	aria-valuemin="0" aria-valuemax="100" style="width:85%">
-										    <span>85%</span>
-										  	</div>
+							</div>
+							<div class="col-md-6 animate-box">
+								<div class="progress-wrap ftco-animate">
+									<h3>SQL</h3>
+									<div class="progress">
+										<div class="progress-bar color-2" role="progressbar" aria-valuenow="85"
+											aria-valuemin="0" aria-valuemax="100" style="width:85%">
+											<span>85%</span>
 										</div>
 									</div>
 								</div>
-								<div class="col-md-6 animate-box">
-									<div class="progress-wrap ftco-animate">
-										<h3>Git</h3>
-										<div class="progress">
-										 	<div class="progress-bar color-3" role="progressbar" aria-valuenow="95"
-										  	aria-valuemin="0" aria-valuemax="100" style="width:95%">
-										    <span>95%</span>
-										  	</div>
+							</div>
+							<div class="col-md-6 animate-box">
+								<div class="progress-wrap ftco-animate">
+									<h3>Git</h3>
+									<div class="progress">
+										<div class="progress-bar color-3" role="progressbar" aria-valuenow="95"
+											aria-valuemin="0" aria-valuemax="100" style="width:95%">
+											<span>95%</span>
 										</div>
 									</div>
 								</div>
-								<div class="col-md-6 animate-box">
-									<div class="progress-wrap ftco-animate">
-										<h3>PHP</h3>
-										<div class="progress">
-										 	<div class="progress-bar color-4" role="progressbar" aria-valuenow="90"
-										  	aria-valuemin="0" aria-valuemax="100" style="width:90%">
-										    <span>80%</span>
-										  	</div>
+							</div>
+							<div class="col-md-6 animate-box">
+								<div class="progress-wrap ftco-animate">
+									<h3>PHP</h3>
+									<div class="progress">
+										<div class="progress-bar color-4" role="progressbar" aria-valuenow="90"
+											aria-valuemin="0" aria-valuemax="100" style="width:90%">
+											<span>80%</span>
 										</div>
 									</div>
 								</div>
-								<div class="col-md-6 animate-box">
-									<div class="progress-wrap ftco-animate">
-										<h3>Java</h3>
-										<div class="progress">
-										 	<div class="progress-bar color-5" role="progressbar" aria-valuenow="85"
-										  	aria-valuemin="0" aria-valuemax="100" style="width:75%">
-										    <span>85%</span>
-										  	</div>
+							</div>
+							<div class="col-md-6 animate-box">
+								<div class="progress-wrap ftco-animate">
+									<h3>Java</h3>
+									<div class="progress">
+										<div class="progress-bar color-5" role="progressbar" aria-valuenow="85"
+											aria-valuemin="0" aria-valuemax="100" style="width:75%">
+											<span>85%</span>
 										</div>
 									</div>
 								</div>
-								<div class="col-md-6 animate-box">
-									<div class="progress-wrap ftco-animate">
-										<h3>HTML/CSS</h3>
-										<div class="progress">
-										 	<div class="progress-bar color-6" role="progressbar" aria-valuenow="80"
-										  	aria-valuemin="0" aria-valuemax="100" style="width:80%">
-										    <span>75%</span>
-										  	</div>
+							</div>
+							<div class="col-md-6 animate-box">
+								<div class="progress-wrap ftco-animate">
+									<h3>HTML/CSS</h3>
+									<div class="progress">
+										<div class="progress-bar color-6" role="progressbar" aria-valuenow="80"
+											aria-valuemin="0" aria-valuemax="100" style="width:80%">
+											<span>75%</span>
 										</div>
 									</div>
 								</div>
-					  	</div>
-					  </div>
+							</div>
+						</div>
+					</div>
 
-					  <!-- <div id="page-4" class= "page four"> -->
-					    <!-- <h2 class="heading">Awards</h2>
+					<!-- <div id="page-4" class= "page four"> -->
+					<!-- <h2 class="heading">Awards</h2>
 					    <div class="resume-wrap d-flex ftco-animate">
 					    	<div class="icon d-flex align-items-center justify-content-center">
 					    		<span class="flaticon-ideas"></span>
@@ -654,11 +734,11 @@
 	    				</div>
 					  </div> -->
 					<!-- </div> -->
-			  </div>
-    	</div>
+				</div>
+			</div>
 	</section>
 
-    <!-- <section class="ftco-section" id="services-section">
+	<!-- <section class="ftco-section" id="services-section">
     	<div class="container-fluid px-md-5">
     		<div class="row justify-content-center py-5 mt-5">
           <div class="col-md-12 heading-section text-center ftco-animate">
@@ -738,11 +818,11 @@
 				</div>
     	</div>
     </section> -->
- 
 
-    
 
-    <!-- <section class="ftco-section ftco-no-pt ftco-no-pb ftco-counter img" id="section-counter">
+
+
+	<!-- <section class="ftco-section ftco-no-pt ftco-no-pb ftco-counter img" id="section-counter">
     	<div class="container-fluid px-md-5">
 				<div class="row d-md-flex align-items-center">
           <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
@@ -782,7 +862,7 @@
     </section> -->
 
 
-    <!-- <section class="ftco-section" id="blog-section">
+	<!-- <section class="ftco-section" id="blog-section">
       <div class="container">
         <div class="row justify-content-center mb-5 pb-5">
           <div class="col-md-7 heading-section text-center ftco-animate">
@@ -847,80 +927,81 @@
       </div>
     </section> -->
 
-    <section class="ftco-section ftco-hireme img" style="background-image: url(./static/images/bg_1.jpg)">
-    	<div class="overlay"></div>
-			<div class="container">
-				<div class="row justify-content-center">
-					<div class="col-md-7 ftco-animate text-center">
-						<h2>I'm <span>Available</span> for Winter 2021</h2>
-						<p>Looking for Co-op or Contract Position Starting in January.</p>
-						<div id="ftco-nav">
-							<p class="mb-0"></p><a href="#contact-section" class="btn btn-primary py-3 px-5">Hire me</a></p>
+	<section class="ftco-section ftco-hireme img" style="background-image: url(./static/images/bg_1.jpg)">
+		<div class="overlay"></div>
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-md-7 ftco-animate text-center">
+					<h2>I'm <span>Available</span> for Winter 2021</h2>
+					<p>Looking for Co-op or Contract Position Starting in January.</p>
+					<div id="ftco-nav">
+						<p class="mb-0"></p><a href="#contact-section" class="btn btn-primary py-3 px-5">Hire me</a></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="ftco-section contact-section ftco-no-pb" id="contact-section">
+		<div class="container">
+			<div class="row justify-content-center mb-5 pb-3">
+				<div class="col-md-7 heading-section text-center ftco-animate">
+					<h1 class="big big-2">Contact</h1>
+					<h2 class="mb-4">Contact Me</h2>
+					<p>For professional inquires or information about a job opening, contact me via one of the methods
+						below</p>
+				</div>
+			</div>
+
+			<div class="row d-flex contact-info mb-5">
+				<div class="col-md-6 col-lg-3 d-flex ftco-animate">
+					<div class="align-self-stretch box text-center p-4 shadow">
+						<div class="icon d-flex align-items-center justify-content-center">
+							<span class="icon-paper-plane"></span>
+						</div>
+						<div>
+							<h3 class="mb-4">Email Address</h3>
+							<p><a href="mailto:snvercil@uwaterloo.com">snvercil@uwaterloo.ca</a></p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-3 d-flex ftco-animate">
+					<div class="align-self-stretch box text-center p-4 shadow">
+						<div class="icon d-flex align-items-center justify-content-center">
+							<span class="icon-phone2"></span>
+						</div>
+						<div>
+							<h3 class="mb-4">Contact Number</h3>
+							<p><a href="tel://4164599071">(416)-459-9071</a></p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-6 col-lg-3 d-flex ftco-animate">
+					<div class="align-self-stretch box text-center p-4 shadow">
+						<div class="icon d-flex align-items-center justify-content-center">
+							<span class="icon-globe"></span>
+						</div>
+						<div>
+							<h3 class="mb-4">LinkedIn</h3>
+							<p><a href="https://linkedin.com/in/stefan-vercillo">linkedin.com/in/stefan-vercillo</a></p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-3 d-flex ftco-animate">
+					<div class="align-self-stretch box text-center p-4 shadow">
+						<div class="icon d-flex align-items-center justify-content-center">
+							<span class="icon-globe"></span>
+						</div>
+						<div>
+							<h3 class="mb-4">Github</h3>
+							<p><a href="https://github.com/svercillo">github.com/svercillo</a></p>
 						</div>
 					</div>
 				</div>
 			</div>
-		</section>
 
-    <section class="ftco-section contact-section ftco-no-pb" id="contact-section">
-      <div class="container">
-      	<div class="row justify-content-center mb-5 pb-3">
-          <div class="col-md-7 heading-section text-center ftco-animate">
-            <h1 class="big big-2">Contact</h1>
-            <h2 class="mb-4">Contact Me</h2>
-            <p>For professional inquires or information about a job opening, contact me via one of the methods below</p>
-          </div>
-        </div>
-
-        <div class="row d-flex contact-info mb-5">
-			<div class="col-md-6 col-lg-3 d-flex ftco-animate">
-				<div class="align-self-stretch box text-center p-4 shadow">
-					<div class="icon d-flex align-items-center justify-content-center">
-						<span class="icon-paper-plane"></span>
-					</div>
-					<div>
-						<h3 class="mb-4">Email Address</h3>
-						<p><a href="mailto:snvercil@uwaterloo.com">snvercil@uwaterloo.ca</a></p>
-					</div>
-				</div>
-			</div>
-          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
-          	<div class="align-self-stretch box text-center p-4 shadow">
-          		<div class="icon d-flex align-items-center justify-content-center">
-          			<span class="icon-phone2"></span>
-          		</div>
-          		<div>
-	          		<h3 class="mb-4">Contact Number</h3>
-		            <p><a href="tel://4164599071">(416)-459-9071</a></p>
-	            </div>
-	          </div>
-          </div>
-
-          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
-          	<div class="align-self-stretch box text-center p-4 shadow">
-          		<div class="icon d-flex align-items-center justify-content-center">
-          			<span class="icon-globe"></span>
-          		</div>
-          		<div>
-	          		<h3 class="mb-4">LinkedIn</h3>
-		            <p><a href="https://linkedin.com/in/stefan-vercillo">linkedin.com/in/stefan-vercillo</a></p>
-	            </div>
-	          </div>
-		  </div>
-		  <div class="col-md-6 col-lg-3 d-flex ftco-animate">
-			<div class="align-self-stretch box text-center p-4 shadow">
-				<div class="icon d-flex align-items-center justify-content-center">
-					<span class="icon-globe"></span>
-				</div>
-				<div>
-					<h3 class="mb-4">Github</h3>
-				  <p><a href="https://github.com/svercillo">github.com/svercillo</a></p>
-			  </div>
-			</div>
-		</div>
-		</div>
-
-        <!-- <div class="row no-gutters block-9">
+			<!-- <div class="row no-gutters block-9">
           <div class="col-md-6 order-md-last d-flex">
             <form action="#" class="bg-light p-4 p-md-5 contact-form">
               <div class="form-group">
@@ -947,92 +1028,105 @@
           </div>
         </div>
       </div> -->
-    </section>
-		
+	</section>
 
-    <footer class="ftco-footer ftco-section">
-      <div class="container">
-        <div class="row mb-5">
-          <div class="col-md">
-            <div class="ftco-footer-widget mb-4">
-			  <h2 class="ftco-heading-2">About</h2>
-			  <p> Just a soft dev looking for a home <3</p> 
-              <!-- <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+
+	<footer class="ftco-footer ftco-section">
+		<div class="container">
+			<div class="row mb-5">
+				<div class="col-md">
+					<div class="ftco-footer-widget mb-4">
+						<h2 class="ftco-heading-2">About</h2>
+						<p> Just a soft dev looking for a home <3< /p>
+								<!-- <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
               <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
                 <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
                 <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
                 <li class="ftco-animate"><a href=""><span class="icon-instagram"></span></a></li> -->
-              </ul>
-            </div>
-          </div>
-          <div class="col-md">
-            <div class="ftco-footer-widget mb-4 ml-md-4">
-              <h2 class="ftco-heading-2">Links</h2>
-              <ul class="list-unstyled">
-                <li><a href="#home"><span class="icon-long-arrow-right mr-2"></span>Home</a></li>
-                <li><a href="#about-section"><span class="icon-long-arrow-right mr-2"></span>About</a></li>
-                <!-- <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Services</a></li> -->
-                <li><a href="#projet-section"><span class="icon-long-arrow-right mr-2"></span>Projects</a></li>
-                <li><a href="#contact-section"><span class="icon-long-arrow-right mr-2"></span>Contact</a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-md">
-             <div class="ftco-footer-widget mb-4">
-              <h2 class="ftco-heading-2">Resume</h2>
-                <a href="./static/files/Resume.pdf" download><span class="icon-long-arrow-right mr-2"></span>Download</a>
-            </div>
-          </div>
-          <div class="col-md">
-            <div class="ftco-footer-widget mb-4">
-            	<h2 class="ftco-heading-2">Have a Questions?</h2>
-            	<div class="block-23 mb-3">
-				   <span> Contact Me </span> 
-	              <ul>
-	                <li><span class="icon icon-map-marker"></span><span class="text">Toronto, ON, Canada </span></li>
-	                <!-- <li><a href="#"><span class="icon icon-phone"></span><span class="text">+2 392 3929 210</span></a></li> -->
-	                <li><a href="mailto:snvercil@uwaterloo.ca"><span class="icon icon-envelope"></span><span class="text">snvercil@uwaterloo.ca </span></a></li>
-	              </ul>
-	            </div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-12 text-center">
+								</ul>
+					</div>
+				</div>
+				<div class="col-md">
+					<div class="ftco-footer-widget mb-4 ml-md-4">
+						<h2 class="ftco-heading-2">Links</h2>
+						<ul class="list-unstyled">
+							<li><a href="#home"><span class="icon-long-arrow-right mr-2"></span>Home</a></li>
+							<li><a href="#about-section"><span class="icon-long-arrow-right mr-2"></span>About</a></li>
+							<!-- <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Services</a></li> -->
+							<li><a href="#projet-section"><span class="icon-long-arrow-right mr-2"></span>Projects</a>
+							</li>
+							<li><a href="#contact-section"><span class="icon-long-arrow-right mr-2"></span>Contact</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md">
+					<div class="ftco-footer-widget mb-4">
+						<h2 class="ftco-heading-2">Resume</h2>
+						<a href="./static/files/RESUME.pdf" download><span
+								class="icon-long-arrow-right mr-2"></span>Download</a>
+					</div>
+				</div>
+				<div class="col-md">
+					<div class="ftco-footer-widget mb-4">
+						<h2 class="ftco-heading-2">Have a Questions?</h2>
+						<div class="block-23 mb-3">
+							<span> Contact Me </span>
+							<ul>
+								<li><span class="icon icon-map-marker"></span><span class="text">Toronto, ON, Canada
+									</span></li>
+								<!-- <li><a href="#"><span class="icon icon-phone"></span><span class="text">+2 392 3929 210</span></a></li> -->
+								<li><a href="mailto:snvercil@uwaterloo.ca"><span class="icon icon-envelope"></span><span
+											class="text">snvercil@uwaterloo.ca </span></a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-md">
+						<div class="ftco-footer-widget mb-4">
+							<h2 class="ftco-heading-2">Have a Questions?</h2>
+							<div class="block-23 mb-3">
+								<p>
+									<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+									This template was created by Stefan Vercillo with collaboration with <i
+										class="icon-heart color-danger" aria-hidden="true"></i> <a
+										href="https://colorlib.com" target="_blank">Colorlib</a>
+									<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+								</p>
+							</div>
+						</div>
+					</div>
+	</footer>
 
-            <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-				This template was created by Stefan Vercillo with collaboration with  <i class="icon-heart color-danger" aria-hidden="true"></i> <a href="https://colorlib.com" target="_blank">Colorlib</a>
-  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
-          </div>
-        </div>
-      </div>
-    </footer>
-    
-  
-
-  <!-- loader -->
-  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
 
 
-  <script src="./static/js/jquery.min.js"></script>
-  <script src="./static/js/jquery-migrate-3.0.1.min.js"></script>
-  <script src="./static/js/popper.min.js"></script>
-  <script src="./static/js/bootstrap.min.js"></script>
-  <script src="./static/js/jquery.easing.1.3.js"></script>
-  <script src="./static/js/jquery.waypoints.min.js"></script>
-  <script src="./static/js/jquery.stellar.min.js"></script>
-  <script src="./static/js/owl.carousel.min.js"></script>
-  <script src="./static/js/jquery.magnific-popup.min.js"></script>
-  <script src="./static/js/aos.js"></script>
-  <script src="./static/js/jquery.animateNumber.min.js"></script>
-  <script src="./static/js/scrollax.min.js"></script>
-  <script src="./static/js/main.js"></script>
-  <script>
-		$('a.pathfinder').click(function(e) {
+	<!-- loader -->
+	<div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px">
+			<circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" />
+			<circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10"
+				stroke="#F96D00" />
+		</svg></div>
+
+
+	<script src="./static/js/jquery.min.js"></script>
+	<script src="./static/js/jquery-migrate-3.0.1.min.js"></script>
+	<script src="./static/js/popper.min.js"></script>
+	<script src="./static/js/bootstrap.min.js"></script>
+	<script src="./static/js/jquery.easing.1.3.js"></script>
+	<script src="./static/js/jquery.waypoints.min.js"></script>
+	<script src="./static/js/jquery.stellar.min.js"></script>
+	<script src="./static/js/owl.carousel.min.js"></script>
+	<script src="./static/js/jquery.magnific-popup.min.js"></script>
+	<script src="./static/js/aos.js"></script>
+	<script src="./static/js/jquery.animateNumber.min.js"></script>
+	<script src="./static/js/scrollax.min.js"></script>
+	<script src="./static/js/main.js"></script>
+	<script>
+		$('a.pathfinder').click(function (e) {
 			e.preventDefault();
 			window.open('/path-finding-visualization');
 		});
-  </script> 
+	</script>
 
-  </body>
+</body>
+
 </html>
