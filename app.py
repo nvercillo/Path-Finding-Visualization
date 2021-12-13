@@ -96,4 +96,5 @@ def about():
     return json.dumps(airportdata)
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    print( "SDFSDFDSF")
+    app.run(debug=True, port=5002)
