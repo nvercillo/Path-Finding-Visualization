@@ -30,7 +30,7 @@ def get_image(pid):
 @app.route('/getFlightData')
 def about(): 
 
-    filepath = 'openflights/data/airports-extended.dat' 
+    filepath = 'openflights2/data/airports-extended.dat' 
     airportdata = {}
     airports = {}
     routes = {}
@@ -73,7 +73,7 @@ def about():
     set.remove('a')
     f.close()
 
-    filepath = 'openflights/data/routes.dat'
+    filepath = 'openflights2/data/routes.dat'
     f = open(filepath, "r", encoding="utf8")
     line = f.readline()
     dict = {}
