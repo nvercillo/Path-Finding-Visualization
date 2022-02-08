@@ -1,9 +1,10 @@
+import logging
 from flask import Flask, render_template, Response
 import csv
 import json 
 app = Flask(__name__)
-app.config['TESTING'] = True
-app.config['DEBUG'] = True
+#app.config['TESTING'] = True
+#app.config['DEBUG'] = True
 
 @app.route('/')
 def index():
@@ -97,4 +98,5 @@ def about():
 
 if __name__ == '__main__':
     print( "SDFSDFDSF")
-    app.run(debug=True, port=5000)
+    logging.basicConfig(filename='error.log',level=logging.DEBUG)
+    app.run()
