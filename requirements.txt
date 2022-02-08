@@ -9,3 +9,4 @@ psycopg2==2.7.1
 six==1.10.0
 SQLAlchemy==1.1.6
 Werkzeug==0.12.1
+amadeus==5.2.0
