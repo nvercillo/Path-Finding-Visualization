@@ -99,4 +99,4 @@ def about():
 if __name__ == '__main__':
     print( "SDFSDFDSF")
     logging.basicConfig(filename='error.log',level=logging.DEBUG)
-    app.run()
+    app.run(port=5656)
