@@ -2,7 +2,7 @@ click==6.7
 Flask==0.12
 Flask-SQLAlchemy==2.2
 itsdangerous==0.24
-Jinja2==2.9.5
+Jinja2==2.11.3
 jsonify==0.5
 MarkupSafe==1.1.1
 six==1.10.0
