@@ -351,3 +351,92 @@ INFO:werkzeug: * Running on http://127.0.0.1:5656/ (Press CTRL+C to quit)
 INFO:werkzeug:127.0.0.1 - - [04/Apr/2022 02:09:07] "GET /federato/data-pipeline HTTP/1.1" 200 -
 INFO:werkzeug:127.0.0.1 - - [04/Apr/2022 02:09:12] "GET /federato/data-pipeline HTTP/1.1" 200 -
 INFO:werkzeug:127.0.0.1 - - [04/Apr/2022 02:09:30] "GET /getFlightData HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5656/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [15/May/2022 16:39:58] "GET / HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5656/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [15/May/2022 16:40:22] "GET / HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5656/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [15/May/2022 16:40:40] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/May/2022 16:41:07] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/May/2022 16:41:11] "GET / HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5656/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [15/May/2022 16:41:20] "GET / HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5656/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [15/May/2022 16:41:30] "GET / HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5656/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [15/May/2022 16:42:39] "GET / HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5656/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [15/May/2022 16:45:13] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/May/2022 16:45:13] "GET /static/images/twitter.jpeg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/May/2022 16:45:38] "GET / HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5656/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [15/May/2022 16:45:41] "GET / HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5656/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [15/May/2022 16:45:55] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/May/2022 16:45:57] "GET / HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5656/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [15/May/2022 16:46:45] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/May/2022 16:46:45] "GET /static/images/twitter.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/May/2022 16:46:53] "GET / HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5656/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [15/May/2022 16:47:36] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/May/2022 16:47:36] "GET /static/images/Twitter-Logo.png HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5656/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [15/May/2022 16:48:42] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/May/2022 16:48:43] "GET /static/images/twitter.png HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5656/ (Press CTRL+C to quit)
+INFO:werkzeug: * Running on http://127.0.0.1:5656/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [15/May/2022 16:49:05] "GET / HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5656/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [15/May/2022 16:49:17] "GET / HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5656/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [15/May/2022 16:49:28] "GET / HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5656/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [15/May/2022 16:49:41] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/May/2022 16:49:41] "[33mGET /static/images/Twitter-Logo.jpeg HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Running on http://127.0.0.1:5656/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [15/May/2022 16:49:49] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/May/2022 16:50:13] "GET / HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5656/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [15/May/2022 16:50:17] "GET / HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5656/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [15/May/2022 16:51:23] "GET / HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5656/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [15/May/2022 16:51:39] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/May/2022 16:52:18] "GET / HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5656/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [15/May/2022 16:53:06] "GET / HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5656/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [15/May/2022 16:53:16] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/May/2022 16:53:24] "GET / HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5656/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [15/May/2022 16:53:54] "GET / HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5656/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [15/May/2022 16:54:08] "GET / HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5656/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [15/May/2022 16:55:00] "GET / HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5656/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [15/May/2022 16:55:37] "GET / HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5656/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [15/May/2022 16:55:47] "GET / HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5656/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [15/May/2022 16:56:05] "GET / HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5656/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [15/May/2022 16:56:31] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/May/2022 16:58:36] "GET / HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5656/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [15/May/2022 16:58:53] "GET / HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5656/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [15/May/2022 16:59:14] "GET / HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5656/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [15/May/2022 17:01:00] "GET / HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5656/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [15/May/2022 17:01:23] "GET / HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5656/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [15/May/2022 17:01:45] "GET / HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5656/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [15/May/2022 17:02:10] "GET / HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5656/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [15/May/2022 17:02:58] "GET / HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5656/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [15/May/2022 17:03:20] "GET / HTTP/1.1" 200 -
