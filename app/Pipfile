@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+click = "==6.7"
+itsdangerous = "==0.24"
+jsonify = "==0.5"
+six = "==1.10.0"
+amadeus = "==5.2.0"
+Flask = "==0.12"
+Flask-SQLAlchemy = "==2.2"
+Jinja2 = "==2.9.5"
+MarkupSafe = "==1.0"
+SQLAlchemy = "==1.1.6"
+Werkzeug = "==0.12.1"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
