@@ -212,3 +212,7 @@ WARNING:werkzeug: * Running on all addresses.
    WARNING: This is a development server. Do not use it in a production deployment.
 INFO:werkzeug: * Running on http://172.16.166.194:5656/ (Press CTRL+C to quit)
 INFO:werkzeug:127.0.0.1 - - [15/May/2022 15:20:09] "GET / HTTP/1.1" 200 -
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://172.16.166.194:5656/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [15/May/2022 15:53:12] "GET / HTTP/1.1" 200 -
