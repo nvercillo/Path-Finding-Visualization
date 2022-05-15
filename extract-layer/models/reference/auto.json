@@ -1,0 +1,2635 @@
+{
+    "Auto": [
+        {
+            "ACCT_NBR": "3036683308",
+            "POL_NBR": "6080012531",
+            "TERM_EFF_DT": "2022-01-01",
+            "TERM_EXP_DT": "2023-01-01",
+            "POL_INS_LINE_TS": "2021-11-30 08:28:27.0",
+            "STATUS": "Quote Not Taken",
+            "COMPANY_CD": "VF",
+            "DOT": null,
+            "BUA_HAZ_MAT_VIOLTN": "9",
+            "BUA_VEHICLE_VIOLTN": "3",
+            "BUA_DRIVER_VIOLTN": "7",
+            "EXISTING_PREMIUM": {
+                "DASHBOARD_EXP_EPC_AUTO_LIABILITY_PRM": null,
+                "DASHBOARD_EXP_EPC_AUTO_PD_PRM": null,
+                "DASHBOARD_EXP_EPC_AUTO_HIRED_PRM": "184.3",
+                "DASHBOARD_BUA_CF_EXP_TAXES_FEES_SURCHARGES": null,
+                "DASHBOARD_EXP_EPC_AUTO_OTHER_PRM": null
+            },
+            "CURRENT_PREMIUM": {
+                "DASHBOARD_EPC_AUTO_LIABILITY_PRM": null,
+                "DASHBOARD_EPC_AUTO_NON_OWNED_PRM": "437.9",
+                "DASHBOARD_BUA_CF_TAXES_FEES_SURCHARGES": null,
+                "DASHBOARD_EPC_AUTO_PD_PRM": null,
+                "DASHBOARD_EPC_AUTO_OTHER_PRM": null,
+                "DASHBOARD_EPC_AUTO_HIRED_PRM": "722.2"
+            },
+            "PRICING": {
+                "DASHBOARD_MODEL_DFM": "4.3321121123953255",
+                "DASHBOARD_RENEW_DFM": "7.961539449336279",
+                "DASHBOARD_RATE_CHANGE": "32.29382996729248",
+                "BUA_UPL_REN_TRM_PRM": "3349.1",
+                "DASHBOARD_DISCRETIONARY_PRICE_CHANGE": "11.688287312833285",
+                "BUA_UPL_EXP_MAN_PRM": "1733.9",
+                "BUA_UPL_REN_PRM": "2487.4",
+                "BUA_UPL_REN_MAN_PRM": "9563.4",
+                "PRE_BENCHMARK_PREMIUM": "135.263456",
+                "DASHBOARD_MODEL_TIER_RATE_CHANGE": "I",
+                "DASHBOARD_EXPIRING_DFM": "6.496359211792835",
+                "DASHBOARD_MODEL_RATE_CHANGE": "-266.17636884598163",
+                "DASHBOARD_MODEL_WRITTEN_TIER_RATE_CHANGE": "I",
+                "BUA_UPL_EXP_PRM": "4749.1"
+            },
+            "DRIVERS_AGES": {
+                "DRIVERS_25_65": null,
+                "YOUTHFUL_DRIVERS": "3",
+                "DRIVERS_75_PLUS": "2",
+                "DRIVERS_30_75": "4"
+            },
+            "VIOLATIONS": {
+                "A": "6",
+                "B": "3",
+                "C": "2",
+                "A+": "8"
+            },
+            "ESTIMATED_TIERS": {
+                "REQUOTE_PREMIUM": "8823.8",
+                "DASHBOARD_MODEL_TIER_RATE_CHANGE": "I",
+                "PREMIUMI": "574.3763973319875",
+                "TIERII": "714.8519474842832",
+                "PREMIUMII": "227.99354777512323",
+                "TIERIII": "155.76499847124595",
+                "PREMIUMIII": "755.7344843158326",
+                "PREMIUMIV": "482.35662214688426",
+                "PREMIUMV": "713.4947784423542",
+                "TIERIV": "239.36341765385947"
+            },
+            "LOSS": [
+                {
+                    "POLICY_NUMBER": "4315632543",
+                    "TERM_EFF_DT": "2021-01-01",
+                    "TERM_EXP_DT": "2022-01-01",
+                    "LOB_INDICATOR": "BUA",
+                    "CARRIER": "Carrier 3818",
+                    "WRITTEN_PREMIUM": "2539.5",
+                    "NO_OF_CLAIMS": "7",
+                    "LOSS_DATE": "2021-11-25",
+                    "LOSS_AMOUNT": "3.4"
+                },
+                {
+                    "POLICY_NUMBER": "9864881526",
+                    "TERM_EFF_DT": "2020-01-01",
+                    "TERM_EXP_DT": "2021-01-01",
+                    "LOB_INDICATOR": "BUA",
+                    "CARRIER": "Carrier 2513",
+                    "WRITTEN_PREMIUM": "138.9",
+                    "NO_OF_CLAIMS": "4",
+                    "LOSS_DATE": "2021-11-25",
+                    "LOSS_AMOUNT": "2.8"
+                }
+            ],
+            "FORMS": [],
+            "HISTORY": [
+                {
+                    "TERM_EFF_DT": "2022-01-01",
+                    "TERM_EXP_DT": "2023-01-01",
+                    "PRICING": {
+                        "LIABILITY_PRM": "2",
+                        "PD_PRM": "8",
+                        "HIRED_AUTO_PRM": "545",
+                        "NON_OWNED_AUTO_PRM": "453",
+                        "OTHER_PRM": "6",
+                        "TAX_FEE_SCHG": "5",
+                        "FINAL_PRM": "6779",
+                        "LIABILITY_LIMIT": "5384745",
+                        "PRIMARY_RISK_ST": "NY",
+                        "LIABILITY_EXP_MOD": "3",
+                        "PD_EXP_MOD": "7",
+                        "COMP_DEVIATION": "7.71",
+                        "LIA_SCH_MOD": "1",
+                        "PHY_SCH_MOD": "4",
+                        "OTHER_MOD": "6",
+                        "PD_RL15_MOD": "6",
+                        "RST_RATE_CHANGE_HISTORY": null,
+                        "COMPOSITE_RATED": "N"
+                    },
+                    "TRUCK_CLASSIFICATION": {
+                        "HEAVY_TRUCKS": {
+                            "SERVICE": "5",
+                            "RETAIL": "4",
+                            "COMMERCIAL": "3"
+                        },
+                        "HEAVY_TRUCK_TRACTORS": {
+                            "SERVICE": "8",
+                            "RETAIL": "4",
+                            "COMMERCIAL": "7"
+                        },
+                        "LIGHT_TRUCKS": {
+                            "SERVICE": "3",
+                            "RETAIL": "4",
+                            "COMMERCIAL": "1"
+                        },
+                        "MEDIUM_TRUCKS": {
+                            "SERVICE": "9",
+                            "RETAIL": "5",
+                            "COMMERCIAL": "3"
+                        }
+                    },
+                    "VEHICLES": {
+                        "SEMI_TRAILERS": null,
+                        "PRIVATE_PASSENGER": null,
+                        "HEAVY_TRUCKS": null,
+                        "HEAVY_TRUCK_TRACTORS": null,
+                        "PUBLIC_TRANSPORTATION": null,
+                        "TRAILERS": null,
+                        "EXTRA_HEAVY_TRUCKS": null,
+                        "SERVICE_UTILITY_TRAILER": null,
+                        "LIGHT_TRUCKS": null,
+                        "SPECIAL": null,
+                        "MEDIUM_TRUCKS": null,
+                        "EXTRA_HEAVY_TRUCK_TRACTORS": null
+                    }
+                },
+                {
+                    "TERM_EFF_DT": "2021-01-01",
+                    "TERM_EXP_DT": "2022-01-01",
+                    "PRICING": {
+                        "LIABILITY_PRM": "6",
+                        "PD_PRM": "6",
+                        "HIRED_AUTO_PRM": "567",
+                        "NON_OWNED_AUTO_PRM": "962",
+                        "OTHER_PRM": "2",
+                        "TAX_FEE_SCHG": "8",
+                        "FINAL_PRM": "5456",
+                        "LIABILITY_LIMIT": "5715457",
+                        "PRIMARY_RISK_ST": "NY",
+                        "LIABILITY_EXP_MOD": "8",
+                        "PD_EXP_MOD": "5",
+                        "COMP_DEVIATION": "9.5",
+                        "LIA_SCH_MOD": "4",
+                        "PHY_SCH_MOD": "7",
+                        "OTHER_MOD": "6",
+                        "PD_RL15_MOD": "8",
+                        "RST_RATE_CHANGE_HISTORY": "98.3541431428467",
+                        "COMPOSITE_RATED": "N"
+                    },
+                    "TRUCK_CLASSIFICATION": {
+                        "HEAVY_TRUCKS": {
+                            "SERVICE": "4",
+                            "RETAIL": "2",
+                            "COMMERCIAL": "5"
+                        },
+                        "HEAVY_TRUCK_TRACTORS": {
+                            "SERVICE": "7",
+                            "RETAIL": "8",
+                            "COMMERCIAL": "2"
+                        },
+                        "LIGHT_TRUCKS": {
+                            "SERVICE": "1",
+                            "RETAIL": "6",
+                            "COMMERCIAL": "2"
+                        },
+                        "MEDIUM_TRUCKS": {
+                            "SERVICE": "7",
+                            "RETAIL": "1",
+                            "COMMERCIAL": "2"
+                        }
+                    },
+                    "VEHICLES": {
+                        "SEMI_TRAILERS": null,
+                        "PRIVATE_PASSENGER": null,
+                        "HEAVY_TRUCKS": null,
+                        "HEAVY_TRUCK_TRACTORS": null,
+                        "PUBLIC_TRANSPORTATION": null,
+                        "TRAILERS": null,
+                        "EXTRA_HEAVY_TRUCKS": null,
+                        "SERVICE_UTILITY_TRAILER": null,
+                        "LIGHT_TRUCKS": null,
+                        "SPECIAL": null,
+                        "MEDIUM_TRUCKS": null,
+                        "EXTRA_HEAVY_TRUCK_TRACTORS": null
+                    }
+                }
+            ],
+            "COVERAGE_DETAILS": {
+                "SEATING_CAPACITY": {
+                    "RST_SEATING_CAPACITY_9_TO_20": "6",
+                    "RST_SEATING_CAPACITY_OVER_60": "7",
+                    "RST_ALL_OTH_NOT_SEC_RATED": "4",
+                    "RST_NOT_APPLICABLE": "8",
+                    "RST_SEATING_CAPACITY_21_TO_60": "9",
+                    "RST_SEATING_CAPACITY_1_TO_8": "8"
+                },
+                "BA_PLUS_PREMIUM_NONCOMP": null,
+                "POLLUTANTS_PREMIUM_NONCOMP": null,
+                "BROADENED_POLLUTANTS": null,
+                "PD_DEDUCTIBLE_USAGE": {
+                    "OCN_LT_50K": {
+                        "COLLISION": {
+                            "LT_1000_DED": "1",
+                            "1000_DED": "3",
+                            "GT_1000_DED": "6"
+                        },
+                        "COMPOSITE": {
+                            "LT_1000_DED": "8",
+                            "1000_DED": "7",
+                            "GT_1000_DED": "9"
+                        }
+                    },
+                    "OCN_50K_TO_100K": {
+                        "COLLISION": {
+                            "LT_1000_DED": "9",
+                            "1000_DED": "3",
+                            "GT_1000_DED": "9"
+                        },
+                        "COMPOSITE": {
+                            "LT_1000_DED": "3",
+                            "1000_DED": "9",
+                            "GT_1000_DED": "4"
+                        }
+                    },
+                    "OCN_GT_100K": {
+                        "COLLISION": {
+                            "LT_1000_DED": "2",
+                            "1000_DED": "9",
+                            "GT_1000_DED": "5"
+                        },
+                        "COMPOSITE": {
+                            "LT_1000_DED": "5",
+                            "1000_DED": "9",
+                            "GT_1000_DED": "8"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "ACCT_NBR": "0113755172",
+            "POL_NBR": "2094236479",
+            "TERM_EFF_DT": "2022-01-01",
+            "TERM_EXP_DT": "2023-01-01",
+            "POL_INS_LINE_TS": "2021-12-22 07:59:50.0",
+            "STATUS": "Policy Active",
+            "COMPANY_CD": "CI",
+            "DOT": null,
+            "BUA_HAZ_MAT_VIOLTN": "5",
+            "BUA_VEHICLE_VIOLTN": "5",
+            "BUA_DRIVER_VIOLTN": "5",
+            "EXISTING_PREMIUM": {
+                "DASHBOARD_EXP_EPC_AUTO_LIABILITY_PRM": "89953.9",
+                "DASHBOARD_EXP_EPC_AUTO_PD_PRM": "8139.5",
+                "DASHBOARD_EXP_EPC_AUTO_HIRED_PRM": "769.8",
+                "DASHBOARD_BUA_CF_EXP_TAXES_FEES_SURCHARGES": "43.77",
+                "DASHBOARD_EXP_EPC_AUTO_OTHER_PRM": "563.7"
+            },
+            "CURRENT_PREMIUM": {
+                "DASHBOARD_EPC_AUTO_LIABILITY_PRM": "33227.7",
+                "DASHBOARD_EPC_AUTO_NON_OWNED_PRM": "7482.2",
+                "DASHBOARD_BUA_CF_TAXES_FEES_SURCHARGES": "92.99",
+                "DASHBOARD_EPC_AUTO_PD_PRM": "8236.1",
+                "DASHBOARD_EPC_AUTO_OTHER_PRM": "583.8",
+                "DASHBOARD_EPC_AUTO_HIRED_PRM": "227.5"
+            },
+            "PRICING": {
+                "DASHBOARD_MODEL_DFM": "4.185149955834732",
+                "DASHBOARD_RENEW_DFM": "8.79364128786453",
+                "DASHBOARD_RATE_CHANGE": "15.763378962494865",
+                "BUA_UPL_REN_TRM_PRM": "53872.86",
+                "DASHBOARD_DISCRETIONARY_PRICE_CHANGE": "8.537656488394214",
+                "BUA_UPL_EXP_MAN_PRM": "36936.2",
+                "BUA_UPL_REN_PRM": "18194.3",
+                "BUA_UPL_REN_MAN_PRM": "54881.7",
+                "PRE_BENCHMARK_PREMIUM": "32113.598138",
+                "DASHBOARD_MODEL_TIER_RATE_CHANGE": "III",
+                "DASHBOARD_EXPIRING_DFM": "2.2",
+                "DASHBOARD_MODEL_RATE_CHANGE": "9.751679599891325",
+                "DASHBOARD_MODEL_WRITTEN_TIER_RATE_CHANGE": "II",
+                "BUA_UPL_EXP_PRM": "93651.4"
+            },
+            "DRIVERS_AGES": {
+                "DRIVERS_25_65": null,
+                "YOUTHFUL_DRIVERS": null,
+                "DRIVERS_75_PLUS": "8",
+                "DRIVERS_30_75": "17"
+            },
+            "VIOLATIONS": {
+                "A": "9",
+                "B": "8",
+                "C": "6",
+                "A+": "2"
+            },
+            "ESTIMATED_TIERS": {
+                "REQUOTE_PREMIUM": "25663.2",
+                "DASHBOARD_MODEL_TIER_RATE_CHANGE": "III",
+                "PREMIUMI": "88983.83153",
+                "TIERII": "26441.63327",
+                "PREMIUMII": "59664.68881771864",
+                "TIERIII": "51882.84891181923",
+                "PREMIUMIII": "12627.661797394374",
+                "PREMIUMIV": "94747.52892136743",
+                "PREMIUMV": "73547.726998",
+                "TIERIV": "23743.233375"
+            },
+            "LOSS": [
+                {
+                    "POLICY_NUMBER": "5477236248",
+                    "TERM_EFF_DT": "2019-01-01",
+                    "TERM_EXP_DT": "2020-01-01",
+                    "LOB_INDICATOR": "BUA",
+                    "CARRIER": "Carrier 6623",
+                    "WRITTEN_PREMIUM": "14544.2",
+                    "NO_OF_CLAIMS": "7",
+                    "LOSS_DATE": "2021-10-08",
+                    "LOSS_AMOUNT": "3645.4"
+                },
+                {
+                    "POLICY_NUMBER": "3857542575",
+                    "TERM_EFF_DT": "2016-01-01",
+                    "TERM_EXP_DT": "2017-01-01",
+                    "LOB_INDICATOR": "BUA",
+                    "CARRIER": "Carrier 1413",
+                    "WRITTEN_PREMIUM": "67432.6",
+                    "NO_OF_CLAIMS": "5",
+                    "LOSS_DATE": "2021-10-08",
+                    "LOSS_AMOUNT": "846.5"
+                },
+                {
+                    "POLICY_NUMBER": "5351273179",
+                    "TERM_EFF_DT": "2018-01-01",
+                    "TERM_EXP_DT": "2019-01-01",
+                    "LOB_INDICATOR": "BUA",
+                    "CARRIER": "Carrier 2936",
+                    "WRITTEN_PREMIUM": "31489.1",
+                    "NO_OF_CLAIMS": "4",
+                    "LOSS_DATE": "2021-10-08",
+                    "LOSS_AMOUNT": "4295.2"
+                },
+                {
+                    "POLICY_NUMBER": "7871911155",
+                    "TERM_EFF_DT": "2021-01-01",
+                    "TERM_EXP_DT": "2022-01-01",
+                    "LOB_INDICATOR": "BUA",
+                    "CARRIER": "Carrier 1736",
+                    "WRITTEN_PREMIUM": "12331.4",
+                    "NO_OF_CLAIMS": "3",
+                    "LOSS_DATE": "2021-10-08",
+                    "LOSS_AMOUNT": "4.3"
+                },
+                {
+                    "POLICY_NUMBER": "2221675521",
+                    "TERM_EFF_DT": "2020-01-01",
+                    "TERM_EXP_DT": "2021-01-01",
+                    "LOB_INDICATOR": "BUA",
+                    "CARRIER": "Carrier 5939",
+                    "WRITTEN_PREMIUM": "37726.1",
+                    "NO_OF_CLAIMS": "9",
+                    "LOSS_DATE": "2021-10-08",
+                    "LOSS_AMOUNT": "8.4"
+                },
+                {
+                    "POLICY_NUMBER": "8727588513",
+                    "TERM_EFF_DT": "2017-01-01",
+                    "TERM_EXP_DT": "2018-01-01",
+                    "LOB_INDICATOR": "BUA",
+                    "CARRIER": "Carrier 7517",
+                    "WRITTEN_PREMIUM": "45245.2",
+                    "NO_OF_CLAIMS": "3",
+                    "LOSS_DATE": "2021-10-08",
+                    "LOSS_AMOUNT": "5.9"
+                }
+            ],
+            "FORMS": [],
+            "HISTORY": [
+                {
+                    "TERM_EFF_DT": "2022-01-01",
+                    "TERM_EXP_DT": "2023-01-01",
+                    "PRICING": {
+                        "LIABILITY_PRM": "83354",
+                        "PD_PRM": "9845",
+                        "HIRED_AUTO_PRM": "582",
+                        "NON_OWNED_AUTO_PRM": "1793",
+                        "OTHER_PRM": "245",
+                        "TAX_FEE_SCHG": "85.95",
+                        "FINAL_PRM": "49786",
+                        "LIABILITY_LIMIT": "6375871",
+                        "PRIMARY_RISK_ST": "NY",
+                        "LIABILITY_EXP_MOD": "3.412",
+                        "PD_EXP_MOD": "8.6",
+                        "COMP_DEVIATION": "1",
+                        "LIA_SCH_MOD": "2.21",
+                        "PHY_SCH_MOD": "9.39",
+                        "OTHER_MOD": "7",
+                        "PD_RL15_MOD": "8",
+                        "RST_RATE_CHANGE_HISTORY": null,
+                        "COMPOSITE_RATED": "N"
+                    },
+                    "TRUCK_CLASSIFICATION": {
+                        "HEAVY_TRUCKS": {
+                            "SERVICE": "6",
+                            "RETAIL": "8",
+                            "COMMERCIAL": "3"
+                        },
+                        "HEAVY_TRUCK_TRACTORS": {
+                            "SERVICE": "7",
+                            "RETAIL": "1",
+                            "COMMERCIAL": "2"
+                        },
+                        "LIGHT_TRUCKS": {
+                            "SERVICE": "7",
+                            "RETAIL": "9",
+                            "COMMERCIAL": "5"
+                        },
+                        "MEDIUM_TRUCKS": {
+                            "SERVICE": "5",
+                            "RETAIL": "2",
+                            "COMMERCIAL": "9"
+                        }
+                    },
+                    "VEHICLES": {
+                        "SEMI_TRAILERS": null,
+                        "PRIVATE_PASSENGER": null,
+                        "HEAVY_TRUCKS": null,
+                        "HEAVY_TRUCK_TRACTORS": null,
+                        "PUBLIC_TRANSPORTATION": null,
+                        "TRAILERS": null,
+                        "EXTRA_HEAVY_TRUCKS": null,
+                        "SERVICE_UTILITY_TRAILER": null,
+                        "LIGHT_TRUCKS": null,
+                        "SPECIAL": null,
+                        "MEDIUM_TRUCKS": null,
+                        "EXTRA_HEAVY_TRUCK_TRACTORS": null
+                    }
+                },
+                {
+                    "TERM_EFF_DT": "2021-01-01",
+                    "TERM_EXP_DT": "2022-01-01",
+                    "PRICING": {
+                        "LIABILITY_PRM": "17328",
+                        "PD_PRM": "6664",
+                        "HIRED_AUTO_PRM": "782",
+                        "NON_OWNED_AUTO_PRM": "255",
+                        "OTHER_PRM": "736",
+                        "TAX_FEE_SCHG": "48.96",
+                        "FINAL_PRM": "87198",
+                        "LIABILITY_LIMIT": "5615667",
+                        "PRIMARY_RISK_ST": "NY",
+                        "LIABILITY_EXP_MOD": "2.187",
+                        "PD_EXP_MOD": "6.95",
+                        "COMP_DEVIATION": "4",
+                        "LIA_SCH_MOD": "4",
+                        "PHY_SCH_MOD": "3",
+                        "OTHER_MOD": "4",
+                        "PD_RL15_MOD": "3",
+                        "RST_RATE_CHANGE_HISTORY": "85.35547691275264",
+                        "COMPOSITE_RATED": "N"
+                    },
+                    "TRUCK_CLASSIFICATION": {
+                        "HEAVY_TRUCKS": {
+                            "SERVICE": "6",
+                            "RETAIL": "2",
+                            "COMMERCIAL": "9"
+                        },
+                        "HEAVY_TRUCK_TRACTORS": {
+                            "SERVICE": "2",
+                            "RETAIL": "9",
+                            "COMMERCIAL": "5"
+                        },
+                        "LIGHT_TRUCKS": {
+                            "SERVICE": "8",
+                            "RETAIL": "6",
+                            "COMMERCIAL": "1"
+                        },
+                        "MEDIUM_TRUCKS": {
+                            "SERVICE": "3",
+                            "RETAIL": "6",
+                            "COMMERCIAL": "3"
+                        }
+                    },
+                    "VEHICLES": {
+                        "SEMI_TRAILERS": null,
+                        "PRIVATE_PASSENGER": null,
+                        "HEAVY_TRUCKS": null,
+                        "HEAVY_TRUCK_TRACTORS": null,
+                        "PUBLIC_TRANSPORTATION": null,
+                        "TRAILERS": null,
+                        "EXTRA_HEAVY_TRUCKS": null,
+                        "SERVICE_UTILITY_TRAILER": null,
+                        "LIGHT_TRUCKS": null,
+                        "SPECIAL": null,
+                        "MEDIUM_TRUCKS": null,
+                        "EXTRA_HEAVY_TRUCK_TRACTORS": null
+                    }
+                }
+            ],
+            "COVERAGE_DETAILS": {
+                "SEATING_CAPACITY": {
+                    "RST_SEATING_CAPACITY_9_TO_20": "4",
+                    "RST_SEATING_CAPACITY_OVER_60": "9",
+                    "RST_ALL_OTH_NOT_SEC_RATED": "7",
+                    "RST_NOT_APPLICABLE": "4",
+                    "RST_SEATING_CAPACITY_21_TO_60": "9",
+                    "RST_SEATING_CAPACITY_1_TO_8": "3"
+                },
+                "BA_PLUS_PREMIUM_NONCOMP": "9",
+                "POLLUTANTS_PREMIUM_NONCOMP": null,
+                "BROADENED_POLLUTANTS": null,
+                "PD_DEDUCTIBLE_USAGE": {
+                    "OCN_LT_50K": {
+                        "COLLISION": {
+                            "LT_1000_DED": "1",
+                            "1000_DED": "1",
+                            "GT_1000_DED": "7"
+                        },
+                        "COMPOSITE": {
+                            "LT_1000_DED": "7",
+                            "1000_DED": "3",
+                            "GT_1000_DED": "7"
+                        }
+                    },
+                    "OCN_50K_TO_100K": {
+                        "COLLISION": {
+                            "LT_1000_DED": "1",
+                            "1000_DED": "4",
+                            "GT_1000_DED": "7"
+                        },
+                        "COMPOSITE": {
+                            "LT_1000_DED": "1",
+                            "1000_DED": "3",
+                            "GT_1000_DED": "6"
+                        }
+                    },
+                    "OCN_GT_100K": {
+                        "COLLISION": {
+                            "LT_1000_DED": "6",
+                            "1000_DED": "2",
+                            "GT_1000_DED": "7"
+                        },
+                        "COMPOSITE": {
+                            "LT_1000_DED": "8",
+                            "1000_DED": "8",
+                            "GT_1000_DED": "6"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "ACCT_NBR": "3038088873",
+            "POL_NBR": "7011921480",
+            "TERM_EFF_DT": "2022-01-01",
+            "TERM_EXP_DT": "2023-01-01",
+            "POL_INS_LINE_TS": "2021-12-30 01:43:00.0",
+            "STATUS": "Policy Active",
+            "COMPANY_CD": "VF",
+            "DOT": null,
+            "BUA_HAZ_MAT_VIOLTN": "2",
+            "BUA_VEHICLE_VIOLTN": "2",
+            "BUA_DRIVER_VIOLTN": "8",
+            "EXISTING_PREMIUM": {
+                "DASHBOARD_EXP_EPC_AUTO_LIABILITY_PRM": "753692.7",
+                "DASHBOARD_EXP_EPC_AUTO_PD_PRM": "96634.4",
+                "DASHBOARD_EXP_EPC_AUTO_HIRED_PRM": "9495.9",
+                "DASHBOARD_BUA_CF_EXP_TAXES_FEES_SURCHARGES": "776.3",
+                "DASHBOARD_EXP_EPC_AUTO_OTHER_PRM": "1562.8"
+            },
+            "CURRENT_PREMIUM": {
+                "DASHBOARD_EPC_AUTO_LIABILITY_PRM": "57322.6",
+                "DASHBOARD_EPC_AUTO_NON_OWNED_PRM": "393.1",
+                "DASHBOARD_BUA_CF_TAXES_FEES_SURCHARGES": "587.98",
+                "DASHBOARD_EPC_AUTO_PD_PRM": "53296.8",
+                "DASHBOARD_EPC_AUTO_OTHER_PRM": "8962.7",
+                "DASHBOARD_EPC_AUTO_HIRED_PRM": "7828.4"
+            },
+            "PRICING": {
+                "DASHBOARD_MODEL_DFM": "5.7351253516269365",
+                "DASHBOARD_RENEW_DFM": "7.336266365936294",
+                "DASHBOARD_RATE_CHANGE": "-863.393351366693634",
+                "BUA_UPL_REN_TRM_PRM": "842165.78",
+                "DASHBOARD_DISCRETIONARY_PRICE_CHANGE": "-398.289736757189884",
+                "BUA_UPL_EXP_MAN_PRM": "468856.4",
+                "BUA_UPL_REN_PRM": "876756.2",
+                "BUA_UPL_REN_MAN_PRM": "185827.4",
+                "PRE_BENCHMARK_PREMIUM": "342.52296",
+                "DASHBOARD_MODEL_TIER_RATE_CHANGE": "V",
+                "DASHBOARD_EXPIRING_DFM": "3.1568596813611998",
+                "DASHBOARD_MODEL_RATE_CHANGE": "13.82423312975421",
+                "DASHBOARD_MODEL_WRITTEN_TIER_RATE_CHANGE": "V",
+                "BUA_UPL_EXP_PRM": "972952.4"
+            },
+            "DRIVERS_AGES": {
+                "DRIVERS_25_65": null,
+                "YOUTHFUL_DRIVERS": null,
+                "DRIVERS_75_PLUS": "5",
+                "DRIVERS_30_75": "48"
+            },
+            "VIOLATIONS": {
+                "A": "5",
+                "B": "9",
+                "C": "8",
+                "A+": "1"
+            },
+            "ESTIMATED_TIERS": {
+                "REQUOTE_PREMIUM": "689811.6",
+                "DASHBOARD_MODEL_TIER_RATE_CHANGE": "V",
+                "PREMIUMI": "888572.6398762",
+                "TIERII": "719459.3128442",
+                "PREMIUMII": "527921.2991153143",
+                "TIERIII": "589477.7376186716",
+                "PREMIUMIII": "417249.8532778893",
+                "PREMIUMIV": "778638.1281194997",
+                "PREMIUMV": "588767.23556148",
+                "TIERIV": "639942.72857565"
+            },
+            "LOSS": [
+                {
+                    "POLICY_NUMBER": "9148873469",
+                    "TERM_EFF_DT": "2021-01-01",
+                    "TERM_EXP_DT": "2022-01-01",
+                    "LOB_INDICATOR": "BUA",
+                    "CARRIER": "Carrier 3747",
+                    "WRITTEN_PREMIUM": "789857.9",
+                    "NO_OF_CLAIMS": "6",
+                    "LOSS_DATE": "2021-11-04",
+                    "LOSS_AMOUNT": "7583.3"
+                },
+                {
+                    "POLICY_NUMBER": null,
+                    "TERM_EFF_DT": "2019-11-11",
+                    "TERM_EXP_DT": "2020-11-11",
+                    "LOB_INDICATOR": "BUA",
+                    "CARRIER": "Carrier 4443",
+                    "WRITTEN_PREMIUM": "6.7",
+                    "NO_OF_CLAIMS": "9",
+                    "LOSS_DATE": "2020-03-12",
+                    "LOSS_AMOUNT": "4.3"
+                },
+                {
+                    "POLICY_NUMBER": null,
+                    "TERM_EFF_DT": "2017-11-11",
+                    "TERM_EXP_DT": "2018-11-11",
+                    "LOB_INDICATOR": "BUA",
+                    "CARRIER": "Carrier 1292",
+                    "WRITTEN_PREMIUM": "6.4",
+                    "NO_OF_CLAIMS": "3",
+                    "LOSS_DATE": "2020-03-12",
+                    "LOSS_AMOUNT": "23423.4"
+                },
+                {
+                    "POLICY_NUMBER": null,
+                    "TERM_EFF_DT": "2020-06-01",
+                    "TERM_EXP_DT": "2020-11-01",
+                    "LOB_INDICATOR": "BUA",
+                    "CARRIER": "Carrier 8122",
+                    "WRITTEN_PREMIUM": "3.2",
+                    "NO_OF_CLAIMS": "3",
+                    "LOSS_DATE": "2020-12-10",
+                    "LOSS_AMOUNT": "9495.7"
+                },
+                {
+                    "POLICY_NUMBER": null,
+                    "TERM_EFF_DT": "2018-11-11",
+                    "TERM_EXP_DT": "2019-11-11",
+                    "LOB_INDICATOR": "BUA",
+                    "CARRIER": "Carrier 9949",
+                    "WRITTEN_PREMIUM": "7.4",
+                    "NO_OF_CLAIMS": "3",
+                    "LOSS_DATE": "2020-03-12",
+                    "LOSS_AMOUNT": "1337.8"
+                }
+            ],
+            "FORMS": [],
+            "HISTORY": [
+                {
+                    "TERM_EFF_DT": "2022-01-01",
+                    "TERM_EXP_DT": "2023-01-01",
+                    "PRICING": {
+                        "LIABILITY_PRM": "72322",
+                        "PD_PRM": "21241",
+                        "HIRED_AUTO_PRM": "4733",
+                        "NON_OWNED_AUTO_PRM": "333",
+                        "OTHER_PRM": "8535",
+                        "TAX_FEE_SCHG": "354.13",
+                        "FINAL_PRM": "645212",
+                        "LIABILITY_LIMIT": "1968948",
+                        "PRIMARY_RISK_ST": "NY",
+                        "LIABILITY_EXP_MOD": "2.622",
+                        "PD_EXP_MOD": "9.985",
+                        "COMP_DEVIATION": "8.62",
+                        "LIA_SCH_MOD": "2.38",
+                        "PHY_SCH_MOD": "6.3",
+                        "OTHER_MOD": "3",
+                        "PD_RL15_MOD": "4",
+                        "RST_RATE_CHANGE_HISTORY": null,
+                        "COMPOSITE_RATED": "N"
+                    },
+                    "TRUCK_CLASSIFICATION": {
+                        "HEAVY_TRUCKS": {
+                            "SERVICE": "1",
+                            "RETAIL": "1",
+                            "COMMERCIAL": "6"
+                        },
+                        "HEAVY_TRUCK_TRACTORS": {
+                            "SERVICE": "7",
+                            "RETAIL": "8",
+                            "COMMERCIAL": "1"
+                        },
+                        "LIGHT_TRUCKS": {
+                            "SERVICE": "76",
+                            "RETAIL": "6",
+                            "COMMERCIAL": "56"
+                        },
+                        "MEDIUM_TRUCKS": {
+                            "SERVICE": "5",
+                            "RETAIL": "5",
+                            "COMMERCIAL": "5"
+                        }
+                    },
+                    "VEHICLES": {
+                        "SEMI_TRAILERS": null,
+                        "PRIVATE_PASSENGER": null,
+                        "HEAVY_TRUCKS": null,
+                        "HEAVY_TRUCK_TRACTORS": null,
+                        "PUBLIC_TRANSPORTATION": null,
+                        "TRAILERS": null,
+                        "EXTRA_HEAVY_TRUCKS": null,
+                        "SERVICE_UTILITY_TRAILER": null,
+                        "LIGHT_TRUCKS": null,
+                        "SPECIAL": null,
+                        "MEDIUM_TRUCKS": null,
+                        "EXTRA_HEAVY_TRUCK_TRACTORS": null
+                    }
+                },
+                {
+                    "TERM_EFF_DT": "2021-01-01",
+                    "TERM_EXP_DT": "2022-01-01",
+                    "PRICING": {
+                        "LIABILITY_PRM": "276986",
+                        "PD_PRM": "96833",
+                        "HIRED_AUTO_PRM": "3998",
+                        "NON_OWNED_AUTO_PRM": "923",
+                        "OTHER_PRM": "4993",
+                        "TAX_FEE_SCHG": "595.3",
+                        "FINAL_PRM": "532921",
+                        "LIABILITY_LIMIT": "1911292",
+                        "PRIMARY_RISK_ST": "NY",
+                        "LIABILITY_EXP_MOD": "5.491",
+                        "PD_EXP_MOD": "5.647",
+                        "COMP_DEVIATION": "4.17",
+                        "LIA_SCH_MOD": "8.75",
+                        "PHY_SCH_MOD": "2.64",
+                        "OTHER_MOD": "7",
+                        "PD_RL15_MOD": "1",
+                        "RST_RATE_CHANGE_HISTORY": "9",
+                        "COMPOSITE_RATED": "N"
+                    },
+                    "TRUCK_CLASSIFICATION": {
+                        "HEAVY_TRUCKS": {
+                            "SERVICE": "5",
+                            "RETAIL": "3",
+                            "COMMERCIAL": "4"
+                        },
+                        "HEAVY_TRUCK_TRACTORS": {
+                            "SERVICE": "7",
+                            "RETAIL": "9",
+                            "COMMERCIAL": "9"
+                        },
+                        "LIGHT_TRUCKS": {
+                            "SERVICE": "39",
+                            "RETAIL": "9",
+                            "COMMERCIAL": "32"
+                        },
+                        "MEDIUM_TRUCKS": {
+                            "SERVICE": "5",
+                            "RETAIL": "7",
+                            "COMMERCIAL": "3"
+                        }
+                    },
+                    "VEHICLES": {
+                        "SEMI_TRAILERS": null,
+                        "PRIVATE_PASSENGER": null,
+                        "HEAVY_TRUCKS": null,
+                        "HEAVY_TRUCK_TRACTORS": null,
+                        "PUBLIC_TRANSPORTATION": null,
+                        "TRAILERS": null,
+                        "EXTRA_HEAVY_TRUCKS": null,
+                        "SERVICE_UTILITY_TRAILER": null,
+                        "LIGHT_TRUCKS": null,
+                        "SPECIAL": null,
+                        "MEDIUM_TRUCKS": null,
+                        "EXTRA_HEAVY_TRUCK_TRACTORS": null
+                    }
+                }
+            ],
+            "COVERAGE_DETAILS": {
+                "SEATING_CAPACITY": {
+                    "RST_SEATING_CAPACITY_9_TO_20": "2",
+                    "RST_SEATING_CAPACITY_OVER_60": "4",
+                    "RST_ALL_OTH_NOT_SEC_RATED": "7",
+                    "RST_NOT_APPLICABLE": "3",
+                    "RST_SEATING_CAPACITY_21_TO_60": "1",
+                    "RST_SEATING_CAPACITY_1_TO_8": "7"
+                },
+                "BA_PLUS_PREMIUM_NONCOMP": "1",
+                "POLLUTANTS_PREMIUM_NONCOMP": null,
+                "BROADENED_POLLUTANTS": null,
+                "PD_DEDUCTIBLE_USAGE": {
+                    "OCN_LT_50K": {
+                        "COLLISION": {
+                            "LT_1000_DED": "8",
+                            "1000_DED": "12",
+                            "GT_1000_DED": "9"
+                        },
+                        "COMPOSITE": {
+                            "LT_1000_DED": "4",
+                            "1000_DED": "55",
+                            "GT_1000_DED": "4"
+                        }
+                    },
+                    "OCN_50K_TO_100K": {
+                        "COLLISION": {
+                            "LT_1000_DED": "3",
+                            "1000_DED": "3",
+                            "GT_1000_DED": "5"
+                        },
+                        "COMPOSITE": {
+                            "LT_1000_DED": "5",
+                            "1000_DED": "7",
+                            "GT_1000_DED": "2"
+                        }
+                    },
+                    "OCN_GT_100K": {
+                        "COLLISION": {
+                            "LT_1000_DED": "8",
+                            "1000_DED": "7",
+                            "GT_1000_DED": "2"
+                        },
+                        "COMPOSITE": {
+                            "LT_1000_DED": "4",
+                            "1000_DED": "7",
+                            "GT_1000_DED": "8"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "ACCT_NBR": "3000580294",
+            "POL_NBR": "5090991840",
+            "TERM_EFF_DT": "2022-01-01",
+            "TERM_EXP_DT": "2023-01-01",
+            "POL_INS_LINE_TS": "2021-12-30 20:24:21.0",
+            "STATUS": "Policy Active",
+            "COMPANY_CD": "VF",
+            "DOT": null,
+            "BUA_HAZ_MAT_VIOLTN": "2",
+            "BUA_VEHICLE_VIOLTN": "3",
+            "BUA_DRIVER_VIOLTN": "9",
+            "EXISTING_PREMIUM": {
+                "DASHBOARD_EXP_EPC_AUTO_LIABILITY_PRM": "56117.1",
+                "DASHBOARD_EXP_EPC_AUTO_PD_PRM": "6615.8",
+                "DASHBOARD_EXP_EPC_AUTO_HIRED_PRM": "358.1",
+                "DASHBOARD_BUA_CF_EXP_TAXES_FEES_SURCHARGES": "874.82",
+                "DASHBOARD_EXP_EPC_AUTO_OTHER_PRM": "165.8"
+            },
+            "CURRENT_PREMIUM": {
+                "DASHBOARD_EPC_AUTO_LIABILITY_PRM": "58685.6",
+                "DASHBOARD_EPC_AUTO_NON_OWNED_PRM": "585.3",
+                "DASHBOARD_BUA_CF_TAXES_FEES_SURCHARGES": "183.37",
+                "DASHBOARD_EPC_AUTO_PD_PRM": "82913.5",
+                "DASHBOARD_EPC_AUTO_OTHER_PRM": "947.8",
+                "DASHBOARD_EPC_AUTO_HIRED_PRM": "288.1"
+            },
+            "PRICING": {
+                "DASHBOARD_MODEL_DFM": "9.87871617492893",
+                "DASHBOARD_RENEW_DFM": "3.742391479862835",
+                "DASHBOARD_RATE_CHANGE": "2.929161838743737",
+                "BUA_UPL_REN_TRM_PRM": "94383.51",
+                "DASHBOARD_DISCRETIONARY_PRICE_CHANGE": "1.7455361627685395",
+                "BUA_UPL_EXP_MAN_PRM": "96233.5",
+                "BUA_UPL_REN_PRM": "86143.2",
+                "BUA_UPL_REN_MAN_PRM": "26732.4",
+                "PRE_BENCHMARK_PREMIUM": "155.981722",
+                "DASHBOARD_MODEL_TIER_RATE_CHANGE": "IV",
+                "DASHBOARD_EXPIRING_DFM": "9.342167563192666",
+                "DASHBOARD_MODEL_RATE_CHANGE": "53.41241996732295",
+                "DASHBOARD_MODEL_WRITTEN_TIER_RATE_CHANGE": "IV",
+                "BUA_UPL_EXP_PRM": "19486.5"
+            },
+            "DRIVERS_AGES": {
+                "DRIVERS_25_65": null,
+                "YOUTHFUL_DRIVERS": "2",
+                "DRIVERS_75_PLUS": "8",
+                "DRIVERS_30_75": "86"
+            },
+            "VIOLATIONS": {
+                "A": "8",
+                "B": "4",
+                "C": "6",
+                "A+": "1"
+            },
+            "ESTIMATED_TIERS": {
+                "REQUOTE_PREMIUM": "94952.1",
+                "DASHBOARD_MODEL_TIER_RATE_CHANGE": "IV",
+                "PREMIUMI": "56834.46839921671",
+                "TIERII": "19669.34445257916",
+                "PREMIUMII": "54364.131249964834",
+                "TIERIII": "43412.294154172385",
+                "PREMIUMIII": "91657.5219716239",
+                "PREMIUMIV": "98963.4565642978",
+                "PREMIUMV": "25582.42798778623",
+                "TIERIV": "14636.337569758529"
+            },
+            "LOSS": [
+                {
+                    "POLICY_NUMBER": "9427279471",
+                    "TERM_EFF_DT": "2019-01-01",
+                    "TERM_EXP_DT": "2020-01-01",
+                    "LOB_INDICATOR": "BUA",
+                    "CARRIER": "Carrier 9458",
+                    "WRITTEN_PREMIUM": "91381.6",
+                    "NO_OF_CLAIMS": "1",
+                    "LOSS_DATE": "2021-12-15",
+                    "LOSS_AMOUNT": "5429.1"
+                },
+                {
+                    "POLICY_NUMBER": "3119673878",
+                    "TERM_EFF_DT": "2018-01-01",
+                    "TERM_EXP_DT": "2019-01-01",
+                    "LOB_INDICATOR": "BUA",
+                    "CARRIER": "Carrier 8557",
+                    "WRITTEN_PREMIUM": "21982.5",
+                    "NO_OF_CLAIMS": "6",
+                    "LOSS_DATE": "2021-12-15",
+                    "LOSS_AMOUNT": "55221.8"
+                },
+                {
+                    "POLICY_NUMBER": "5254242641",
+                    "TERM_EFF_DT": "2020-01-01",
+                    "TERM_EXP_DT": "2021-01-01",
+                    "LOB_INDICATOR": "BUA",
+                    "CARRIER": "Carrier 5884",
+                    "WRITTEN_PREMIUM": "51964.9",
+                    "NO_OF_CLAIMS": "1",
+                    "LOSS_DATE": "2021-12-15",
+                    "LOSS_AMOUNT": "7179.4"
+                },
+                {
+                    "POLICY_NUMBER": "5474396399",
+                    "TERM_EFF_DT": "2021-01-01",
+                    "TERM_EXP_DT": "2022-01-01",
+                    "LOB_INDICATOR": "BUA",
+                    "CARRIER": "Carrier 6742",
+                    "WRITTEN_PREMIUM": "23244.6",
+                    "NO_OF_CLAIMS": "4",
+                    "LOSS_DATE": "2021-12-15",
+                    "LOSS_AMOUNT": "1195.3"
+                },
+                {
+                    "POLICY_NUMBER": "9497927289",
+                    "TERM_EFF_DT": "2016-01-01",
+                    "TERM_EXP_DT": "2017-01-01",
+                    "LOB_INDICATOR": "BUA",
+                    "CARRIER": "Carrier 8553",
+                    "WRITTEN_PREMIUM": "11755.2",
+                    "NO_OF_CLAIMS": "5",
+                    "LOSS_DATE": "2021-12-15",
+                    "LOSS_AMOUNT": "1155.5"
+                },
+                {
+                    "POLICY_NUMBER": "9796648194",
+                    "TERM_EFF_DT": "2017-01-01",
+                    "TERM_EXP_DT": "2018-01-01",
+                    "LOB_INDICATOR": "BUA",
+                    "CARRIER": "Carrier 6619",
+                    "WRITTEN_PREMIUM": "49826.8",
+                    "NO_OF_CLAIMS": "5",
+                    "LOSS_DATE": "2021-12-15",
+                    "LOSS_AMOUNT": "6.7"
+                }
+            ],
+            "FORMS": [],
+            "HISTORY": [
+                {
+                    "TERM_EFF_DT": "2022-01-01",
+                    "TERM_EXP_DT": "2023-01-01",
+                    "PRICING": {
+                        "LIABILITY_PRM": "59787",
+                        "PD_PRM": "72898",
+                        "HIRED_AUTO_PRM": "147",
+                        "NON_OWNED_AUTO_PRM": "914",
+                        "OTHER_PRM": "818",
+                        "TAX_FEE_SCHG": "446.32",
+                        "FINAL_PRM": "55745",
+                        "LIABILITY_LIMIT": "5892421",
+                        "PRIMARY_RISK_ST": "NY",
+                        "LIABILITY_EXP_MOD": "3.851",
+                        "PD_EXP_MOD": "1.875",
+                        "COMP_DEVIATION": "1.44",
+                        "LIA_SCH_MOD": "5.68",
+                        "PHY_SCH_MOD": "8.59",
+                        "OTHER_MOD": "4",
+                        "PD_RL15_MOD": "8",
+                        "RST_RATE_CHANGE_HISTORY": null,
+                        "COMPOSITE_RATED": "N"
+                    },
+                    "TRUCK_CLASSIFICATION": {
+                        "HEAVY_TRUCKS": {
+                            "SERVICE": "6",
+                            "RETAIL": "2",
+                            "COMMERCIAL": "6"
+                        },
+                        "HEAVY_TRUCK_TRACTORS": {
+                            "SERVICE": "9",
+                            "RETAIL": "4",
+                            "COMMERCIAL": "3"
+                        },
+                        "LIGHT_TRUCKS": {
+                            "SERVICE": "86",
+                            "RETAIL": "7",
+                            "COMMERCIAL": "5"
+                        },
+                        "MEDIUM_TRUCKS": {
+                            "SERVICE": "8",
+                            "RETAIL": "7",
+                            "COMMERCIAL": "9"
+                        }
+                    },
+                    "VEHICLES": {
+                        "SEMI_TRAILERS": null,
+                        "PRIVATE_PASSENGER": null,
+                        "HEAVY_TRUCKS": null,
+                        "HEAVY_TRUCK_TRACTORS": null,
+                        "PUBLIC_TRANSPORTATION": null,
+                        "TRAILERS": null,
+                        "EXTRA_HEAVY_TRUCKS": null,
+                        "SERVICE_UTILITY_TRAILER": null,
+                        "LIGHT_TRUCKS": null,
+                        "SPECIAL": null,
+                        "MEDIUM_TRUCKS": null,
+                        "EXTRA_HEAVY_TRUCK_TRACTORS": null
+                    }
+                },
+                {
+                    "TERM_EFF_DT": "2021-01-01",
+                    "TERM_EXP_DT": "2022-01-01",
+                    "PRICING": {
+                        "LIABILITY_PRM": "22959",
+                        "PD_PRM": "1632",
+                        "HIRED_AUTO_PRM": "962",
+                        "NON_OWNED_AUTO_PRM": "764",
+                        "OTHER_PRM": "876",
+                        "TAX_FEE_SCHG": "969.73",
+                        "FINAL_PRM": "89412",
+                        "LIABILITY_LIMIT": "7968768",
+                        "PRIMARY_RISK_ST": "NY",
+                        "LIABILITY_EXP_MOD": "4.897",
+                        "PD_EXP_MOD": "4.921",
+                        "COMP_DEVIATION": "5.35",
+                        "LIA_SCH_MOD": "6.91",
+                        "PHY_SCH_MOD": "6.34",
+                        "OTHER_MOD": "8",
+                        "PD_RL15_MOD": "5",
+                        "RST_RATE_CHANGE_HISTORY": "3.497775698139451",
+                        "COMPOSITE_RATED": "N"
+                    },
+                    "TRUCK_CLASSIFICATION": {
+                        "HEAVY_TRUCKS": {
+                            "SERVICE": "8",
+                            "RETAIL": "6",
+                            "COMMERCIAL": "1"
+                        },
+                        "HEAVY_TRUCK_TRACTORS": {
+                            "SERVICE": "7",
+                            "RETAIL": "6",
+                            "COMMERCIAL": "7"
+                        },
+                        "LIGHT_TRUCKS": {
+                            "SERVICE": "43",
+                            "RETAIL": "6",
+                            "COMMERCIAL": "4"
+                        },
+                        "MEDIUM_TRUCKS": {
+                            "SERVICE": "5",
+                            "RETAIL": "7",
+                            "COMMERCIAL": "2"
+                        }
+                    },
+                    "VEHICLES": {
+                        "SEMI_TRAILERS": null,
+                        "PRIVATE_PASSENGER": null,
+                        "HEAVY_TRUCKS": null,
+                        "HEAVY_TRUCK_TRACTORS": null,
+                        "PUBLIC_TRANSPORTATION": null,
+                        "TRAILERS": null,
+                        "EXTRA_HEAVY_TRUCKS": null,
+                        "SERVICE_UTILITY_TRAILER": null,
+                        "LIGHT_TRUCKS": null,
+                        "SPECIAL": null,
+                        "MEDIUM_TRUCKS": null,
+                        "EXTRA_HEAVY_TRUCK_TRACTORS": null
+                    }
+                }
+            ],
+            "COVERAGE_DETAILS": {
+                "SEATING_CAPACITY": {
+                    "RST_SEATING_CAPACITY_9_TO_20": "8",
+                    "RST_SEATING_CAPACITY_OVER_60": "5",
+                    "RST_ALL_OTH_NOT_SEC_RATED": "2",
+                    "RST_NOT_APPLICABLE": "1",
+                    "RST_SEATING_CAPACITY_21_TO_60": "9",
+                    "RST_SEATING_CAPACITY_1_TO_8": "3"
+                },
+                "BA_PLUS_PREMIUM_NONCOMP": "6",
+                "POLLUTANTS_PREMIUM_NONCOMP": null,
+                "BROADENED_POLLUTANTS": null,
+                "PD_DEDUCTIBLE_USAGE": {
+                    "OCN_LT_50K": {
+                        "COLLISION": {
+                            "LT_1000_DED": "8",
+                            "1000_DED": "18",
+                            "GT_1000_DED": "9"
+                        },
+                        "COMPOSITE": {
+                            "LT_1000_DED": "7",
+                            "1000_DED": "9",
+                            "GT_1000_DED": "5"
+                        }
+                    },
+                    "OCN_50K_TO_100K": {
+                        "COLLISION": {
+                            "LT_1000_DED": "6",
+                            "1000_DED": "6",
+                            "GT_1000_DED": "9"
+                        },
+                        "COMPOSITE": {
+                            "LT_1000_DED": "3",
+                            "1000_DED": "3",
+                            "GT_1000_DED": "6"
+                        }
+                    },
+                    "OCN_GT_100K": {
+                        "COLLISION": {
+                            "LT_1000_DED": "3",
+                            "1000_DED": "9",
+                            "GT_1000_DED": "7"
+                        },
+                        "COMPOSITE": {
+                            "LT_1000_DED": "2",
+                            "1000_DED": "4",
+                            "GT_1000_DED": "8"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "ACCT_NBR": "3024189677",
+            "POL_NBR": "5099095119",
+            "TERM_EFF_DT": "2022-01-01",
+            "TERM_EXP_DT": "2023-01-01",
+            "POL_INS_LINE_TS": "2022-01-09 19:12:00.0",
+            "STATUS": "Policy Active",
+            "COMPANY_CD": "VF",
+            "DOT": null,
+            "BUA_HAZ_MAT_VIOLTN": "5",
+            "BUA_VEHICLE_VIOLTN": "4",
+            "BUA_DRIVER_VIOLTN": "5",
+            "EXISTING_PREMIUM": {
+                "DASHBOARD_EXP_EPC_AUTO_LIABILITY_PRM": "13283.7",
+                "DASHBOARD_EXP_EPC_AUTO_PD_PRM": "1838.5",
+                "DASHBOARD_EXP_EPC_AUTO_HIRED_PRM": "962.2",
+                "DASHBOARD_BUA_CF_EXP_TAXES_FEES_SURCHARGES": "31.92",
+                "DASHBOARD_EXP_EPC_AUTO_OTHER_PRM": "2762.7"
+            },
+            "CURRENT_PREMIUM": {
+                "DASHBOARD_EPC_AUTO_LIABILITY_PRM": "42999.8",
+                "DASHBOARD_EPC_AUTO_NON_OWNED_PRM": "812.4",
+                "DASHBOARD_BUA_CF_TAXES_FEES_SURCHARGES": "75.95",
+                "DASHBOARD_EPC_AUTO_PD_PRM": "2589.5",
+                "DASHBOARD_EPC_AUTO_OTHER_PRM": "9212.9",
+                "DASHBOARD_EPC_AUTO_HIRED_PRM": "658.3"
+            },
+            "PRICING": {
+                "DASHBOARD_MODEL_DFM": "8.875728533152692",
+                "DASHBOARD_RENEW_DFM": "3.8469627945917435",
+                "DASHBOARD_RATE_CHANGE": "99.18533271263388",
+                "BUA_UPL_REN_TRM_PRM": "92568.22",
+                "DASHBOARD_DISCRETIONARY_PRICE_CHANGE": "-371.51357643168744",
+                "BUA_UPL_EXP_MAN_PRM": "38535.8",
+                "BUA_UPL_REN_PRM": "77335.2",
+                "BUA_UPL_REN_MAN_PRM": "18965.4",
+                "PRE_BENCHMARK_PREMIUM": "47699.555857",
+                "DASHBOARD_MODEL_TIER_RATE_CHANGE": "V",
+                "DASHBOARD_EXPIRING_DFM": "5.357889566827375",
+                "DASHBOARD_MODEL_RATE_CHANGE": "16.69876328447884",
+                "DASHBOARD_MODEL_WRITTEN_TIER_RATE_CHANGE": "V",
+                "BUA_UPL_EXP_PRM": "96712.3"
+            },
+            "DRIVERS_AGES": {
+                "DRIVERS_25_65": null,
+                "YOUTHFUL_DRIVERS": "1",
+                "DRIVERS_75_PLUS": "3",
+                "DRIVERS_30_75": "1"
+            },
+            "VIOLATIONS": {
+                "A": "8",
+                "B": "1",
+                "C": "9",
+                "A+": "1"
+            },
+            "ESTIMATED_TIERS": {
+                "REQUOTE_PREMIUM": "94632.2",
+                "DASHBOARD_MODEL_TIER_RATE_CHANGE": "V",
+                "PREMIUMI": "51452.55859914",
+                "TIERII": "85676.82372833",
+                "PREMIUMII": "38796.17339898883",
+                "TIERIII": "97772.43676424967",
+                "PREMIUMIII": "45679.65826116442",
+                "PREMIUMIV": "74267.1318724769",
+                "PREMIUMV": "57947.217523738",
+                "TIERIV": "22745.882121715"
+            },
+            "LOSS": [
+                {
+                    "POLICY_NUMBER": "5131656893",
+                    "TERM_EFF_DT": "2020-01-01",
+                    "TERM_EXP_DT": "2021-01-01",
+                    "LOB_INDICATOR": "BUA",
+                    "CARRIER": "Carrier 9899",
+                    "WRITTEN_PREMIUM": "15161.5",
+                    "NO_OF_CLAIMS": "38",
+                    "LOSS_DATE": "2021-09-27",
+                    "LOSS_AMOUNT": "78827.1"
+                },
+                {
+                    "POLICY_NUMBER": "8447962919",
+                    "TERM_EFF_DT": "2016-01-01",
+                    "TERM_EXP_DT": "2017-01-01",
+                    "LOB_INDICATOR": "BUA",
+                    "CARRIER": "Carrier 2586",
+                    "WRITTEN_PREMIUM": "69957.1",
+                    "NO_OF_CLAIMS": "7",
+                    "LOSS_DATE": "2021-09-27",
+                    "LOSS_AMOUNT": "1.2"
+                },
+                {
+                    "POLICY_NUMBER": "2684325614",
+                    "TERM_EFF_DT": "2019-01-01",
+                    "TERM_EXP_DT": "2020-01-01",
+                    "LOB_INDICATOR": "BUA",
+                    "CARRIER": "Carrier 8882",
+                    "WRITTEN_PREMIUM": "37183.1",
+                    "NO_OF_CLAIMS": "7",
+                    "LOSS_DATE": "2021-09-27",
+                    "LOSS_AMOUNT": "1.1"
+                },
+                {
+                    "POLICY_NUMBER": "6693253235",
+                    "TERM_EFF_DT": "2018-01-01",
+                    "TERM_EXP_DT": "2019-01-01",
+                    "LOB_INDICATOR": "BUA",
+                    "CARRIER": "Carrier 2363",
+                    "WRITTEN_PREMIUM": "74814.8",
+                    "NO_OF_CLAIMS": "1",
+                    "LOSS_DATE": "2021-09-27",
+                    "LOSS_AMOUNT": "9.1"
+                },
+                {
+                    "POLICY_NUMBER": "2664141996",
+                    "TERM_EFF_DT": "2021-01-01",
+                    "TERM_EXP_DT": "2022-01-01",
+                    "LOB_INDICATOR": "BUA",
+                    "CARRIER": "Carrier 1434",
+                    "WRITTEN_PREMIUM": "38791.1",
+                    "NO_OF_CLAIMS": "5",
+                    "LOSS_DATE": "2021-09-27",
+                    "LOSS_AMOUNT": "59579.3"
+                },
+                {
+                    "POLICY_NUMBER": "9468831575",
+                    "TERM_EFF_DT": "2017-01-01",
+                    "TERM_EXP_DT": "2018-01-01",
+                    "LOB_INDICATOR": "BUA",
+                    "CARRIER": "Carrier 4844",
+                    "WRITTEN_PREMIUM": "86687.5",
+                    "NO_OF_CLAIMS": "2",
+                    "LOSS_DATE": "2021-09-27",
+                    "LOSS_AMOUNT": "5.3"
+                }
+            ],
+            "FORMS": [],
+            "HISTORY": [
+                {
+                    "TERM_EFF_DT": "2022-01-01",
+                    "TERM_EXP_DT": "2023-01-01",
+                    "PRICING": {
+                        "LIABILITY_PRM": "38988",
+                        "PD_PRM": "6982",
+                        "HIRED_AUTO_PRM": "582",
+                        "NON_OWNED_AUTO_PRM": "278",
+                        "OTHER_PRM": "6825",
+                        "TAX_FEE_SCHG": "77.42",
+                        "FINAL_PRM": "91521",
+                        "LIABILITY_LIMIT": "8834313",
+                        "PRIMARY_RISK_ST": "NY",
+                        "LIABILITY_EXP_MOD": "4.749",
+                        "PD_EXP_MOD": "1.265",
+                        "COMP_DEVIATION": "8.25",
+                        "LIA_SCH_MOD": "8.93",
+                        "PHY_SCH_MOD": "5.51",
+                        "OTHER_MOD": "4",
+                        "PD_RL15_MOD": "1",
+                        "RST_RATE_CHANGE_HISTORY": null,
+                        "COMPOSITE_RATED": "N"
+                    },
+                    "TRUCK_CLASSIFICATION": {
+                        "HEAVY_TRUCKS": {
+                            "SERVICE": "9",
+                            "RETAIL": "8",
+                            "COMMERCIAL": "4"
+                        },
+                        "HEAVY_TRUCK_TRACTORS": {
+                            "SERVICE": "4",
+                            "RETAIL": "1",
+                            "COMMERCIAL": "3"
+                        },
+                        "LIGHT_TRUCKS": {
+                            "SERVICE": "2",
+                            "RETAIL": "2",
+                            "COMMERCIAL": "4"
+                        },
+                        "MEDIUM_TRUCKS": {
+                            "SERVICE": "1",
+                            "RETAIL": "6",
+                            "COMMERCIAL": "2"
+                        }
+                    },
+                    "VEHICLES": {
+                        "SEMI_TRAILERS": null,
+                        "PRIVATE_PASSENGER": null,
+                        "HEAVY_TRUCKS": null,
+                        "HEAVY_TRUCK_TRACTORS": null,
+                        "PUBLIC_TRANSPORTATION": null,
+                        "TRAILERS": null,
+                        "EXTRA_HEAVY_TRUCKS": null,
+                        "SERVICE_UTILITY_TRAILER": null,
+                        "LIGHT_TRUCKS": null,
+                        "SPECIAL": null,
+                        "MEDIUM_TRUCKS": null,
+                        "EXTRA_HEAVY_TRUCK_TRACTORS": null
+                    }
+                },
+                {
+                    "TERM_EFF_DT": "2021-01-01",
+                    "TERM_EXP_DT": "2022-01-01",
+                    "PRICING": {
+                        "LIABILITY_PRM": "56737",
+                        "PD_PRM": "7758",
+                        "HIRED_AUTO_PRM": "861",
+                        "NON_OWNED_AUTO_PRM": "811",
+                        "OTHER_PRM": "4734",
+                        "TAX_FEE_SCHG": "47.55",
+                        "FINAL_PRM": "52618",
+                        "LIABILITY_LIMIT": "1626817",
+                        "PRIMARY_RISK_ST": "NY",
+                        "LIABILITY_EXP_MOD": "6.82",
+                        "PD_EXP_MOD": "2.97",
+                        "COMP_DEVIATION": "1",
+                        "LIA_SCH_MOD": "1.27",
+                        "PHY_SCH_MOD": "2.46",
+                        "OTHER_MOD": "1",
+                        "PD_RL15_MOD": "2",
+                        "RST_RATE_CHANGE_HISTORY": "31.351382332637332",
+                        "COMPOSITE_RATED": "N"
+                    },
+                    "TRUCK_CLASSIFICATION": {
+                        "HEAVY_TRUCKS": {
+                            "SERVICE": "8",
+                            "RETAIL": "5",
+                            "COMMERCIAL": "1"
+                        },
+                        "HEAVY_TRUCK_TRACTORS": {
+                            "SERVICE": "5",
+                            "RETAIL": "3",
+                            "COMMERCIAL": "2"
+                        },
+                        "LIGHT_TRUCKS": {
+                            "SERVICE": "4",
+                            "RETAIL": "3",
+                            "COMMERCIAL": "7"
+                        },
+                        "MEDIUM_TRUCKS": {
+                            "SERVICE": "8",
+                            "RETAIL": "1",
+                            "COMMERCIAL": "1"
+                        }
+                    },
+                    "VEHICLES": {
+                        "SEMI_TRAILERS": null,
+                        "PRIVATE_PASSENGER": "3",
+                        "HEAVY_TRUCKS": null,
+                        "HEAVY_TRUCK_TRACTORS": null,
+                        "PUBLIC_TRANSPORTATION": null,
+                        "TRAILERS": null,
+                        "EXTRA_HEAVY_TRUCKS": null,
+                        "SERVICE_UTILITY_TRAILER": null,
+                        "LIGHT_TRUCKS": null,
+                        "SPECIAL": null,
+                        "MEDIUM_TRUCKS": null,
+                        "EXTRA_HEAVY_TRUCK_TRACTORS": null
+                    }
+                }
+            ],
+            "COVERAGE_DETAILS": {
+                "SEATING_CAPACITY": {
+                    "RST_SEATING_CAPACITY_9_TO_20": "5",
+                    "RST_SEATING_CAPACITY_OVER_60": "5",
+                    "RST_ALL_OTH_NOT_SEC_RATED": "5",
+                    "RST_NOT_APPLICABLE": "7",
+                    "RST_SEATING_CAPACITY_21_TO_60": "8",
+                    "RST_SEATING_CAPACITY_1_TO_8": "9"
+                },
+                "BA_PLUS_PREMIUM_NONCOMP": "5",
+                "POLLUTANTS_PREMIUM_NONCOMP": null,
+                "BROADENED_POLLUTANTS": null,
+                "PD_DEDUCTIBLE_USAGE": {
+                    "OCN_LT_50K": {
+                        "COLLISION": {
+                            "LT_1000_DED": "4",
+                            "1000_DED": "7",
+                            "GT_1000_DED": "2"
+                        },
+                        "COMPOSITE": {
+                            "LT_1000_DED": "4",
+                            "1000_DED": "6",
+                            "GT_1000_DED": "8"
+                        }
+                    },
+                    "OCN_50K_TO_100K": {
+                        "COLLISION": {
+                            "LT_1000_DED": "7",
+                            "1000_DED": "8",
+                            "GT_1000_DED": "2"
+                        },
+                        "COMPOSITE": {
+                            "LT_1000_DED": "4",
+                            "1000_DED": "7",
+                            "GT_1000_DED": "8"
+                        }
+                    },
+                    "OCN_GT_100K": {
+                        "COLLISION": {
+                            "LT_1000_DED": "1",
+                            "1000_DED": "1",
+                            "GT_1000_DED": "6"
+                        },
+                        "COMPOSITE": {
+                            "LT_1000_DED": "2",
+                            "1000_DED": "8",
+                            "GT_1000_DED": "7"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "ACCT_NBR": "0109021636",
+            "POL_NBR": "4020350705",
+            "TERM_EFF_DT": "2022-01-01",
+            "TERM_EXP_DT": "2023-01-01",
+            "POL_INS_LINE_TS": "2021-08-19 03:54:11.0",
+            "STATUS": "Quote Not Taken",
+            "COMPANY_CD": "VF",
+            "DOT": null,
+            "BUA_HAZ_MAT_VIOLTN": "5",
+            "BUA_VEHICLE_VIOLTN": "8",
+            "BUA_DRIVER_VIOLTN": "9",
+            "EXISTING_PREMIUM": {
+                "DASHBOARD_EXP_EPC_AUTO_LIABILITY_PRM": "5636.6",
+                "DASHBOARD_EXP_EPC_AUTO_PD_PRM": "741.3",
+                "DASHBOARD_EXP_EPC_AUTO_HIRED_PRM": "241.3",
+                "DASHBOARD_BUA_CF_EXP_TAXES_FEES_SURCHARGES": "2.29",
+                "DASHBOARD_EXP_EPC_AUTO_OTHER_PRM": null
+            },
+            "CURRENT_PREMIUM": {
+                "DASHBOARD_EPC_AUTO_LIABILITY_PRM": "6979.4",
+                "DASHBOARD_EPC_AUTO_NON_OWNED_PRM": "311.7",
+                "DASHBOARD_BUA_CF_TAXES_FEES_SURCHARGES": "4.2",
+                "DASHBOARD_EPC_AUTO_PD_PRM": "514.3",
+                "DASHBOARD_EPC_AUTO_OTHER_PRM": null,
+                "DASHBOARD_EPC_AUTO_HIRED_PRM": "364.3"
+            },
+            "PRICING": {
+                "DASHBOARD_MODEL_DFM": "3.7756116786651694",
+                "DASHBOARD_RENEW_DFM": "9.681271243388796",
+                "DASHBOARD_RATE_CHANGE": "8.77495558591755",
+                "BUA_UPL_REN_TRM_PRM": "1789.6",
+                "DASHBOARD_DISCRETIONARY_PRICE_CHANGE": "-88.84622155441565191",
+                "BUA_UPL_EXP_MAN_PRM": "9696.3",
+                "BUA_UPL_REN_PRM": "5451.9",
+                "BUA_UPL_REN_MAN_PRM": "2896.9",
+                "PRE_BENCHMARK_PREMIUM": "523.168723",
+                "DASHBOARD_MODEL_TIER_RATE_CHANGE": "III",
+                "DASHBOARD_EXPIRING_DFM": "4.491342253113695",
+                "DASHBOARD_MODEL_RATE_CHANGE": "4.726914998656898",
+                "DASHBOARD_MODEL_WRITTEN_TIER_RATE_CHANGE": "III",
+                "BUA_UPL_EXP_PRM": "1753.8"
+            },
+            "DRIVERS_AGES": {
+                "DRIVERS_25_65": null,
+                "YOUTHFUL_DRIVERS": null,
+                "DRIVERS_75_PLUS": "8",
+                "DRIVERS_30_75": "9"
+            },
+            "VIOLATIONS": {
+                "A": "4",
+                "B": "7",
+                "C": "4",
+                "A+": "7"
+            },
+            "ESTIMATED_TIERS": {
+                "REQUOTE_PREMIUM": "3985.9",
+                "DASHBOARD_MODEL_TIER_RATE_CHANGE": "III",
+                "PREMIUMI": "2225.9929121",
+                "TIERII": "9669.1565124",
+                "PREMIUMII": "2791.435973697579",
+                "TIERIII": "3627.145592372583",
+                "PREMIUMIII": "5623.975829829922",
+                "PREMIUMIV": "4895.726574781633",
+                "PREMIUMV": "7977.29578212",
+                "TIERIV": "8461.16959469"
+            },
+            "LOSS": [
+                {
+                    "POLICY_NUMBER": "8236888259",
+                    "TERM_EFF_DT": "2016-01-01",
+                    "TERM_EXP_DT": "2017-01-01",
+                    "LOB_INDICATOR": "BUA",
+                    "CARRIER": "Carrier 1746",
+                    "WRITTEN_PREMIUM": "3326.5",
+                    "NO_OF_CLAIMS": "1",
+                    "LOSS_DATE": "2021-09-29",
+                    "LOSS_AMOUNT": "3.3"
+                },
+                {
+                    "POLICY_NUMBER": "1358424813",
+                    "TERM_EFF_DT": "2021-01-01",
+                    "TERM_EXP_DT": "2022-01-01",
+                    "LOB_INDICATOR": "BUA",
+                    "CARRIER": "Carrier 9227",
+                    "WRITTEN_PREMIUM": "7528.3",
+                    "NO_OF_CLAIMS": "6",
+                    "LOSS_DATE": "2021-09-29",
+                    "LOSS_AMOUNT": "3.1"
+                },
+                {
+                    "POLICY_NUMBER": "1639684391",
+                    "TERM_EFF_DT": "2020-01-01",
+                    "TERM_EXP_DT": "2021-01-01",
+                    "LOB_INDICATOR": "BUA",
+                    "CARRIER": "Carrier 9178",
+                    "WRITTEN_PREMIUM": "1751.3",
+                    "NO_OF_CLAIMS": "4",
+                    "LOSS_DATE": "2021-09-29",
+                    "LOSS_AMOUNT": "9.2"
+                },
+                {
+                    "POLICY_NUMBER": "4687191338",
+                    "TERM_EFF_DT": "2018-01-01",
+                    "TERM_EXP_DT": "2019-01-01",
+                    "LOB_INDICATOR": "BUA",
+                    "CARRIER": "Carrier 3586",
+                    "WRITTEN_PREMIUM": "4668.5",
+                    "NO_OF_CLAIMS": "8",
+                    "LOSS_DATE": "2021-09-29",
+                    "LOSS_AMOUNT": "9.5"
+                },
+                {
+                    "POLICY_NUMBER": "8698398799",
+                    "TERM_EFF_DT": "2017-01-01",
+                    "TERM_EXP_DT": "2018-01-01",
+                    "LOB_INDICATOR": "BUA",
+                    "CARRIER": "Carrier 6668",
+                    "WRITTEN_PREMIUM": "5538.9",
+                    "NO_OF_CLAIMS": "5",
+                    "LOSS_DATE": "2021-09-29",
+                    "LOSS_AMOUNT": "7.3"
+                },
+                {
+                    "POLICY_NUMBER": "5556456553",
+                    "TERM_EFF_DT": "2019-01-01",
+                    "TERM_EXP_DT": "2020-01-01",
+                    "LOB_INDICATOR": "BUA",
+                    "CARRIER": "Carrier 8621",
+                    "WRITTEN_PREMIUM": "3362.6",
+                    "NO_OF_CLAIMS": "8",
+                    "LOSS_DATE": "2021-09-29",
+                    "LOSS_AMOUNT": "8.7"
+                }
+            ],
+            "FORMS": [],
+            "HISTORY": [
+                {
+                    "TERM_EFF_DT": "2022-01-01",
+                    "TERM_EXP_DT": "2023-01-01",
+                    "PRICING": {
+                        "LIABILITY_PRM": "4233",
+                        "PD_PRM": "382",
+                        "HIRED_AUTO_PRM": "515",
+                        "NON_OWNED_AUTO_PRM": "936",
+                        "OTHER_PRM": "3",
+                        "TAX_FEE_SCHG": "1.1",
+                        "FINAL_PRM": "3492",
+                        "LIABILITY_LIMIT": "2863668",
+                        "PRIMARY_RISK_ST": "NY",
+                        "LIABILITY_EXP_MOD": "3",
+                        "PD_EXP_MOD": "7",
+                        "COMP_DEVIATION": "6.88",
+                        "LIA_SCH_MOD": "8",
+                        "PHY_SCH_MOD": "4",
+                        "OTHER_MOD": "8",
+                        "PD_RL15_MOD": "8",
+                        "RST_RATE_CHANGE_HISTORY": null,
+                        "COMPOSITE_RATED": "N"
+                    },
+                    "TRUCK_CLASSIFICATION": {
+                        "HEAVY_TRUCKS": {
+                            "SERVICE": "6",
+                            "RETAIL": "8",
+                            "COMMERCIAL": "7"
+                        },
+                        "HEAVY_TRUCK_TRACTORS": {
+                            "SERVICE": "9",
+                            "RETAIL": "4",
+                            "COMMERCIAL": "2"
+                        },
+                        "LIGHT_TRUCKS": {
+                            "SERVICE": "7",
+                            "RETAIL": "7",
+                            "COMMERCIAL": "8"
+                        },
+                        "MEDIUM_TRUCKS": {
+                            "SERVICE": "4",
+                            "RETAIL": "7",
+                            "COMMERCIAL": "5"
+                        }
+                    },
+                    "VEHICLES": {
+                        "SEMI_TRAILERS": null,
+                        "PRIVATE_PASSENGER": null,
+                        "HEAVY_TRUCKS": null,
+                        "HEAVY_TRUCK_TRACTORS": null,
+                        "PUBLIC_TRANSPORTATION": null,
+                        "TRAILERS": null,
+                        "EXTRA_HEAVY_TRUCKS": null,
+                        "SERVICE_UTILITY_TRAILER": null,
+                        "LIGHT_TRUCKS": null,
+                        "SPECIAL": null,
+                        "MEDIUM_TRUCKS": null,
+                        "EXTRA_HEAVY_TRUCK_TRACTORS": null
+                    }
+                },
+                {
+                    "TERM_EFF_DT": "2021-01-01",
+                    "TERM_EXP_DT": "2022-01-01",
+                    "PRICING": {
+                        "LIABILITY_PRM": "7673",
+                        "PD_PRM": "861",
+                        "HIRED_AUTO_PRM": "111",
+                        "NON_OWNED_AUTO_PRM": "957",
+                        "OTHER_PRM": "3",
+                        "TAX_FEE_SCHG": "2.95",
+                        "FINAL_PRM": "5266",
+                        "LIABILITY_LIMIT": "2333366",
+                        "PRIMARY_RISK_ST": "NY",
+                        "LIABILITY_EXP_MOD": "8",
+                        "PD_EXP_MOD": "8",
+                        "COMP_DEVIATION": "8.94",
+                        "LIA_SCH_MOD": "4",
+                        "PHY_SCH_MOD": "6",
+                        "OTHER_MOD": "9",
+                        "PD_RL15_MOD": "8",
+                        "RST_RATE_CHANGE_HISTORY": "78.24272317825225",
+                        "COMPOSITE_RATED": "N"
+                    },
+                    "TRUCK_CLASSIFICATION": {
+                        "HEAVY_TRUCKS": {
+                            "SERVICE": "2",
+                            "RETAIL": "4",
+                            "COMMERCIAL": "1"
+                        },
+                        "HEAVY_TRUCK_TRACTORS": {
+                            "SERVICE": "6",
+                            "RETAIL": "1",
+                            "COMMERCIAL": "3"
+                        },
+                        "LIGHT_TRUCKS": {
+                            "SERVICE": "5",
+                            "RETAIL": "9",
+                            "COMMERCIAL": "6"
+                        },
+                        "MEDIUM_TRUCKS": {
+                            "SERVICE": "8",
+                            "RETAIL": "5",
+                            "COMMERCIAL": "7"
+                        }
+                    },
+                    "VEHICLES": {
+                        "SEMI_TRAILERS": null,
+                        "PRIVATE_PASSENGER": null,
+                        "HEAVY_TRUCKS": null,
+                        "HEAVY_TRUCK_TRACTORS": null,
+                        "PUBLIC_TRANSPORTATION": null,
+                        "TRAILERS": null,
+                        "EXTRA_HEAVY_TRUCKS": null,
+                        "SERVICE_UTILITY_TRAILER": null,
+                        "LIGHT_TRUCKS": null,
+                        "SPECIAL": null,
+                        "MEDIUM_TRUCKS": null,
+                        "EXTRA_HEAVY_TRUCK_TRACTORS": null
+                    }
+                }
+            ],
+            "COVERAGE_DETAILS": {
+                "SEATING_CAPACITY": {
+                    "RST_SEATING_CAPACITY_9_TO_20": "9",
+                    "RST_SEATING_CAPACITY_OVER_60": "4",
+                    "RST_ALL_OTH_NOT_SEC_RATED": "4",
+                    "RST_NOT_APPLICABLE": "7",
+                    "RST_SEATING_CAPACITY_21_TO_60": "7",
+                    "RST_SEATING_CAPACITY_1_TO_8": "4"
+                },
+                "BA_PLUS_PREMIUM_NONCOMP": null,
+                "POLLUTANTS_PREMIUM_NONCOMP": null,
+                "BROADENED_POLLUTANTS": null,
+                "PD_DEDUCTIBLE_USAGE": {
+                    "OCN_LT_50K": {
+                        "COLLISION": {
+                            "LT_1000_DED": "9",
+                            "1000_DED": "3",
+                            "GT_1000_DED": "6"
+                        },
+                        "COMPOSITE": {
+                            "LT_1000_DED": "9",
+                            "1000_DED": "1",
+                            "GT_1000_DED": "8"
+                        }
+                    },
+                    "OCN_50K_TO_100K": {
+                        "COLLISION": {
+                            "LT_1000_DED": "1",
+                            "1000_DED": "9",
+                            "GT_1000_DED": "2"
+                        },
+                        "COMPOSITE": {
+                            "LT_1000_DED": "5",
+                            "1000_DED": "3",
+                            "GT_1000_DED": "2"
+                        }
+                    },
+                    "OCN_GT_100K": {
+                        "COLLISION": {
+                            "LT_1000_DED": "6",
+                            "1000_DED": "2",
+                            "GT_1000_DED": "2"
+                        },
+                        "COMPOSITE": {
+                            "LT_1000_DED": "3",
+                            "1000_DED": "1",
+                            "GT_1000_DED": "3"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "ACCT_NBR": "3036532172",
+            "POL_NBR": "6079752447",
+            "TERM_EFF_DT": "2022-01-01",
+            "TERM_EXP_DT": "2023-01-01",
+            "POL_INS_LINE_TS": "2022-01-05 04:16:00.0",
+            "STATUS": "Policy Active",
+            "COMPANY_CD": "NF",
+            "DOT": null,
+            "BUA_HAZ_MAT_VIOLTN": "6",
+            "BUA_VEHICLE_VIOLTN": "8",
+            "BUA_DRIVER_VIOLTN": "2",
+            "EXISTING_PREMIUM": {
+                "DASHBOARD_EXP_EPC_AUTO_LIABILITY_PRM": "99936.7",
+                "DASHBOARD_EXP_EPC_AUTO_PD_PRM": "9121.8",
+                "DASHBOARD_EXP_EPC_AUTO_HIRED_PRM": "196.1",
+                "DASHBOARD_BUA_CF_EXP_TAXES_FEES_SURCHARGES": "698.87",
+                "DASHBOARD_EXP_EPC_AUTO_OTHER_PRM": "198.5"
+            },
+            "CURRENT_PREMIUM": {
+                "DASHBOARD_EPC_AUTO_LIABILITY_PRM": "68638.8",
+                "DASHBOARD_EPC_AUTO_NON_OWNED_PRM": "423.4",
+                "DASHBOARD_BUA_CF_TAXES_FEES_SURCHARGES": "963.25",
+                "DASHBOARD_EPC_AUTO_PD_PRM": "1692.1",
+                "DASHBOARD_EPC_AUTO_OTHER_PRM": "436.2",
+                "DASHBOARD_EPC_AUTO_HIRED_PRM": "566.3"
+            },
+            "PRICING": {
+                "DASHBOARD_MODEL_DFM": "7.334965293159166",
+                "DASHBOARD_RENEW_DFM": "3.964379597683545",
+                "DASHBOARD_RATE_CHANGE": "96.33379228428697",
+                "BUA_UPL_REN_TRM_PRM": "72817.49",
+                "DASHBOARD_DISCRETIONARY_PRICE_CHANGE": "23.49831895556146",
+                "BUA_UPL_EXP_MAN_PRM": "62889.3",
+                "BUA_UPL_REN_PRM": "49846.9",
+                "BUA_UPL_REN_MAN_PRM": "38197.9",
+                "PRE_BENCHMARK_PREMIUM": "2162.516992",
+                "DASHBOARD_MODEL_TIER_RATE_CHANGE": "V",
+                "DASHBOARD_EXPIRING_DFM": "6.657498153956885",
+                "DASHBOARD_MODEL_RATE_CHANGE": "271.9246536492154",
+                "DASHBOARD_MODEL_WRITTEN_TIER_RATE_CHANGE": "V",
+                "BUA_UPL_EXP_PRM": "87815.1"
+            },
+            "DRIVERS_AGES": {
+                "DRIVERS_25_65": null,
+                "YOUTHFUL_DRIVERS": null,
+                "DRIVERS_75_PLUS": "1",
+                "DRIVERS_30_75": "8"
+            },
+            "VIOLATIONS": {
+                "A": "1",
+                "B": "7",
+                "C": "4",
+                "A+": "6"
+            },
+            "ESTIMATED_TIERS": {
+                "REQUOTE_PREMIUM": "35668.8",
+                "DASHBOARD_MODEL_TIER_RATE_CHANGE": "V",
+                "PREMIUMI": "11334.9722916",
+                "TIERII": "53792.9955156",
+                "PREMIUMII": "58382.53325177662",
+                "TIERIII": "24683.934717399952",
+                "PREMIUMIII": "75463.72687561657",
+                "PREMIUMIV": "13783.217452977151",
+                "PREMIUMV": "62777.21724416",
+                "TIERIV": "22348.35829485"
+            },
+            "LOSS": [
+                {
+                    "POLICY_NUMBER": "A184575",
+                    "TERM_EFF_DT": "2017-01-01",
+                    "TERM_EXP_DT": "2018-01-01",
+                    "LOB_INDICATOR": "BUA",
+                    "CARRIER": "Carrier 1622",
+                    "WRITTEN_PREMIUM": "8867.5",
+                    "NO_OF_CLAIMS": "8",
+                    "LOSS_DATE": "2021-11-15",
+                    "LOSS_AMOUNT": "9.2"
+                },
+                {
+                    "POLICY_NUMBER": "A184575",
+                    "TERM_EFF_DT": "2018-01-01",
+                    "TERM_EXP_DT": "2019-01-01",
+                    "LOB_INDICATOR": "BUA",
+                    "CARRIER": "Carrier 2618",
+                    "WRITTEN_PREMIUM": "32942.8",
+                    "NO_OF_CLAIMS": "3",
+                    "LOSS_DATE": "2021-11-15",
+                    "LOSS_AMOUNT": "8.7"
+                },
+                {
+                    "POLICY_NUMBER": "A184575",
+                    "TERM_EFF_DT": "2019-01-01",
+                    "TERM_EXP_DT": "2020-01-01",
+                    "LOB_INDICATOR": "BUA",
+                    "CARRIER": "Carrier 5677",
+                    "WRITTEN_PREMIUM": "97249.7",
+                    "NO_OF_CLAIMS": "4",
+                    "LOSS_DATE": "2021-11-15",
+                    "LOSS_AMOUNT": "8.8"
+                },
+                {
+                    "POLICY_NUMBER": "1977895445",
+                    "TERM_EFF_DT": "2020-01-01",
+                    "TERM_EXP_DT": "2021-01-01",
+                    "LOB_INDICATOR": "BUA",
+                    "CARRIER": "Carrier 5299",
+                    "WRITTEN_PREMIUM": "55884.1",
+                    "NO_OF_CLAIMS": "7",
+                    "LOSS_DATE": "2021-11-23",
+                    "LOSS_AMOUNT": "8737.7"
+                },
+                {
+                    "POLICY_NUMBER": "8554179715",
+                    "TERM_EFF_DT": "2021-01-01",
+                    "TERM_EXP_DT": "2022-01-01",
+                    "LOB_INDICATOR": "BUA",
+                    "CARRIER": "Carrier 6824",
+                    "WRITTEN_PREMIUM": "82164.7",
+                    "NO_OF_CLAIMS": "5",
+                    "LOSS_DATE": "2021-11-23",
+                    "LOSS_AMOUNT": "5.3"
+                }
+            ],
+            "FORMS": [],
+            "HISTORY": [
+                {
+                    "TERM_EFF_DT": "2022-01-01",
+                    "TERM_EXP_DT": "2023-01-01",
+                    "PRICING": {
+                        "LIABILITY_PRM": "97885",
+                        "PD_PRM": "2171",
+                        "HIRED_AUTO_PRM": "769",
+                        "NON_OWNED_AUTO_PRM": "475",
+                        "OTHER_PRM": "288",
+                        "TAX_FEE_SCHG": "962.36",
+                        "FINAL_PRM": "25488",
+                        "LIABILITY_LIMIT": "7129573",
+                        "PRIMARY_RISK_ST": "NY",
+                        "LIABILITY_EXP_MOD": "7",
+                        "PD_EXP_MOD": "3.54",
+                        "COMP_DEVIATION": "6.1",
+                        "LIA_SCH_MOD": "2.9",
+                        "PHY_SCH_MOD": "3.6",
+                        "OTHER_MOD": "4",
+                        "PD_RL15_MOD": "6",
+                        "RST_RATE_CHANGE_HISTORY": null,
+                        "COMPOSITE_RATED": "N"
+                    },
+                    "TRUCK_CLASSIFICATION": {
+                        "HEAVY_TRUCKS": {
+                            "SERVICE": "5",
+                            "RETAIL": "1",
+                            "COMMERCIAL": "6"
+                        },
+                        "HEAVY_TRUCK_TRACTORS": {
+                            "SERVICE": "1",
+                            "RETAIL": "7",
+                            "COMMERCIAL": "7"
+                        },
+                        "LIGHT_TRUCKS": {
+                            "SERVICE": "2",
+                            "RETAIL": "9",
+                            "COMMERCIAL": "3"
+                        },
+                        "MEDIUM_TRUCKS": {
+                            "SERVICE": "3",
+                            "RETAIL": "7",
+                            "COMMERCIAL": "1"
+                        }
+                    },
+                    "VEHICLES": {
+                        "SEMI_TRAILERS": "96",
+                        "PRIVATE_PASSENGER": null,
+                        "HEAVY_TRUCKS": null,
+                        "HEAVY_TRUCK_TRACTORS": null,
+                        "PUBLIC_TRANSPORTATION": null,
+                        "TRAILERS": null,
+                        "EXTRA_HEAVY_TRUCKS": null,
+                        "SERVICE_UTILITY_TRAILER": null,
+                        "LIGHT_TRUCKS": null,
+                        "SPECIAL": null,
+                        "MEDIUM_TRUCKS": null,
+                        "EXTRA_HEAVY_TRUCK_TRACTORS": null
+                    }
+                },
+                {
+                    "TERM_EFF_DT": "2021-01-01",
+                    "TERM_EXP_DT": "2022-01-01",
+                    "PRICING": {
+                        "LIABILITY_PRM": "91442",
+                        "PD_PRM": "4379",
+                        "HIRED_AUTO_PRM": "449",
+                        "NON_OWNED_AUTO_PRM": "945",
+                        "OTHER_PRM": "899",
+                        "TAX_FEE_SCHG": "683.12",
+                        "FINAL_PRM": "86178",
+                        "LIABILITY_LIMIT": "6381336",
+                        "PRIMARY_RISK_ST": "NY",
+                        "LIABILITY_EXP_MOD": "3",
+                        "PD_EXP_MOD": "4.76",
+                        "COMP_DEVIATION": "7.3",
+                        "LIA_SCH_MOD": "2",
+                        "PHY_SCH_MOD": "5",
+                        "OTHER_MOD": "8",
+                        "PD_RL15_MOD": "7",
+                        "RST_RATE_CHANGE_HISTORY": "12.462173188275747",
+                        "COMPOSITE_RATED": "N"
+                    },
+                    "TRUCK_CLASSIFICATION": {
+                        "HEAVY_TRUCKS": {
+                            "SERVICE": "5",
+                            "RETAIL": "2",
+                            "COMMERCIAL": "6"
+                        },
+                        "HEAVY_TRUCK_TRACTORS": {
+                            "SERVICE": "5",
+                            "RETAIL": "5",
+                            "COMMERCIAL": "2"
+                        },
+                        "LIGHT_TRUCKS": {
+                            "SERVICE": "6",
+                            "RETAIL": "5",
+                            "COMMERCIAL": "7"
+                        },
+                        "MEDIUM_TRUCKS": {
+                            "SERVICE": "1",
+                            "RETAIL": "8",
+                            "COMMERCIAL": "2"
+                        }
+                    },
+                    "VEHICLES": {
+                        "SEMI_TRAILERS": "78",
+                        "PRIVATE_PASSENGER": null,
+                        "HEAVY_TRUCKS": null,
+                        "HEAVY_TRUCK_TRACTORS": null,
+                        "PUBLIC_TRANSPORTATION": null,
+                        "TRAILERS": null,
+                        "EXTRA_HEAVY_TRUCKS": null,
+                        "SERVICE_UTILITY_TRAILER": null,
+                        "LIGHT_TRUCKS": null,
+                        "SPECIAL": null,
+                        "MEDIUM_TRUCKS": null,
+                        "EXTRA_HEAVY_TRUCK_TRACTORS": null
+                    }
+                }
+            ],
+            "COVERAGE_DETAILS": {
+                "SEATING_CAPACITY": {
+                    "RST_SEATING_CAPACITY_9_TO_20": "4",
+                    "RST_SEATING_CAPACITY_OVER_60": "7",
+                    "RST_ALL_OTH_NOT_SEC_RATED": "1",
+                    "RST_NOT_APPLICABLE": "1",
+                    "RST_SEATING_CAPACITY_21_TO_60": "2",
+                    "RST_SEATING_CAPACITY_1_TO_8": "1"
+                },
+                "BA_PLUS_PREMIUM_NONCOMP": "5",
+                "POLLUTANTS_PREMIUM_NONCOMP": null,
+                "BROADENED_POLLUTANTS": null,
+                "PD_DEDUCTIBLE_USAGE": {
+                    "OCN_LT_50K": {
+                        "COLLISION": {
+                            "LT_1000_DED": "2",
+                            "1000_DED": "8",
+                            "GT_1000_DED": "5"
+                        },
+                        "COMPOSITE": {
+                            "LT_1000_DED": "7",
+                            "1000_DED": "8",
+                            "GT_1000_DED": "6"
+                        }
+                    },
+                    "OCN_50K_TO_100K": {
+                        "COLLISION": {
+                            "LT_1000_DED": "5",
+                            "1000_DED": "3",
+                            "GT_1000_DED": "1"
+                        },
+                        "COMPOSITE": {
+                            "LT_1000_DED": "6",
+                            "1000_DED": "1",
+                            "GT_1000_DED": "2"
+                        }
+                    },
+                    "OCN_GT_100K": {
+                        "COLLISION": {
+                            "LT_1000_DED": "2",
+                            "1000_DED": "9",
+                            "GT_1000_DED": "6"
+                        },
+                        "COMPOSITE": {
+                            "LT_1000_DED": "8",
+                            "1000_DED": "7",
+                            "GT_1000_DED": "9"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "ACCT_NBR": "3026210797",
+            "POL_NBR": "5099243043",
+            "TERM_EFF_DT": "2022-01-01",
+            "TERM_EXP_DT": "2023-01-01",
+            "POL_INS_LINE_TS": "2021-12-07 12:27:44.0",
+            "STATUS": "Policy Active",
+            "COMPANY_CD": "AC",
+            "DOT": null,
+            "BUA_HAZ_MAT_VIOLTN": "5",
+            "BUA_VEHICLE_VIOLTN": "1",
+            "BUA_DRIVER_VIOLTN": "4",
+            "EXISTING_PREMIUM": {
+                "DASHBOARD_EXP_EPC_AUTO_LIABILITY_PRM": "31582.7",
+                "DASHBOARD_EXP_EPC_AUTO_PD_PRM": "4167.7",
+                "DASHBOARD_EXP_EPC_AUTO_HIRED_PRM": "365.5",
+                "DASHBOARD_BUA_CF_EXP_TAXES_FEES_SURCHARGES": "87.45",
+                "DASHBOARD_EXP_EPC_AUTO_OTHER_PRM": "6511.9"
+            },
+            "CURRENT_PREMIUM": {
+                "DASHBOARD_EPC_AUTO_LIABILITY_PRM": "86177.7",
+                "DASHBOARD_EPC_AUTO_NON_OWNED_PRM": "5128.4",
+                "DASHBOARD_BUA_CF_TAXES_FEES_SURCHARGES": "16.9",
+                "DASHBOARD_EPC_AUTO_PD_PRM": "57547.1",
+                "DASHBOARD_EPC_AUTO_OTHER_PRM": "2262.6",
+                "DASHBOARD_EPC_AUTO_HIRED_PRM": "533.1"
+            },
+            "PRICING": {
+                "DASHBOARD_MODEL_DFM": "9.84123231889423",
+                "DASHBOARD_RENEW_DFM": "6.486781427699434",
+                "DASHBOARD_RATE_CHANGE": "13.757744428485651",
+                "BUA_UPL_REN_TRM_PRM": "95297.3",
+                "DASHBOARD_DISCRETIONARY_PRICE_CHANGE": "6.711154216475268",
+                "BUA_UPL_EXP_MAN_PRM": "57539.7",
+                "BUA_UPL_REN_PRM": "38715.4",
+                "BUA_UPL_REN_MAN_PRM": "66189.2",
+                "PRE_BENCHMARK_PREMIUM": "5372.888956",
+                "DASHBOARD_MODEL_TIER_RATE_CHANGE": "I",
+                "DASHBOARD_EXPIRING_DFM": "5.962568475582669",
+                "DASHBOARD_MODEL_RATE_CHANGE": "-687.257841333583414",
+                "DASHBOARD_MODEL_WRITTEN_TIER_RATE_CHANGE": "I",
+                "BUA_UPL_EXP_PRM": "51955.6"
+            },
+            "DRIVERS_AGES": {
+                "DRIVERS_25_65": null,
+                "YOUTHFUL_DRIVERS": "7",
+                "DRIVERS_75_PLUS": "5",
+                "DRIVERS_30_75": "5"
+            },
+            "VIOLATIONS": {
+                "A": "8",
+                "B": "7",
+                "C": "8",
+                "A+": "9"
+            },
+            "ESTIMATED_TIERS": {
+                "REQUOTE_PREMIUM": "25761.6",
+                "DASHBOARD_MODEL_TIER_RATE_CHANGE": "I",
+                "PREMIUMI": "82447.83266667639",
+                "TIERII": "79466.7956684289",
+                "PREMIUMII": "44862.237682463536",
+                "TIERIII": "68968.85584845138",
+                "PREMIUMIII": "45753.427427728944",
+                "PREMIUMIV": "52555.63712686678",
+                "PREMIUMV": "66219.5672375394",
+                "TIERIV": "39576.13291429467"
+            },
+            "LOSS": [
+                {
+                    "POLICY_NUMBER": "2914285121",
+                    "TERM_EFF_DT": "2017-01-01",
+                    "TERM_EXP_DT": "2018-01-01",
+                    "LOB_INDICATOR": "BUA",
+                    "CARRIER": "Carrier 1538",
+                    "WRITTEN_PREMIUM": "65547.5",
+                    "NO_OF_CLAIMS": "7",
+                    "LOSS_DATE": "2021-11-19",
+                    "LOSS_AMOUNT": "6.9"
+                },
+                {
+                    "POLICY_NUMBER": "2995576416",
+                    "TERM_EFF_DT": "2020-01-01",
+                    "TERM_EXP_DT": "2021-01-01",
+                    "LOB_INDICATOR": "BUA",
+                    "CARRIER": "Carrier 8673",
+                    "WRITTEN_PREMIUM": "25611.7",
+                    "NO_OF_CLAIMS": "3",
+                    "LOSS_DATE": "2021-11-19",
+                    "LOSS_AMOUNT": "4184.4"
+                },
+                {
+                    "POLICY_NUMBER": "4895565966",
+                    "TERM_EFF_DT": "2021-01-01",
+                    "TERM_EXP_DT": "2022-01-01",
+                    "LOB_INDICATOR": "BUA",
+                    "CARRIER": "Carrier 4955",
+                    "WRITTEN_PREMIUM": "64213.7",
+                    "NO_OF_CLAIMS": "6",
+                    "LOSS_DATE": "2021-11-19",
+                    "LOSS_AMOUNT": "1.5"
+                },
+                {
+                    "POLICY_NUMBER": "4222264574",
+                    "TERM_EFF_DT": "2019-01-01",
+                    "TERM_EXP_DT": "2020-01-01",
+                    "LOB_INDICATOR": "BUA",
+                    "CARRIER": "Carrier 5211",
+                    "WRITTEN_PREMIUM": "79619.6",
+                    "NO_OF_CLAIMS": "3",
+                    "LOSS_DATE": "2021-11-19",
+                    "LOSS_AMOUNT": "712.6"
+                },
+                {
+                    "POLICY_NUMBER": "4543879922",
+                    "TERM_EFF_DT": "2018-01-01",
+                    "TERM_EXP_DT": "2019-01-01",
+                    "LOB_INDICATOR": "BUA",
+                    "CARRIER": "Carrier 3647",
+                    "WRITTEN_PREMIUM": "57744.5",
+                    "NO_OF_CLAIMS": "4",
+                    "LOSS_DATE": "2021-11-19",
+                    "LOSS_AMOUNT": "4.3"
+                },
+                {
+                    "POLICY_NUMBER": "7149387598",
+                    "TERM_EFF_DT": "2016-01-01",
+                    "TERM_EXP_DT": "2017-01-01",
+                    "LOB_INDICATOR": "BUA",
+                    "CARRIER": "Carrier 7422",
+                    "WRITTEN_PREMIUM": "69574.5",
+                    "NO_OF_CLAIMS": "4",
+                    "LOSS_DATE": "2021-11-19",
+                    "LOSS_AMOUNT": "56563.3"
+                }
+            ],
+            "FORMS": [],
+            "HISTORY": [
+                {
+                    "TERM_EFF_DT": "2022-01-01",
+                    "TERM_EXP_DT": "2023-01-01",
+                    "PRICING": {
+                        "LIABILITY_PRM": "44991",
+                        "PD_PRM": "35448",
+                        "HIRED_AUTO_PRM": "549",
+                        "NON_OWNED_AUTO_PRM": "7237",
+                        "OTHER_PRM": "1186",
+                        "TAX_FEE_SCHG": "26.9",
+                        "FINAL_PRM": "35318",
+                        "LIABILITY_LIMIT": "3414372",
+                        "PRIMARY_RISK_ST": "NY",
+                        "LIABILITY_EXP_MOD": "9",
+                        "PD_EXP_MOD": "9.885",
+                        "COMP_DEVIATION": "4.18",
+                        "LIA_SCH_MOD": "1.84",
+                        "PHY_SCH_MOD": "2.23",
+                        "OTHER_MOD": "4",
+                        "PD_RL15_MOD": "2",
+                        "RST_RATE_CHANGE_HISTORY": null,
+                        "COMPOSITE_RATED": "N"
+                    },
+                    "TRUCK_CLASSIFICATION": {
+                        "HEAVY_TRUCKS": {
+                            "SERVICE": "1",
+                            "RETAIL": "1",
+                            "COMMERCIAL": "4"
+                        },
+                        "HEAVY_TRUCK_TRACTORS": {
+                            "SERVICE": "6",
+                            "RETAIL": "1",
+                            "COMMERCIAL": "9"
+                        },
+                        "LIGHT_TRUCKS": {
+                            "SERVICE": "2",
+                            "RETAIL": "6",
+                            "COMMERCIAL": "8"
+                        },
+                        "MEDIUM_TRUCKS": {
+                            "SERVICE": "1",
+                            "RETAIL": "6",
+                            "COMMERCIAL": "7"
+                        }
+                    },
+                    "VEHICLES": {
+                        "SEMI_TRAILERS": null,
+                        "PRIVATE_PASSENGER": "1",
+                        "HEAVY_TRUCKS": null,
+                        "HEAVY_TRUCK_TRACTORS": null,
+                        "PUBLIC_TRANSPORTATION": null,
+                        "TRAILERS": null,
+                        "EXTRA_HEAVY_TRUCKS": null,
+                        "SERVICE_UTILITY_TRAILER": null,
+                        "LIGHT_TRUCKS": null,
+                        "SPECIAL": null,
+                        "MEDIUM_TRUCKS": null,
+                        "EXTRA_HEAVY_TRUCK_TRACTORS": null
+                    }
+                },
+                {
+                    "TERM_EFF_DT": "2021-01-01",
+                    "TERM_EXP_DT": "2022-01-01",
+                    "PRICING": {
+                        "LIABILITY_PRM": "56978",
+                        "PD_PRM": "8455",
+                        "HIRED_AUTO_PRM": "146",
+                        "NON_OWNED_AUTO_PRM": "3526",
+                        "OTHER_PRM": "1125",
+                        "TAX_FEE_SCHG": "67.32",
+                        "FINAL_PRM": "75797",
+                        "LIABILITY_LIMIT": "2129853",
+                        "PRIMARY_RISK_ST": "NY",
+                        "LIABILITY_EXP_MOD": "9",
+                        "PD_EXP_MOD": "7.377",
+                        "COMP_DEVIATION": "8.43",
+                        "LIA_SCH_MOD": "3.36",
+                        "PHY_SCH_MOD": "6.61",
+                        "OTHER_MOD": "4",
+                        "PD_RL15_MOD": "8",
+                        "RST_RATE_CHANGE_HISTORY": "86.65833646523458",
+                        "COMPOSITE_RATED": "N"
+                    },
+                    "TRUCK_CLASSIFICATION": {
+                        "HEAVY_TRUCKS": {
+                            "SERVICE": "7",
+                            "RETAIL": "7",
+                            "COMMERCIAL": "2"
+                        },
+                        "HEAVY_TRUCK_TRACTORS": {
+                            "SERVICE": "7",
+                            "RETAIL": "3",
+                            "COMMERCIAL": "6"
+                        },
+                        "LIGHT_TRUCKS": {
+                            "SERVICE": "6",
+                            "RETAIL": "4",
+                            "COMMERCIAL": "4"
+                        },
+                        "MEDIUM_TRUCKS": {
+                            "SERVICE": "7",
+                            "RETAIL": "8",
+                            "COMMERCIAL": "2"
+                        }
+                    },
+                    "VEHICLES": {
+                        "SEMI_TRAILERS": null,
+                        "PRIVATE_PASSENGER": "5",
+                        "HEAVY_TRUCKS": null,
+                        "HEAVY_TRUCK_TRACTORS": null,
+                        "PUBLIC_TRANSPORTATION": null,
+                        "TRAILERS": null,
+                        "EXTRA_HEAVY_TRUCKS": null,
+                        "SERVICE_UTILITY_TRAILER": null,
+                        "LIGHT_TRUCKS": null,
+                        "SPECIAL": null,
+                        "MEDIUM_TRUCKS": null,
+                        "EXTRA_HEAVY_TRUCK_TRACTORS": null
+                    }
+                }
+            ],
+            "COVERAGE_DETAILS": {
+                "SEATING_CAPACITY": {
+                    "RST_SEATING_CAPACITY_9_TO_20": "1",
+                    "RST_SEATING_CAPACITY_OVER_60": "6",
+                    "RST_ALL_OTH_NOT_SEC_RATED": "5",
+                    "RST_NOT_APPLICABLE": "5",
+                    "RST_SEATING_CAPACITY_21_TO_60": "1",
+                    "RST_SEATING_CAPACITY_1_TO_8": "9"
+                },
+                "BA_PLUS_PREMIUM_NONCOMP": "3",
+                "POLLUTANTS_PREMIUM_NONCOMP": null,
+                "BROADENED_POLLUTANTS": null,
+                "PD_DEDUCTIBLE_USAGE": {
+                    "OCN_LT_50K": {
+                        "COLLISION": {
+                            "LT_1000_DED": "9",
+                            "1000_DED": "6",
+                            "GT_1000_DED": "6"
+                        },
+                        "COMPOSITE": {
+                            "LT_1000_DED": "8",
+                            "1000_DED": "7",
+                            "GT_1000_DED": "2"
+                        }
+                    },
+                    "OCN_50K_TO_100K": {
+                        "COLLISION": {
+                            "LT_1000_DED": "2",
+                            "1000_DED": "6",
+                            "GT_1000_DED": "9"
+                        },
+                        "COMPOSITE": {
+                            "LT_1000_DED": "6",
+                            "1000_DED": "7",
+                            "GT_1000_DED": "1"
+                        }
+                    },
+                    "OCN_GT_100K": {
+                        "COLLISION": {
+                            "LT_1000_DED": "4",
+                            "1000_DED": "6",
+                            "GT_1000_DED": "5"
+                        },
+                        "COMPOSITE": {
+                            "LT_1000_DED": "8",
+                            "1000_DED": "6",
+                            "GT_1000_DED": "7"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "ACCT_NBR": "3011458660",
+            "POL_NBR": "7018055043",
+            "TERM_EFF_DT": "2022-01-01",
+            "TERM_EXP_DT": "2023-01-01",
+            "POL_INS_LINE_TS": "2021-12-22 09:35:06.0",
+            "STATUS": "Rated Not Quoted",
+            "COMPANY_CD": "CI",
+            "DOT": null,
+            "BUA_HAZ_MAT_VIOLTN": "5",
+            "BUA_VEHICLE_VIOLTN": "1",
+            "BUA_DRIVER_VIOLTN": "3",
+            "EXISTING_PREMIUM": {
+                "DASHBOARD_EXP_EPC_AUTO_LIABILITY_PRM": null,
+                "DASHBOARD_EXP_EPC_AUTO_PD_PRM": null,
+                "DASHBOARD_EXP_EPC_AUTO_HIRED_PRM": null,
+                "DASHBOARD_BUA_CF_EXP_TAXES_FEES_SURCHARGES": null,
+                "DASHBOARD_EXP_EPC_AUTO_OTHER_PRM": null
+            },
+            "CURRENT_PREMIUM": {
+                "DASHBOARD_EPC_AUTO_LIABILITY_PRM": "33717.2",
+                "DASHBOARD_EPC_AUTO_NON_OWNED_PRM": "379.4",
+                "DASHBOARD_BUA_CF_TAXES_FEES_SURCHARGES": "344.85",
+                "DASHBOARD_EPC_AUTO_PD_PRM": "73574.5",
+                "DASHBOARD_EPC_AUTO_OTHER_PRM": "9679.3",
+                "DASHBOARD_EPC_AUTO_HIRED_PRM": "281.9"
+            },
+            "PRICING": {
+                "DASHBOARD_MODEL_DFM": "7.852259279193618",
+                "DASHBOARD_RENEW_DFM": "7.696613485274442",
+                "DASHBOARD_RATE_CHANGE": null,
+                "BUA_UPL_REN_TRM_PRM": "12651.39",
+                "DASHBOARD_DISCRETIONARY_PRICE_CHANGE": null,
+                "BUA_UPL_EXP_MAN_PRM": "8.3",
+                "BUA_UPL_REN_PRM": "38719.4",
+                "BUA_UPL_REN_MAN_PRM": "35481.4",
+                "PRE_BENCHMARK_PREMIUM": "66489.989769",
+                "DASHBOARD_MODEL_TIER_RATE_CHANGE": null,
+                "DASHBOARD_EXPIRING_DFM": "3.9",
+                "DASHBOARD_MODEL_RATE_CHANGE": null,
+                "DASHBOARD_MODEL_WRITTEN_TIER_RATE_CHANGE": "V",
+                "BUA_UPL_EXP_PRM": "9.5"
+            },
+            "DRIVERS_AGES": {
+                "DRIVERS_25_65": null,
+                "YOUTHFUL_DRIVERS": "2",
+                "DRIVERS_75_PLUS": "7",
+                "DRIVERS_30_75": "4"
+            },
+            "VIOLATIONS": {
+                "A": "4",
+                "B": "1",
+                "C": "2",
+                "A+": "7"
+            },
+            "ESTIMATED_TIERS": {
+                "REQUOTE_PREMIUM": "33576.1",
+                "DASHBOARD_MODEL_TIER_RATE_CHANGE": null,
+                "PREMIUMI": "725221.27844847",
+                "TIERII": "421943.37279268",
+                "PREMIUMII": "171482.54389787975",
+                "TIERIII": "557539.7118855347",
+                "PREMIUMIII": "958138.5548381498",
+                "PREMIUMIV": "647633.6474217537",
+                "PREMIUMV": "97379.919429811",
+                "TIERIV": "89983.987622947"
+            },
+            "LOSS": [
+                {
+                    "POLICY_NUMBER": "9M31579A",
+                    "TERM_EFF_DT": "2021-01-01",
+                    "TERM_EXP_DT": "2022-01-01",
+                    "LOB_INDICATOR": "BUA",
+                    "CARRIER": "Carrier 8129",
+                    "WRITTEN_PREMIUM": "1.6",
+                    "NO_OF_CLAIMS": "9",
+                    "LOSS_DATE": "2021-11-14",
+                    "LOSS_AMOUNT": "24513.3"
+                },
+                {
+                    "POLICY_NUMBER": "9M31579A",
+                    "TERM_EFF_DT": "2020-01-01",
+                    "TERM_EXP_DT": "2021-01-01",
+                    "LOB_INDICATOR": "BUA",
+                    "CARRIER": "Carrier 1332",
+                    "WRITTEN_PREMIUM": "6.9",
+                    "NO_OF_CLAIMS": "2",
+                    "LOSS_DATE": "2021-11-14",
+                    "LOSS_AMOUNT": "46788.8"
+                },
+                {
+                    "POLICY_NUMBER": "9M31579A",
+                    "TERM_EFF_DT": "2019-01-01",
+                    "TERM_EXP_DT": "2020-01-01",
+                    "LOB_INDICATOR": "BUA",
+                    "CARRIER": "Carrier 9828",
+                    "WRITTEN_PREMIUM": "2.4",
+                    "NO_OF_CLAIMS": "4",
+                    "LOSS_DATE": "2021-11-14",
+                    "LOSS_AMOUNT": "7272.7"
+                }
+            ],
+            "FORMS": [],
+            "HISTORY": [
+                {
+                    "TERM_EFF_DT": "2022-01-01",
+                    "TERM_EXP_DT": "2023-01-01",
+                    "PRICING": {
+                        "LIABILITY_PRM": "74676",
+                        "PD_PRM": "63456",
+                        "HIRED_AUTO_PRM": "247",
+                        "NON_OWNED_AUTO_PRM": "498",
+                        "OTHER_PRM": "1924",
+                        "TAX_FEE_SCHG": "611.54",
+                        "FINAL_PRM": "77394",
+                        "LIABILITY_LIMIT": "9167999",
+                        "PRIMARY_RISK_ST": "NY",
+                        "LIABILITY_EXP_MOD": "3",
+                        "PD_EXP_MOD": "7",
+                        "COMP_DEVIATION": "3",
+                        "LIA_SCH_MOD": "6.58",
+                        "PHY_SCH_MOD": "2.99",
+                        "OTHER_MOD": "3",
+                        "PD_RL15_MOD": "9",
+                        "RST_RATE_CHANGE_HISTORY": null,
+                        "COMPOSITE_RATED": "N"
+                    },
+                    "TRUCK_CLASSIFICATION": {
+                        "HEAVY_TRUCKS": {
+                            "SERVICE": "2",
+                            "RETAIL": "9",
+                            "COMMERCIAL": "9"
+                        },
+                        "HEAVY_TRUCK_TRACTORS": {
+                            "SERVICE": "1",
+                            "RETAIL": "9",
+                            "COMMERCIAL": "33"
+                        },
+                        "LIGHT_TRUCKS": {
+                            "SERVICE": "9",
+                            "RETAIL": "1",
+                            "COMMERCIAL": "4"
+                        },
+                        "MEDIUM_TRUCKS": {
+                            "SERVICE": "9",
+                            "RETAIL": "7",
+                            "COMMERCIAL": "6"
+                        }
+                    },
+                    "VEHICLES": {
+                        "SEMI_TRAILERS": "39",
+                        "PRIVATE_PASSENGER": null,
+                        "HEAVY_TRUCKS": null,
+                        "HEAVY_TRUCK_TRACTORS": null,
+                        "PUBLIC_TRANSPORTATION": null,
+                        "TRAILERS": null,
+                        "EXTRA_HEAVY_TRUCKS": null,
+                        "SERVICE_UTILITY_TRAILER": null,
+                        "LIGHT_TRUCKS": null,
+                        "SPECIAL": null,
+                        "MEDIUM_TRUCKS": null,
+                        "EXTRA_HEAVY_TRUCK_TRACTORS": null
+                    }
+                }
+            ],
+            "COVERAGE_DETAILS": {
+                "SEATING_CAPACITY": {
+                    "RST_SEATING_CAPACITY_9_TO_20": "8",
+                    "RST_SEATING_CAPACITY_OVER_60": "9",
+                    "RST_ALL_OTH_NOT_SEC_RATED": "6",
+                    "RST_NOT_APPLICABLE": "8",
+                    "RST_SEATING_CAPACITY_21_TO_60": "6",
+                    "RST_SEATING_CAPACITY_1_TO_8": "4"
+                },
+                "BA_PLUS_PREMIUM_NONCOMP": "92",
+                "POLLUTANTS_PREMIUM_NONCOMP": null,
+                "BROADENED_POLLUTANTS": null,
+                "PD_DEDUCTIBLE_USAGE": {
+                    "OCN_LT_50K": {
+                        "COLLISION": {
+                            "LT_1000_DED": "8",
+                            "1000_DED": "8",
+                            "GT_1000_DED": "9"
+                        },
+                        "COMPOSITE": {
+                            "LT_1000_DED": "6",
+                            "1000_DED": "3",
+                            "GT_1000_DED": "3"
+                        }
+                    },
+                    "OCN_50K_TO_100K": {
+                        "COLLISION": {
+                            "LT_1000_DED": "4",
+                            "1000_DED": "5",
+                            "GT_1000_DED": "9"
+                        },
+                        "COMPOSITE": {
+                            "LT_1000_DED": "3",
+                            "1000_DED": "6",
+                            "GT_1000_DED": "5"
+                        }
+                    },
+                    "OCN_GT_100K": {
+                        "COLLISION": {
+                            "LT_1000_DED": "6",
+                            "1000_DED": "2",
+                            "GT_1000_DED": "11"
+                        },
+                        "COMPOSITE": {
+                            "LT_1000_DED": "3",
+                            "1000_DED": "9",
+                            "GT_1000_DED": "74"
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

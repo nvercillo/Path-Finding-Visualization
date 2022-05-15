@@ -1,0 +1,1091 @@
+{
+    "WC": [
+        {
+            "ACCT_NBR": "3025597876",
+            "POL_NBR": "7011541801",
+            "TERM_EFF_DT": "2022-01-01",
+            "TERM_EXP_DT": "2023-01-01",
+            "POL_INS_LINE_TS": "2021-12-01 15:08:50.0",
+            "STATUS": "Policy Active",
+            "COMPANY_CD": "AC",
+            "EXISTING_PREMIUM": {
+                "DASHBOARD_WC_UPL_EXP_PRM": "5236.3",
+                "DASHBOARD_WC_CF_EXP_STOP_GAP_PREMIUM": null,
+                "DASHBOARD_WC_CF_EXP_TER_PREMIUM": "596.2",
+                "DASHBOARD_WC_CF_EXP_TAXES_FEES_SURCHARGES": null,
+                "DASHBOARD_WC_CF_EXP_OTHER_PREMIUM": null
+            },
+            "CURRENT_PREMIUM": {
+                "DASHBOARD_WC_CF_TER_PREMIUM": "162.8",
+                "DASHBOARD_WC_CF_STOP_GAP_PREMIUM": null,
+                "DASHBOARD_WC_CF_TAXES_FEES_SURCHARGES": null,
+                "DASHBOARD_WC_UPL_REN_PRM": "7545.5",
+                "DASHBOARD_WC_CF_OTHER_PREMIUM": null
+            },
+            "PRICING": {
+                "DASHBOARD_MODEL_DFM": null,
+                "WC_UPL_NEW_EXP_QT_TRM_PRM": "8673.2",
+                "DASHBOARD_RENEW_DFM": "3.1148844822557282",
+                "WC_UPL_REN_PRM": "5191.1",
+                "DASHBOARD_RATE_CHANGE": "-148.252573235862663",
+                "WC_UPL_NEW_QT_TRM_PRM": "4231.3",
+                "WC_UPL_EXP_PRM": "6582.7",
+                "DASHBOARD_DISCRETIONARY_PRICE_CHANGE": "4.576264239198488",
+                "PRE_BENCHMARK_PREMIUM": null,
+                "WC_PREMIUM": "2771.2",
+                "DASHBOARD_MODEL_TIER_RATE_CHANGE": null,
+                "DASHBOARD_EXPIRING_DFM": "8.439365241958253",
+                "DASHBOARD_MODEL_RATE_CHANGE": null,
+                "DASHBOARD_MODEL_WRITTEN_TIER_RATE_CHANGE": null,
+                "WC_UPL_EXP_MAN_PRM": "2557.8",
+                "WC_UPL_REN_MAN_PRM": "5654.1"
+            },
+            "ESTIMATED_TIERS": {
+                "REQUOTE_PREMIUM": "7593.3",
+                "DASHBOARD_MODEL_TIER_RATE_CHANGE": null,
+                "PREMIUMI": "2.2",
+                "TIERII": "4.8",
+                "PREMIUMII": "2.7",
+                "TIERIII": "8.4",
+                "PREMIUMIII": "9.5",
+                "PREMIUMIV": "9.4",
+                "PREMIUMV": "1.2",
+                "TIERIV": "1.3"
+            },
+            "LOSS": [
+                {
+                    "POLICY_NUMBER": "46WBC AE07",
+                    "TERM_EFF_DT": "2019-01-01",
+                    "TERM_EXP_DT": "2020-01-01",
+                    "LOB_INDICATOR": "WC",
+                    "CARRIER": "Carrier 3745",
+                    "WRITTEN_PREMIUM": "5.8",
+                    "NO_OF_CLAIMS": "4",
+                    "LOSS_DATE": "2020-09-28",
+                    "LOSS_AMOUNT": "2.7"
+                },
+                {
+                    "POLICY_NUMBER": "46WBC AE07",
+                    "TERM_EFF_DT": "2020-01-01",
+                    "TERM_EXP_DT": "2021-01-01",
+                    "LOB_INDICATOR": "WC",
+                    "CARRIER": "Carrier 9659",
+                    "WRITTEN_PREMIUM": "6.5",
+                    "NO_OF_CLAIMS": "5",
+                    "LOSS_DATE": "2020-09-28",
+                    "LOSS_AMOUNT": "2.8"
+                },
+                {
+                    "POLICY_NUMBER": "46WBC AE07",
+                    "TERM_EFF_DT": "2018-01-01",
+                    "TERM_EXP_DT": "2019-01-01",
+                    "LOB_INDICATOR": "WC",
+                    "CARRIER": "Carrier 1162",
+                    "WRITTEN_PREMIUM": "9.8",
+                    "NO_OF_CLAIMS": "6",
+                    "LOSS_DATE": "2020-09-28",
+                    "LOSS_AMOUNT": "5.5"
+                },
+                {
+                    "POLICY_NUMBER": "46WBC AE07",
+                    "TERM_EFF_DT": "2016-01-01",
+                    "TERM_EXP_DT": "2017-01-01",
+                    "LOB_INDICATOR": "WC",
+                    "CARRIER": "Carrier 8455",
+                    "WRITTEN_PREMIUM": "4.2",
+                    "NO_OF_CLAIMS": "9",
+                    "LOSS_DATE": "2020-09-28",
+                    "LOSS_AMOUNT": "7.4"
+                },
+                {
+                    "POLICY_NUMBER": "46WBC AE07",
+                    "TERM_EFF_DT": "2017-01-01",
+                    "TERM_EXP_DT": "2018-01-01",
+                    "LOB_INDICATOR": "WC",
+                    "CARRIER": "Carrier 5978",
+                    "WRITTEN_PREMIUM": "6.8",
+                    "NO_OF_CLAIMS": "2",
+                    "LOSS_DATE": "2020-09-28",
+                    "LOSS_AMOUNT": "5.9"
+                },
+                {
+                    "POLICY_NUMBER": "2954726762",
+                    "TERM_EFF_DT": "2021-01-01",
+                    "TERM_EXP_DT": "2022-01-01",
+                    "LOB_INDICATOR": "WC",
+                    "CARRIER": "Carrier 5481",
+                    "WRITTEN_PREMIUM": "9245.9",
+                    "NO_OF_CLAIMS": "7",
+                    "LOSS_DATE": "2021-10-12",
+                    "LOSS_AMOUNT": "1.6"
+                }
+            ],
+            "FORMS": [],
+            "EXPOSURES": [
+                {
+                    "CLASS_CODE": "XXXXX",
+                    "EXPOSURE": "562211.5",
+                    "AUDITED_EXPOSURE_AMT": "444346.4",
+                    "STATE": "NY",
+                    "TERM_EFF_DT": "2021-01-01",
+                    "TERM_EXP_DT": "2022-01-01"
+                },
+                {
+                    "CLASS_CODE": "XXXXX",
+                    "EXPOSURE": "3337545.4",
+                    "AUDITED_EXPOSURE_AMT": "1865658.5",
+                    "STATE": "NY",
+                    "TERM_EFF_DT": "2021-01-01",
+                    "TERM_EXP_DT": "2022-01-01"
+                },
+                {
+                    "CLASS_CODE": "XXXXX",
+                    "EXPOSURE": "426232.6",
+                    "AUDITED_EXPOSURE_AMT": "473689.8",
+                    "STATE": "NY",
+                    "TERM_EFF_DT": "2021-01-01",
+                    "TERM_EXP_DT": "2022-01-01"
+                },
+                {
+                    "CLASS_CODE": "XXXXX",
+                    "EXPOSURE": "484529.7",
+                    "AUDITED_EXPOSURE_AMT": "684537.2",
+                    "STATE": "NY",
+                    "TERM_EFF_DT": "2021-01-01",
+                    "TERM_EXP_DT": "2022-01-01"
+                },
+                {
+                    "CLASS_CODE": "XXXXX",
+                    "EXPOSURE": "682553.5",
+                    "AUDITED_EXPOSURE_AMT": "667753.7",
+                    "STATE": "NY",
+                    "TERM_EFF_DT": "2022-01-01",
+                    "TERM_EXP_DT": "2023-01-01"
+                },
+                {
+                    "CLASS_CODE": "XXXXX",
+                    "EXPOSURE": "5985561.1",
+                    "AUDITED_EXPOSURE_AMT": "5882183.8",
+                    "STATE": "NY",
+                    "TERM_EFF_DT": "2022-01-01",
+                    "TERM_EXP_DT": "2023-01-01"
+                },
+                {
+                    "CLASS_CODE": "XXXXX",
+                    "EXPOSURE": "914892.4",
+                    "AUDITED_EXPOSURE_AMT": "153795.8",
+                    "STATE": "NY",
+                    "TERM_EFF_DT": "2022-01-01",
+                    "TERM_EXP_DT": "2023-01-01"
+                },
+                {
+                    "CLASS_CODE": "XXXXX",
+                    "EXPOSURE": "314365.4",
+                    "AUDITED_EXPOSURE_AMT": "233913.1",
+                    "STATE": "NY",
+                    "TERM_EFF_DT": "2022-01-01",
+                    "TERM_EXP_DT": "2023-01-01"
+                }
+            ],
+            "HISTORY": [
+                {
+                    "TERM_EFF_DT": "2022-01-01",
+                    "TERM_EXP_DT": "2023-01-01",
+                    "PRIMARY_RISK_ST": null,
+                    "COMP_DEV": "5",
+                    "SCH_MOD": "6.743357523619768",
+                    "NO_OF_EMPLOYEES": "86",
+                    "CLASS_PREMIUM": "3485.8",
+                    "CLASS_RATE": "8",
+                    "EMOD": "3",
+                    "DEDUCTIBLE": "N",
+                    "STOPGAP_PREMIUM": "3.6",
+                    "OTHER_PREMIUM": "2.5",
+                    "TERRORISM_PREMIUM": "228.7",
+                    "TAX_FEE_SCHG": "4.6"
+                },
+                {
+                    "TERM_EFF_DT": "2021-01-01",
+                    "TERM_EXP_DT": "2022-01-01",
+                    "PRIMARY_RISK_ST": null,
+                    "COMP_DEV": "9",
+                    "SCH_MOD": "5.394762127722378",
+                    "NO_OF_EMPLOYEES": "9",
+                    "CLASS_PREMIUM": "7615.9",
+                    "CLASS_RATE": "7",
+                    "EMOD": "2",
+                    "DEDUCTIBLE": "N",
+                    "STOPGAP_PREMIUM": "7.3",
+                    "OTHER_PREMIUM": "1.3",
+                    "TERRORISM_PREMIUM": "185.8",
+                    "TAX_FEE_SCHG": "9.5"
+                }
+            ]
+        },
+        {
+            "ACCT_NBR": "3036532172",
+            "POL_NBR": "6079752464",
+            "TERM_EFF_DT": "2022-01-01",
+            "TERM_EXP_DT": "2023-01-01",
+            "POL_INS_LINE_TS": "2021-12-03 12:08:23.0",
+            "STATUS": "Policy Active",
+            "COMPANY_CD": "VF",
+            "EXISTING_PREMIUM": {
+                "DASHBOARD_WC_UPL_EXP_PRM": "69498.6",
+                "DASHBOARD_WC_CF_EXP_STOP_GAP_PREMIUM": null,
+                "DASHBOARD_WC_CF_EXP_TER_PREMIUM": "349.5",
+                "DASHBOARD_WC_CF_EXP_TAXES_FEES_SURCHARGES": null,
+                "DASHBOARD_WC_CF_EXP_OTHER_PREMIUM": null
+            },
+            "CURRENT_PREMIUM": {
+                "DASHBOARD_WC_CF_TER_PREMIUM": "818.5",
+                "DASHBOARD_WC_CF_STOP_GAP_PREMIUM": null,
+                "DASHBOARD_WC_CF_TAXES_FEES_SURCHARGES": null,
+                "DASHBOARD_WC_UPL_REN_PRM": "96433.1",
+                "DASHBOARD_WC_CF_OTHER_PREMIUM": null
+            },
+            "PRICING": {
+                "DASHBOARD_MODEL_DFM": "7.472496119719186",
+                "WC_UPL_NEW_EXP_QT_TRM_PRM": "79921.8",
+                "DASHBOARD_RENEW_DFM": "8.126683491649793",
+                "WC_UPL_REN_PRM": "53381.7",
+                "DASHBOARD_RATE_CHANGE": "98.48653828213438",
+                "WC_UPL_NEW_QT_TRM_PRM": "56924.3",
+                "WC_UPL_EXP_PRM": "17272.6",
+                "DASHBOARD_DISCRETIONARY_PRICE_CHANGE": "6.343144695499693",
+                "PRE_BENCHMARK_PREMIUM": "6457.94555357",
+                "WC_PREMIUM": "23834.3",
+                "DASHBOARD_MODEL_TIER_RATE_CHANGE": "I",
+                "DASHBOARD_EXPIRING_DFM": "1.174389825494897",
+                "DASHBOARD_MODEL_RATE_CHANGE": "-742.11633957661123",
+                "DASHBOARD_MODEL_WRITTEN_TIER_RATE_CHANGE": "I",
+                "WC_UPL_EXP_MAN_PRM": "7148.1",
+                "WC_UPL_REN_MAN_PRM": "5795.2"
+            },
+            "ESTIMATED_TIERS": {
+                "REQUOTE_PREMIUM": "75818.1",
+                "DASHBOARD_MODEL_TIER_RATE_CHANGE": "I",
+                "PREMIUMI": "3898.6966515444",
+                "TIERII": "1849.9753355181",
+                "PREMIUMII": "2782.471562132515",
+                "TIERIII": "2872.443133938968",
+                "PREMIUMIII": "3366.968217195477",
+                "PREMIUMIV": "1939.3246697933887",
+                "PREMIUMV": "3922.42783446561",
+                "TIERIV": "5512.64165484713"
+            },
+            "LOSS": [
+                {
+                    "POLICY_NUMBER": null,
+                    "TERM_EFF_DT": "2018-01-01",
+                    "TERM_EXP_DT": "2019-01-01",
+                    "LOB_INDICATOR": "WC",
+                    "CARRIER": "Carrier 7488",
+                    "WRITTEN_PREMIUM": "1.8",
+                    "NO_OF_CLAIMS": "2",
+                    "LOSS_DATE": "2021-11-11",
+                    "LOSS_AMOUNT": "81.5"
+                },
+                {
+                    "POLICY_NUMBER": null,
+                    "TERM_EFF_DT": "2016-01-01",
+                    "TERM_EXP_DT": "2017-01-01",
+                    "LOB_INDICATOR": "WC",
+                    "CARRIER": "Carrier 6214",
+                    "WRITTEN_PREMIUM": "3.9",
+                    "NO_OF_CLAIMS": "3",
+                    "LOSS_DATE": "2019-10-29",
+                    "LOSS_AMOUNT": "4.2"
+                },
+                {
+                    "POLICY_NUMBER": null,
+                    "TERM_EFF_DT": "2017-01-01",
+                    "TERM_EXP_DT": "2018-01-01",
+                    "LOB_INDICATOR": "WC",
+                    "CARRIER": "Carrier 1932",
+                    "WRITTEN_PREMIUM": "5.3",
+                    "NO_OF_CLAIMS": "5",
+                    "LOSS_DATE": "2021-11-11",
+                    "LOSS_AMOUNT": "3.4"
+                },
+                {
+                    "POLICY_NUMBER": null,
+                    "TERM_EFF_DT": "2019-01-01",
+                    "TERM_EXP_DT": "2020-01-01",
+                    "LOB_INDICATOR": "WC",
+                    "CARRIER": "Carrier 8474",
+                    "WRITTEN_PREMIUM": "8.3",
+                    "NO_OF_CLAIMS": "8",
+                    "LOSS_DATE": "2021-11-11",
+                    "LOSS_AMOUNT": "5.5"
+                },
+                {
+                    "POLICY_NUMBER": "5853995973",
+                    "TERM_EFF_DT": "2021-01-01",
+                    "TERM_EXP_DT": "2022-01-01",
+                    "LOB_INDICATOR": "WC",
+                    "CARRIER": "Carrier 9947",
+                    "WRITTEN_PREMIUM": "49695.3",
+                    "NO_OF_CLAIMS": "8",
+                    "LOSS_DATE": "2021-11-23",
+                    "LOSS_AMOUNT": "9.8"
+                },
+                {
+                    "POLICY_NUMBER": "7478116475",
+                    "TERM_EFF_DT": "2020-01-01",
+                    "TERM_EXP_DT": "2021-01-01",
+                    "LOB_INDICATOR": "WC",
+                    "CARRIER": "Carrier 7488",
+                    "WRITTEN_PREMIUM": "7864.8",
+                    "NO_OF_CLAIMS": "6",
+                    "LOSS_DATE": "2021-11-23",
+                    "LOSS_AMOUNT": "9898.7"
+                }
+            ],
+            "FORMS": [],
+            "EXPOSURES": [
+                {
+                    "CLASS_CODE": "XXXXX",
+                    "EXPOSURE": "21775.4",
+                    "AUDITED_EXPOSURE_AMT": "75182.9",
+                    "STATE": "NY",
+                    "TERM_EFF_DT": "2022-01-01",
+                    "TERM_EXP_DT": "2023-01-01"
+                },
+                {
+                    "CLASS_CODE": "XXXXX",
+                    "EXPOSURE": "8.2",
+                    "AUDITED_EXPOSURE_AMT": "3.9",
+                    "STATE": "NY",
+                    "TERM_EFF_DT": "2022-01-01",
+                    "TERM_EXP_DT": "2023-01-01"
+                },
+                {
+                    "CLASS_CODE": "XXXXX",
+                    "EXPOSURE": "39733.7",
+                    "AUDITED_EXPOSURE_AMT": "38373.2",
+                    "STATE": "NY",
+                    "TERM_EFF_DT": "2022-01-01",
+                    "TERM_EXP_DT": "2023-01-01"
+                },
+                {
+                    "CLASS_CODE": "XXXXX",
+                    "EXPOSURE": "594954.1",
+                    "AUDITED_EXPOSURE_AMT": "466669.4",
+                    "STATE": "NY",
+                    "TERM_EFF_DT": "2022-01-01",
+                    "TERM_EXP_DT": "2023-01-01"
+                },
+                {
+                    "CLASS_CODE": "XXXXX",
+                    "EXPOSURE": "874225.4",
+                    "AUDITED_EXPOSURE_AMT": "845495.7",
+                    "STATE": "NY",
+                    "TERM_EFF_DT": "2022-01-01",
+                    "TERM_EXP_DT": "2023-01-01"
+                },
+                {
+                    "CLASS_CODE": "XXXXX",
+                    "EXPOSURE": "5.3",
+                    "AUDITED_EXPOSURE_AMT": "1.6",
+                    "STATE": "NY",
+                    "TERM_EFF_DT": "2020-01-01",
+                    "TERM_EXP_DT": "2021-01-01"
+                },
+                {
+                    "CLASS_CODE": "XXXXX",
+                    "EXPOSURE": "255258.7",
+                    "AUDITED_EXPOSURE_AMT": "619566.7",
+                    "STATE": "NY",
+                    "TERM_EFF_DT": "2020-01-01",
+                    "TERM_EXP_DT": "2021-01-01"
+                },
+                {
+                    "CLASS_CODE": "XXXXX",
+                    "EXPOSURE": "596461.2",
+                    "AUDITED_EXPOSURE_AMT": "454684.2",
+                    "STATE": "NY",
+                    "TERM_EFF_DT": "2020-01-01",
+                    "TERM_EXP_DT": "2021-01-01"
+                },
+                {
+                    "CLASS_CODE": "XXXXX",
+                    "EXPOSURE": "283771.5",
+                    "AUDITED_EXPOSURE_AMT": "532773.6",
+                    "STATE": "NY",
+                    "TERM_EFF_DT": "2020-01-01",
+                    "TERM_EXP_DT": "2021-01-01"
+                },
+                {
+                    "CLASS_CODE": "XXXXX",
+                    "EXPOSURE": "728584.9",
+                    "AUDITED_EXPOSURE_AMT": "183622.5",
+                    "STATE": "NY",
+                    "TERM_EFF_DT": "2020-01-01",
+                    "TERM_EXP_DT": "2021-01-01"
+                },
+                {
+                    "CLASS_CODE": "XXXXX",
+                    "EXPOSURE": "289467.1",
+                    "AUDITED_EXPOSURE_AMT": "442197.5",
+                    "STATE": "NY",
+                    "TERM_EFF_DT": "2021-01-01",
+                    "TERM_EXP_DT": "2022-01-01"
+                },
+                {
+                    "CLASS_CODE": "XXXXX",
+                    "EXPOSURE": "181244.5",
+                    "AUDITED_EXPOSURE_AMT": "266514.6",
+                    "STATE": "NY",
+                    "TERM_EFF_DT": "2021-01-01",
+                    "TERM_EXP_DT": "2022-01-01"
+                },
+                {
+                    "CLASS_CODE": "XXXXX",
+                    "EXPOSURE": "28257.2",
+                    "AUDITED_EXPOSURE_AMT": "89369.4",
+                    "STATE": "NY",
+                    "TERM_EFF_DT": "2021-01-01",
+                    "TERM_EXP_DT": "2022-01-01"
+                },
+                {
+                    "CLASS_CODE": "XXXXX",
+                    "EXPOSURE": "3.4",
+                    "AUDITED_EXPOSURE_AMT": "7.5",
+                    "STATE": "NY",
+                    "TERM_EFF_DT": "2021-01-01",
+                    "TERM_EXP_DT": "2022-01-01"
+                },
+                {
+                    "CLASS_CODE": "XXXXX",
+                    "EXPOSURE": "62944.3",
+                    "AUDITED_EXPOSURE_AMT": "28665.3",
+                    "STATE": "NY",
+                    "TERM_EFF_DT": "2021-01-01",
+                    "TERM_EXP_DT": "2022-01-01"
+                }
+            ],
+            "HISTORY": [
+                {
+                    "TERM_EFF_DT": "2020-01-01",
+                    "TERM_EXP_DT": "2021-01-01",
+                    "PRIMARY_RISK_ST": null,
+                    "COMP_DEV": "7",
+                    "SCH_MOD": "4",
+                    "NO_OF_EMPLOYEES": "3",
+                    "CLASS_PREMIUM": "96858.3",
+                    "CLASS_RATE": "1",
+                    "EMOD": "6.978415624638122",
+                    "DEDUCTIBLE": "N",
+                    "STOPGAP_PREMIUM": "9.7",
+                    "OTHER_PREMIUM": "1.8",
+                    "TERRORISM_PREMIUM": "637.9",
+                    "TAX_FEE_SCHG": "4.4"
+                },
+                {
+                    "TERM_EFF_DT": "2022-01-01",
+                    "TERM_EXP_DT": "2023-01-01",
+                    "PRIMARY_RISK_ST": null,
+                    "COMP_DEV": "7.14",
+                    "SCH_MOD": "6",
+                    "NO_OF_EMPLOYEES": "23",
+                    "CLASS_PREMIUM": "28959.6",
+                    "CLASS_RATE": "2",
+                    "EMOD": "2.9637241854921133",
+                    "DEDUCTIBLE": "N",
+                    "STOPGAP_PREMIUM": "1.5",
+                    "OTHER_PREMIUM": "9.2",
+                    "TERRORISM_PREMIUM": "674.5",
+                    "TAX_FEE_SCHG": "8.9"
+                },
+                {
+                    "TERM_EFF_DT": "2021-01-01",
+                    "TERM_EXP_DT": "2022-01-01",
+                    "PRIMARY_RISK_ST": null,
+                    "COMP_DEV": "5.33",
+                    "SCH_MOD": "1",
+                    "NO_OF_EMPLOYEES": "6",
+                    "CLASS_PREMIUM": "41949.8",
+                    "CLASS_RATE": "1",
+                    "EMOD": "7.488888433217487",
+                    "DEDUCTIBLE": "N",
+                    "STOPGAP_PREMIUM": "6.8",
+                    "OTHER_PREMIUM": "8.9",
+                    "TERRORISM_PREMIUM": "337.9",
+                    "TAX_FEE_SCHG": "9.2"
+                }
+            ]
+        },
+        {
+            "ACCT_NBR": "3026210797",
+            "POL_NBR": "6076082158",
+            "TERM_EFF_DT": "2022-01-01",
+            "TERM_EXP_DT": "2023-01-01",
+            "POL_INS_LINE_TS": "2021-12-07 12:42:36.0",
+            "STATUS": "Policy Active",
+            "COMPANY_CD": "CC",
+            "EXISTING_PREMIUM": {
+                "DASHBOARD_WC_UPL_EXP_PRM": "69431.6",
+                "DASHBOARD_WC_CF_EXP_STOP_GAP_PREMIUM": null,
+                "DASHBOARD_WC_CF_EXP_TER_PREMIUM": "4136.2",
+                "DASHBOARD_WC_CF_EXP_TAXES_FEES_SURCHARGES": "9341.1",
+                "DASHBOARD_WC_CF_EXP_OTHER_PREMIUM": "286.5"
+            },
+            "CURRENT_PREMIUM": {
+                "DASHBOARD_WC_CF_TER_PREMIUM": "5988.7",
+                "DASHBOARD_WC_CF_STOP_GAP_PREMIUM": null,
+                "DASHBOARD_WC_CF_TAXES_FEES_SURCHARGES": "7225.4",
+                "DASHBOARD_WC_UPL_REN_PRM": "77375.3",
+                "DASHBOARD_WC_CF_OTHER_PREMIUM": "641.1"
+            },
+            "PRICING": {
+                "DASHBOARD_MODEL_DFM": "5.848311535223993",
+                "WC_UPL_NEW_EXP_QT_TRM_PRM": "19955.5",
+                "DASHBOARD_RENEW_DFM": "8.345223281267453",
+                "WC_UPL_REN_PRM": "31635.2",
+                "DASHBOARD_RATE_CHANGE": "-12.6822687153912535",
+                "WC_UPL_NEW_QT_TRM_PRM": "94374.7",
+                "WC_UPL_EXP_PRM": "41277.5",
+                "DASHBOARD_DISCRETIONARY_PRICE_CHANGE": "28.97581587388477",
+                "PRE_BENCHMARK_PREMIUM": "7628.23427725",
+                "WC_PREMIUM": "85872.2",
+                "DASHBOARD_MODEL_TIER_RATE_CHANGE": "I",
+                "DASHBOARD_EXPIRING_DFM": "2.6239556483687125",
+                "DASHBOARD_MODEL_RATE_CHANGE": "-621.151888577754547",
+                "DASHBOARD_MODEL_WRITTEN_TIER_RATE_CHANGE": "I",
+                "WC_UPL_EXP_MAN_PRM": "33172.9",
+                "WC_UPL_REN_MAN_PRM": "26312.7"
+            },
+            "ESTIMATED_TIERS": {
+                "REQUOTE_PREMIUM": "38619.4",
+                "DASHBOARD_MODEL_TIER_RATE_CHANGE": "I",
+                "PREMIUMI": "14328.4476754257",
+                "TIERII": "87654.9831285868",
+                "PREMIUMII": "31585.494949959873",
+                "TIERIII": "37373.761876987875",
+                "PREMIUMIII": "1961.271622486384",
+                "PREMIUMIV": "2876.332648884471",
+                "PREMIUMV": "5442.71884281448",
+                "TIERIV": "2421.54415374216"
+            },
+            "LOSS": [
+                {
+                    "POLICY_NUMBER": "4148196668",
+                    "TERM_EFF_DT": "2019-01-01",
+                    "TERM_EXP_DT": "2020-01-01",
+                    "LOB_INDICATOR": "WC",
+                    "CARRIER": "Carrier 3172",
+                    "WRITTEN_PREMIUM": "87327.2",
+                    "NO_OF_CLAIMS": "2",
+                    "LOSS_DATE": "2021-11-19",
+                    "LOSS_AMOUNT": "652696.5"
+                },
+                {
+                    "POLICY_NUMBER": "4497522435",
+                    "TERM_EFF_DT": "2019-01-01",
+                    "TERM_EXP_DT": "2020-01-01",
+                    "LOB_INDICATOR": "WC",
+                    "CARRIER": "Carrier 6366",
+                    "WRITTEN_PREMIUM": "7.5",
+                    "NO_OF_CLAIMS": "1",
+                    "LOSS_DATE": "2021-11-19",
+                    "LOSS_AMOUNT": "1.3"
+                },
+                {
+                    "POLICY_NUMBER": "5373315588",
+                    "TERM_EFF_DT": "2017-01-01",
+                    "TERM_EXP_DT": "2018-01-01",
+                    "LOB_INDICATOR": "WC",
+                    "CARRIER": "Carrier 4222",
+                    "WRITTEN_PREMIUM": "54375.5",
+                    "NO_OF_CLAIMS": "9",
+                    "LOSS_DATE": "2021-11-19",
+                    "LOSS_AMOUNT": "994.2"
+                },
+                {
+                    "POLICY_NUMBER": "2676676526",
+                    "TERM_EFF_DT": "2020-01-01",
+                    "TERM_EXP_DT": "2021-01-01",
+                    "LOB_INDICATOR": "WC",
+                    "CARRIER": "Carrier 4558",
+                    "WRITTEN_PREMIUM": "43542.1",
+                    "NO_OF_CLAIMS": "2",
+                    "LOSS_DATE": "2021-11-19",
+                    "LOSS_AMOUNT": "6.8"
+                },
+                {
+                    "POLICY_NUMBER": "1248967652",
+                    "TERM_EFF_DT": "2016-01-01",
+                    "TERM_EXP_DT": "2017-01-01",
+                    "LOB_INDICATOR": "WC",
+                    "CARRIER": "Carrier 5323",
+                    "WRITTEN_PREMIUM": "93865.8",
+                    "NO_OF_CLAIMS": "3",
+                    "LOSS_DATE": "2021-11-19",
+                    "LOSS_AMOUNT": "46673.2"
+                },
+                {
+                    "POLICY_NUMBER": "6915959851",
+                    "TERM_EFF_DT": "2021-01-01",
+                    "TERM_EXP_DT": "2022-01-01",
+                    "LOB_INDICATOR": "WC",
+                    "CARRIER": "Carrier 5586",
+                    "WRITTEN_PREMIUM": "2415.9",
+                    "NO_OF_CLAIMS": "1",
+                    "LOSS_DATE": "2021-11-19",
+                    "LOSS_AMOUNT": "9.4"
+                },
+                {
+                    "POLICY_NUMBER": "2676665238",
+                    "TERM_EFF_DT": "2018-01-01",
+                    "TERM_EXP_DT": "2019-01-01",
+                    "LOB_INDICATOR": "WC",
+                    "CARRIER": "Carrier 8882",
+                    "WRITTEN_PREMIUM": "42485.7",
+                    "NO_OF_CLAIMS": "9",
+                    "LOSS_DATE": "2021-11-19",
+                    "LOSS_AMOUNT": "953.3"
+                },
+                {
+                    "POLICY_NUMBER": "6975894376",
+                    "TERM_EFF_DT": "2021-01-01",
+                    "TERM_EXP_DT": "2022-01-01",
+                    "LOB_INDICATOR": "WC",
+                    "CARRIER": "Carrier 3768",
+                    "WRITTEN_PREMIUM": "25222.5",
+                    "NO_OF_CLAIMS": "1",
+                    "LOSS_DATE": "2021-11-19",
+                    "LOSS_AMOUNT": "442.8"
+                }
+            ],
+            "FORMS": [],
+            "EXPOSURES": [
+                {
+                    "CLASS_CODE": "XXXXX",
+                    "EXPOSURE": "4832732.7",
+                    "AUDITED_EXPOSURE_AMT": "3199113.5",
+                    "STATE": "NY",
+                    "TERM_EFF_DT": "2021-01-01",
+                    "TERM_EXP_DT": "2022-01-01"
+                },
+                {
+                    "CLASS_CODE": "XXXXX",
+                    "EXPOSURE": "6513437.3",
+                    "AUDITED_EXPOSURE_AMT": "1441928.1",
+                    "STATE": "NY",
+                    "TERM_EFF_DT": "2020-01-01",
+                    "TERM_EXP_DT": "2021-01-01"
+                },
+                {
+                    "CLASS_CODE": "XXXXX",
+                    "EXPOSURE": "4984539.4",
+                    "AUDITED_EXPOSURE_AMT": "9816264.9",
+                    "STATE": "NY",
+                    "TERM_EFF_DT": "2022-01-01",
+                    "TERM_EXP_DT": "2023-01-01"
+                },
+                {
+                    "CLASS_CODE": "XXXXX",
+                    "EXPOSURE": "8626789.5",
+                    "AUDITED_EXPOSURE_AMT": "3664498.3",
+                    "STATE": "NY",
+                    "TERM_EFF_DT": "2022-01-01",
+                    "TERM_EXP_DT": "2023-01-01"
+                },
+                {
+                    "CLASS_CODE": "XXXXX",
+                    "EXPOSURE": "8587886.5",
+                    "AUDITED_EXPOSURE_AMT": "7367948.6",
+                    "STATE": "NY",
+                    "TERM_EFF_DT": "2020-01-01",
+                    "TERM_EXP_DT": "2021-01-01"
+                },
+                {
+                    "CLASS_CODE": "XXXXX",
+                    "EXPOSURE": "3748446.9",
+                    "AUDITED_EXPOSURE_AMT": "4857914.1",
+                    "STATE": "NY",
+                    "TERM_EFF_DT": "2021-01-01",
+                    "TERM_EXP_DT": "2022-01-01"
+                }
+            ],
+            "HISTORY": [
+                {
+                    "TERM_EFF_DT": "2022-01-01",
+                    "TERM_EXP_DT": "2023-01-01",
+                    "PRIMARY_RISK_ST": null,
+                    "COMP_DEV": "5.716694469968284",
+                    "SCH_MOD": "4.935737535381453",
+                    "NO_OF_EMPLOYEES": "17",
+                    "CLASS_PREMIUM": "25329.3",
+                    "CLASS_RATE": "5",
+                    "EMOD": "2.8852733844587153",
+                    "DEDUCTIBLE": "N",
+                    "STOPGAP_PREMIUM": "7.6",
+                    "OTHER_PREMIUM": "773.7",
+                    "TERRORISM_PREMIUM": "4933.6",
+                    "TAX_FEE_SCHG": "7588.3"
+                }
+            ]
+        },
+        {
+            "ACCT_NBR": "3026210797",
+            "POL_NBR": "7012135211",
+            "TERM_EFF_DT": "2022-01-01",
+            "TERM_EXP_DT": "2023-01-01",
+            "POL_INS_LINE_TS": "2021-09-01 03:44:57.0",
+            "STATUS": "Policy Active",
+            "COMPANY_CD": "TP",
+            "EXISTING_PREMIUM": {
+                "DASHBOARD_WC_UPL_EXP_PRM": "48812.9",
+                "DASHBOARD_WC_CF_EXP_STOP_GAP_PREMIUM": null,
+                "DASHBOARD_WC_CF_EXP_TER_PREMIUM": "3256.5",
+                "DASHBOARD_WC_CF_EXP_TAXES_FEES_SURCHARGES": "6971.5",
+                "DASHBOARD_WC_CF_EXP_OTHER_PREMIUM": "834.5"
+            },
+            "CURRENT_PREMIUM": {
+                "DASHBOARD_WC_CF_TER_PREMIUM": "2163.2",
+                "DASHBOARD_WC_CF_STOP_GAP_PREMIUM": null,
+                "DASHBOARD_WC_CF_TAXES_FEES_SURCHARGES": "8289.8",
+                "DASHBOARD_WC_UPL_REN_PRM": "23579.5",
+                "DASHBOARD_WC_CF_OTHER_PREMIUM": "568.4"
+            },
+            "PRICING": {
+                "DASHBOARD_MODEL_DFM": "5.164932524666722",
+                "WC_UPL_NEW_EXP_QT_TRM_PRM": "3913.5",
+                "DASHBOARD_RENEW_DFM": "2.458791171994559",
+                "WC_UPL_REN_PRM": "2843.3",
+                "DASHBOARD_RATE_CHANGE": "-75.1824468777324849",
+                "WC_UPL_NEW_QT_TRM_PRM": "1237.9",
+                "WC_UPL_EXP_PRM": "8717.3",
+                "DASHBOARD_DISCRETIONARY_PRICE_CHANGE": "73.87491436781337",
+                "PRE_BENCHMARK_PREMIUM": "5929.49618161",
+                "WC_PREMIUM": "9623.5",
+                "DASHBOARD_MODEL_TIER_RATE_CHANGE": "I",
+                "DASHBOARD_EXPIRING_DFM": "6.661746277123167",
+                "DASHBOARD_MODEL_RATE_CHANGE": "-825.977282186613953",
+                "DASHBOARD_MODEL_WRITTEN_TIER_RATE_CHANGE": "I",
+                "WC_UPL_EXP_MAN_PRM": "9736.4",
+                "WC_UPL_REN_MAN_PRM": "9378.5"
+            },
+            "ESTIMATED_TIERS": {
+                "REQUOTE_PREMIUM": "41588.6",
+                "DASHBOARD_MODEL_TIER_RATE_CHANGE": "I",
+                "PREMIUMI": "82484.4173133324",
+                "TIERII": "94693.2674247296",
+                "PREMIUMII": "45569.31212199867",
+                "TIERIII": "13234.222792132277",
+                "PREMIUMIII": "9333.922179272837",
+                "PREMIUMIV": "3169.483699432766",
+                "PREMIUMV": "4686.83373924439",
+                "TIERIV": "1548.47454199611"
+            },
+            "LOSS": [
+                {
+                    "POLICY_NUMBER": "1259867586",
+                    "TERM_EFF_DT": "2019-01-01",
+                    "TERM_EXP_DT": "2020-01-01",
+                    "LOB_INDICATOR": "WC",
+                    "CARRIER": "Carrier 6373",
+                    "WRITTEN_PREMIUM": "65899.4",
+                    "NO_OF_CLAIMS": "6",
+                    "LOSS_DATE": "2021-11-19",
+                    "LOSS_AMOUNT": "547858.8"
+                },
+                {
+                    "POLICY_NUMBER": "5217733264",
+                    "TERM_EFF_DT": "2019-01-01",
+                    "TERM_EXP_DT": "2020-01-01",
+                    "LOB_INDICATOR": "WC",
+                    "CARRIER": "Carrier 2663",
+                    "WRITTEN_PREMIUM": "1.8",
+                    "NO_OF_CLAIMS": "6",
+                    "LOSS_DATE": "2021-11-19",
+                    "LOSS_AMOUNT": "9.8"
+                },
+                {
+                    "POLICY_NUMBER": "4482935258",
+                    "TERM_EFF_DT": "2017-01-01",
+                    "TERM_EXP_DT": "2018-01-01",
+                    "LOB_INDICATOR": "WC",
+                    "CARRIER": "Carrier 4668",
+                    "WRITTEN_PREMIUM": "42281.7",
+                    "NO_OF_CLAIMS": "3",
+                    "LOSS_DATE": "2021-11-19",
+                    "LOSS_AMOUNT": "788.7"
+                },
+                {
+                    "POLICY_NUMBER": "4623191512",
+                    "TERM_EFF_DT": "2020-01-01",
+                    "TERM_EXP_DT": "2021-01-01",
+                    "LOB_INDICATOR": "WC",
+                    "CARRIER": "Carrier 2563",
+                    "WRITTEN_PREMIUM": "27332.2",
+                    "NO_OF_CLAIMS": "4",
+                    "LOSS_DATE": "2021-11-19",
+                    "LOSS_AMOUNT": "6.4"
+                },
+                {
+                    "POLICY_NUMBER": "8517839656",
+                    "TERM_EFF_DT": "2016-01-01",
+                    "TERM_EXP_DT": "2017-01-01",
+                    "LOB_INDICATOR": "WC",
+                    "CARRIER": "Carrier 4442",
+                    "WRITTEN_PREMIUM": "35696.2",
+                    "NO_OF_CLAIMS": "7",
+                    "LOSS_DATE": "2021-11-19",
+                    "LOSS_AMOUNT": "54576.5"
+                },
+                {
+                    "POLICY_NUMBER": "5443565822",
+                    "TERM_EFF_DT": "2021-01-01",
+                    "TERM_EXP_DT": "2022-01-01",
+                    "LOB_INDICATOR": "WC",
+                    "CARRIER": "Carrier 4492",
+                    "WRITTEN_PREMIUM": "3463.4",
+                    "NO_OF_CLAIMS": "9",
+                    "LOSS_DATE": "2021-11-19",
+                    "LOSS_AMOUNT": "2.8"
+                },
+                {
+                    "POLICY_NUMBER": "2685231417",
+                    "TERM_EFF_DT": "2018-01-01",
+                    "TERM_EXP_DT": "2019-01-01",
+                    "LOB_INDICATOR": "WC",
+                    "CARRIER": "Carrier 9426",
+                    "WRITTEN_PREMIUM": "85361.2",
+                    "NO_OF_CLAIMS": "9",
+                    "LOSS_DATE": "2021-11-19",
+                    "LOSS_AMOUNT": "846.1"
+                },
+                {
+                    "POLICY_NUMBER": "7428457657",
+                    "TERM_EFF_DT": "2021-01-01",
+                    "TERM_EXP_DT": "2022-01-01",
+                    "LOB_INDICATOR": "WC",
+                    "CARRIER": "Carrier 9473",
+                    "WRITTEN_PREMIUM": "56867.1",
+                    "NO_OF_CLAIMS": "2",
+                    "LOSS_DATE": "2021-11-19",
+                    "LOSS_AMOUNT": "939.2"
+                }
+            ],
+            "FORMS": [],
+            "EXPOSURES": [
+                {
+                    "CLASS_CODE": "XXXXX",
+                    "EXPOSURE": "521586.4",
+                    "AUDITED_EXPOSURE_AMT": "229715.1",
+                    "STATE": "NY",
+                    "TERM_EFF_DT": "2021-01-01",
+                    "TERM_EXP_DT": "2022-01-01"
+                },
+                {
+                    "CLASS_CODE": "XXXXX",
+                    "EXPOSURE": "437549.9",
+                    "AUDITED_EXPOSURE_AMT": "432795.7",
+                    "STATE": "NY",
+                    "TERM_EFF_DT": "2022-01-01",
+                    "TERM_EXP_DT": "2023-01-01"
+                }
+            ],
+            "HISTORY": [
+                {
+                    "TERM_EFF_DT": "2020-01-01",
+                    "TERM_EXP_DT": "2021-01-01",
+                    "PRIMARY_RISK_ST": null,
+                    "COMP_DEV": "6.75194514156845",
+                    "SCH_MOD": "2",
+                    "NO_OF_EMPLOYEES": "8",
+                    "CLASS_PREMIUM": "48186.2",
+                    "CLASS_RATE": "3",
+                    "EMOD": "9.311698713993383",
+                    "DEDUCTIBLE": "N",
+                    "STOPGAP_PREMIUM": "6.1",
+                    "OTHER_PREMIUM": "161.1",
+                    "TERRORISM_PREMIUM": "6223.1",
+                    "TAX_FEE_SCHG": "9387.8"
+                },
+                {
+                    "TERM_EFF_DT": "2021-01-01",
+                    "TERM_EXP_DT": "2022-01-01",
+                    "PRIMARY_RISK_ST": null,
+                    "COMP_DEV": "4.6992996345775735",
+                    "SCH_MOD": "1.1958434119239147",
+                    "NO_OF_EMPLOYEES": "5",
+                    "CLASS_PREMIUM": "79359.7",
+                    "CLASS_RATE": "7",
+                    "EMOD": "6.5329338332833",
+                    "DEDUCTIBLE": "N",
+                    "STOPGAP_PREMIUM": "7.5",
+                    "OTHER_PREMIUM": "214.2",
+                    "TERRORISM_PREMIUM": "1836.3",
+                    "TAX_FEE_SCHG": "2798.8"
+                }
+            ]
+        },
+        {
+            "ACCT_NBR": "3011458660",
+            "POL_NBR": "7018055057",
+            "TERM_EFF_DT": "2022-01-01",
+            "TERM_EXP_DT": "2023-01-01",
+            "POL_INS_LINE_TS": "2021-12-16 13:44:10.0",
+            "STATUS": "Rated Not Quoted",
+            "COMPANY_CD": "NF",
+            "EXISTING_PREMIUM": {
+                "DASHBOARD_WC_UPL_EXP_PRM": null,
+                "DASHBOARD_WC_CF_EXP_STOP_GAP_PREMIUM": null,
+                "DASHBOARD_WC_CF_EXP_TER_PREMIUM": null,
+                "DASHBOARD_WC_CF_EXP_TAXES_FEES_SURCHARGES": null,
+                "DASHBOARD_WC_CF_EXP_OTHER_PREMIUM": null
+            },
+            "CURRENT_PREMIUM": {
+                "DASHBOARD_WC_CF_TER_PREMIUM": "217.6",
+                "DASHBOARD_WC_CF_STOP_GAP_PREMIUM": null,
+                "DASHBOARD_WC_CF_TAXES_FEES_SURCHARGES": null,
+                "DASHBOARD_WC_UPL_REN_PRM": "84393.5",
+                "DASHBOARD_WC_CF_OTHER_PREMIUM": null
+            },
+            "PRICING": {
+                "DASHBOARD_MODEL_DFM": "5.549197959673459",
+                "WC_UPL_NEW_EXP_QT_TRM_PRM": null,
+                "DASHBOARD_RENEW_DFM": "3.3298759465829453",
+                "WC_UPL_REN_PRM": "34962.6",
+                "DASHBOARD_RATE_CHANGE": null,
+                "WC_UPL_NEW_QT_TRM_PRM": null,
+                "WC_UPL_EXP_PRM": null,
+                "DASHBOARD_DISCRETIONARY_PRICE_CHANGE": null,
+                "PRE_BENCHMARK_PREMIUM": "54378.29365841",
+                "WC_PREMIUM": "76996.3",
+                "DASHBOARD_MODEL_TIER_RATE_CHANGE": null,
+                "DASHBOARD_EXPIRING_DFM": "9.1",
+                "DASHBOARD_MODEL_RATE_CHANGE": null,
+                "DASHBOARD_MODEL_WRITTEN_TIER_RATE_CHANGE": "I",
+                "WC_UPL_EXP_MAN_PRM": null,
+                "WC_UPL_REN_MAN_PRM": "51235.6"
+            },
+            "ESTIMATED_TIERS": {
+                "REQUOTE_PREMIUM": "72278.6",
+                "DASHBOARD_MODEL_TIER_RATE_CHANGE": null,
+                "PREMIUMI": "12292.299622511784",
+                "TIERII": "95861.91381464711",
+                "PREMIUMII": "97432.76271628968",
+                "TIERIII": "33119.92289624343",
+                "PREMIUMIII": "47541.64219595818",
+                "PREMIUMIV": "53977.62592249688",
+                "PREMIUMV": "53587.99645471943",
+                "TIERIV": "88389.59898211775"
+            },
+            "LOSS": [
+                {
+                    "POLICY_NUMBER": "4394268597",
+                    "TERM_EFF_DT": "2021-01-01",
+                    "TERM_EXP_DT": "2022-01-01",
+                    "LOB_INDICATOR": "WC",
+                    "CARRIER": "Carrier 5593",
+                    "WRITTEN_PREMIUM": "5.9",
+                    "NO_OF_CLAIMS": "6",
+                    "LOSS_DATE": "2021-11-16",
+                    "LOSS_AMOUNT": "4.9"
+                },
+                {
+                    "POLICY_NUMBER": "9385953793",
+                    "TERM_EFF_DT": "2019-01-01",
+                    "TERM_EXP_DT": "2020-01-01",
+                    "LOB_INDICATOR": "WC",
+                    "CARRIER": "Carrier 9488",
+                    "WRITTEN_PREMIUM": "8.3",
+                    "NO_OF_CLAIMS": "2",
+                    "LOSS_DATE": "2021-11-16",
+                    "LOSS_AMOUNT": "1284.7"
+                },
+                {
+                    "POLICY_NUMBER": "1154356291",
+                    "TERM_EFF_DT": "2017-01-01",
+                    "TERM_EXP_DT": "2018-01-01",
+                    "LOB_INDICATOR": "WC",
+                    "CARRIER": "Carrier 9376",
+                    "WRITTEN_PREMIUM": "1.9",
+                    "NO_OF_CLAIMS": "1",
+                    "LOSS_DATE": "2021-11-16",
+                    "LOSS_AMOUNT": "7883.9"
+                },
+                {
+                    "POLICY_NUMBER": "1787495119",
+                    "TERM_EFF_DT": "2020-01-01",
+                    "TERM_EXP_DT": "2021-01-01",
+                    "LOB_INDICATOR": "WC",
+                    "CARRIER": "Carrier 1454",
+                    "WRITTEN_PREMIUM": "1.6",
+                    "NO_OF_CLAIMS": "3",
+                    "LOSS_DATE": "2021-11-16",
+                    "LOSS_AMOUNT": "93247.8"
+                },
+                {
+                    "POLICY_NUMBER": "5877191877",
+                    "TERM_EFF_DT": "2018-01-01",
+                    "TERM_EXP_DT": "2019-01-01",
+                    "LOB_INDICATOR": "WC",
+                    "CARRIER": "Carrier 2243",
+                    "WRITTEN_PREMIUM": "9.2",
+                    "NO_OF_CLAIMS": "5",
+                    "LOSS_DATE": "2021-11-16",
+                    "LOSS_AMOUNT": "14788.9"
+                }
+            ],
+            "FORMS": [],
+            "EXPOSURES": [
+                {
+                    "CLASS_CODE": "XXXXX",
+                    "EXPOSURE": "4367663.1",
+                    "AUDITED_EXPOSURE_AMT": "5743938.4",
+                    "STATE": "NY",
+                    "TERM_EFF_DT": "2022-01-01",
+                    "TERM_EXP_DT": "2023-01-01"
+                },
+                {
+                    "CLASS_CODE": "XXXXX",
+                    "EXPOSURE": "22918.9",
+                    "AUDITED_EXPOSURE_AMT": "25235.5",
+                    "STATE": "NY",
+                    "TERM_EFF_DT": "2022-01-01",
+                    "TERM_EXP_DT": "2023-01-01"
+                },
+                {
+                    "CLASS_CODE": "XXXXX",
+                    "EXPOSURE": "733116.6",
+                    "AUDITED_EXPOSURE_AMT": "965513.9",
+                    "STATE": "NY",
+                    "TERM_EFF_DT": "2022-01-01",
+                    "TERM_EXP_DT": "2023-01-01"
+                },
+                {
+                    "CLASS_CODE": "XXXXX",
+                    "EXPOSURE": "451828.1",
+                    "AUDITED_EXPOSURE_AMT": "752536.1",
+                    "STATE": "NY",
+                    "TERM_EFF_DT": "2022-01-01",
+                    "TERM_EXP_DT": "2023-01-01"
+                }
+            ],
+            "HISTORY": [
+                {
+                    "TERM_EFF_DT": "2022-01-01",
+                    "TERM_EXP_DT": "2023-01-01",
+                    "PRIMARY_RISK_ST": null,
+                    "COMP_DEV": "5.4",
+                    "SCH_MOD": "7.543462638267555",
+                    "NO_OF_EMPLOYEES": "11",
+                    "CLASS_PREMIUM": "21329.2",
+                    "CLASS_RATE": "5",
+                    "EMOD": "3.2684669818884435",
+                    "DEDUCTIBLE": "N",
+                    "STOPGAP_PREMIUM": "7.4",
+                    "OTHER_PREMIUM": "3.2",
+                    "TERRORISM_PREMIUM": "643.7",
+                    "TAX_FEE_SCHG": "7.3"
+                }
+            ]
+        }
+    ]
+}

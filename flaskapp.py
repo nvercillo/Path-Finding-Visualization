@@ -2,6 +2,8 @@ import logging
 from flask import Flask, render_template, Response
 import csv
 import json 
+import os 
+
 app = Flask(__name__)
 #app.config['TESTING'] = True
 #app.config['DEBUG'] = True
@@ -9,6 +11,20 @@ app = Flask(__name__)
 @app.route('/')
 def index():
     return render_template('index.html') 
+
+
+
+# @app.route('/federato/data-pipeline')
+# def federato():
+    
+    
+#     text_files = sh.find(".", "-iname", "*.txt")
+
+#     os.system("docker-compose -f ../extract-layer/docker-compose.test-prod.yml up --build")
+
+#     return json.dumps(text_files)
+#     # return "RUNNING PIPELINE"
+    
 
 @app.route('/path-finding-visualization')
 def second_pages():

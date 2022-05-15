@@ -1,0 +1,7 @@
+google-cloud-storage
+kafka-python==2.0.2
+requests
+python-gnupg 
+fs
+slack_sdk
+sh

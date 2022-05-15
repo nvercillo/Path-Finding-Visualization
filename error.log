@@ -50,3 +50,304 @@ INFO:werkzeug:127.0.0.1 - - [22/Feb/2022 20:20:52] "GET / HTTP/1.1" 200 -
 INFO:werkzeug: * Running on http://127.0.0.1:5656/ (Press CTRL+C to quit)
 INFO:werkzeug:127.0.0.1 - - [22/Feb/2022 20:21:12] "GET / HTTP/1.1" 200 -
 INFO:werkzeug:127.0.0.1 - - [22/Feb/2022 20:22:30] "GET / HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5656/ (Press CTRL+C to quit)
+INFO:werkzeug: * Running on http://127.0.0.1:5656/ (Press CTRL+C to quit)
+ERROR:flaskapp:Exception on /federato/data-pipeline [GET]
+Traceback (most recent call last):
+  File "/home/snvercil/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/snvercil/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/home/snvercil/.local/lib/python3.8/site-packages/flask/app.py", line 1538, in finalize_request
+    response = self.make_response(rv)
+  File "/home/snvercil/.local/lib/python3.8/site-packages/flask/app.py", line 1701, in make_response
+    raise TypeError(
+TypeError: The view function for 'federato' did not return a valid response. The function either returned None or ended without a return statement.
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2022 17:41:53] "[35m[1mGET /federato/data-pipeline HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5656/ (Press CTRL+C to quit)
+ERROR:flaskapp:Exception on /federato/data-pipeline [GET]
+Traceback (most recent call last):
+  File "/home/snvercil/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/snvercil/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/home/snvercil/.local/lib/python3.8/site-packages/flask/app.py", line 1538, in finalize_request
+    response = self.make_response(rv)
+  File "/home/snvercil/.local/lib/python3.8/site-packages/flask/app.py", line 1701, in make_response
+    raise TypeError(
+TypeError: The view function for 'federato' did not return a valid response. The function either returned None or ended without a return statement.
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2022 17:42:11] "[35m[1mGET /federato/data-pipeline HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5656/ (Press CTRL+C to quit)
+ERROR:flaskapp:Exception on /federato/data-pipeline [GET]
+Traceback (most recent call last):
+  File "/home/snvercil/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/snvercil/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/home/snvercil/.local/lib/python3.8/site-packages/flask/app.py", line 1538, in finalize_request
+    response = self.make_response(rv)
+  File "/home/snvercil/.local/lib/python3.8/site-packages/flask/app.py", line 1701, in make_response
+    raise TypeError(
+TypeError: The view function for 'federato' did not return a valid response. The function either returned None or ended without a return statement.
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2022 17:42:35] "[35m[1mGET /federato/data-pipeline HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5656/ (Press CTRL+C to quit)
+ERROR:flaskapp:Exception on /federato/data-pipeline [GET]
+Traceback (most recent call last):
+  File "/home/snvercil/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/snvercil/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/home/snvercil/.local/lib/python3.8/site-packages/flask/app.py", line 1538, in finalize_request
+    response = self.make_response(rv)
+  File "/home/snvercil/.local/lib/python3.8/site-packages/flask/app.py", line 1701, in make_response
+    raise TypeError(
+TypeError: The view function for 'federato' did not return a valid response. The function either returned None or ended without a return statement.
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2022 17:43:01] "[35m[1mGET /federato/data-pipeline HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5656/ (Press CTRL+C to quit)
+ERROR:flaskapp:Exception on /federato/data-pipeline [GET]
+Traceback (most recent call last):
+  File "/home/snvercil/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/snvercil/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/home/snvercil/.local/lib/python3.8/site-packages/flask/app.py", line 1538, in finalize_request
+    response = self.make_response(rv)
+  File "/home/snvercil/.local/lib/python3.8/site-packages/flask/app.py", line 1701, in make_response
+    raise TypeError(
+TypeError: The view function for 'federato' did not return a valid response. The function either returned None or ended without a return statement.
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2022 17:43:39] "[35m[1mGET /federato/data-pipeline HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5656/ (Press CTRL+C to quit)
+INFO:werkzeug: * Running on http://127.0.0.1:5656/ (Press CTRL+C to quit)
+ERROR:flaskapp:Exception on /federato/data-pipeline [GET]
+Traceback (most recent call last):
+  File "/home/snvercil/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/snvercil/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/home/snvercil/.local/lib/python3.8/site-packages/flask/app.py", line 1538, in finalize_request
+    response = self.make_response(rv)
+  File "/home/snvercil/.local/lib/python3.8/site-packages/flask/app.py", line 1701, in make_response
+    raise TypeError(
+TypeError: The view function for 'federato' did not return a valid response. The function either returned None or ended without a return statement.
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2022 17:45:28] "[35m[1mGET /federato/data-pipeline HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5656/ (Press CTRL+C to quit)
+ERROR:flaskapp:Exception on /federato/data-pipeline [GET]
+Traceback (most recent call last):
+  File "/home/snvercil/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/snvercil/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/home/snvercil/.local/lib/python3.8/site-packages/flask/app.py", line 1538, in finalize_request
+    response = self.make_response(rv)
+  File "/home/snvercil/.local/lib/python3.8/site-packages/flask/app.py", line 1701, in make_response
+    raise TypeError(
+TypeError: The view function for 'federato' did not return a valid response. The function either returned None or ended without a return statement.
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2022 17:46:37] "[35m[1mGET /federato/data-pipeline HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5656/ (Press CTRL+C to quit)
+ERROR:flaskapp:Exception on /federato/data-pipeline [GET]
+Traceback (most recent call last):
+  File "/home/snvercil/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/snvercil/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/home/snvercil/.local/lib/python3.8/site-packages/flask/app.py", line 1538, in finalize_request
+    response = self.make_response(rv)
+  File "/home/snvercil/.local/lib/python3.8/site-packages/flask/app.py", line 1701, in make_response
+    raise TypeError(
+TypeError: The view function for 'federato' did not return a valid response. The function either returned None or ended without a return statement.
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2022 17:53:44] "[35m[1mGET /federato/data-pipeline HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5656/ (Press CTRL+C to quit)
+ERROR:flaskapp:Exception on /federato/data-pipeline [GET]
+Traceback (most recent call last):
+  File "/home/snvercil/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/snvercil/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/home/snvercil/.local/lib/python3.8/site-packages/flask/app.py", line 1538, in finalize_request
+    response = self.make_response(rv)
+  File "/home/snvercil/.local/lib/python3.8/site-packages/flask/app.py", line 1701, in make_response
+    raise TypeError(
+TypeError: The view function for 'federato' did not return a valid response. The function either returned None or ended without a return statement.
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2022 17:56:02] "[35m[1mGET /federato/data-pipeline HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5656/ (Press CTRL+C to quit)
+INFO:werkzeug: * Running on http://127.0.0.1:5657/ (Press CTRL+C to quit)
+ERROR:flaskapp:Exception on /federato/data-pipeline [GET]
+Traceback (most recent call last):
+  File "/home/snvercil/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/snvercil/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/home/snvercil/.local/lib/python3.8/site-packages/flask/app.py", line 1538, in finalize_request
+    response = self.make_response(rv)
+  File "/home/snvercil/.local/lib/python3.8/site-packages/flask/app.py", line 1701, in make_response
+    raise TypeError(
+TypeError: The view function for 'federato' did not return a valid response. The function either returned None or ended without a return statement.
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2022 17:57:23] "[35m[1mGET /federato/data-pipeline HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5656/ (Press CTRL+C to quit)
+ERROR:flaskapp:Exception on /federato/data-pipeline [GET]
+Traceback (most recent call last):
+  File "/home/snvercil/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/snvercil/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/home/snvercil/.local/lib/python3.8/site-packages/flask/app.py", line 1538, in finalize_request
+    response = self.make_response(rv)
+  File "/home/snvercil/.local/lib/python3.8/site-packages/flask/app.py", line 1701, in make_response
+    raise TypeError(
+TypeError: The view function for 'federato' did not return a valid response. The function either returned None or ended without a return statement.
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2022 17:59:27] "[35m[1mGET /federato/data-pipeline HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5656/ (Press CTRL+C to quit)
+ERROR:flaskapp:Exception on /federato/data-pipeline [GET]
+Traceback (most recent call last):
+  File "/home/snvercil/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/snvercil/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/home/snvercil/.local/lib/python3.8/site-packages/flask/app.py", line 1538, in finalize_request
+    response = self.make_response(rv)
+  File "/home/snvercil/.local/lib/python3.8/site-packages/flask/app.py", line 1701, in make_response
+    raise TypeError(
+TypeError: The view function for 'federato' did not return a valid response. The function either returned None or ended without a return statement.
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2022 18:01:15] "[35m[1mGET /federato/data-pipeline HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5656/ (Press CTRL+C to quit)
+ERROR:flaskapp:Exception on /federato/data-pipeline [GET]
+Traceback (most recent call last):
+  File "/home/snvercil/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/snvercil/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/home/snvercil/.local/lib/python3.8/site-packages/flask/app.py", line 1538, in finalize_request
+    response = self.make_response(rv)
+  File "/home/snvercil/.local/lib/python3.8/site-packages/flask/app.py", line 1701, in make_response
+    raise TypeError(
+TypeError: The view function for 'federato' did not return a valid response. The function either returned None or ended without a return statement.
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2022 18:03:52] "[35m[1mGET /federato/data-pipeline HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5656/ (Press CTRL+C to quit)
+ERROR:flaskapp:Exception on /federato/data-pipeline [GET]
+Traceback (most recent call last):
+  File "/home/snvercil/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/snvercil/.local/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/home/snvercil/.local/lib/python3.8/site-packages/flask/app.py", line 1538, in finalize_request
+    response = self.make_response(rv)
+  File "/home/snvercil/.local/lib/python3.8/site-packages/flask/app.py", line 1701, in make_response
+    raise TypeError(
+TypeError: The view function for 'federato' did not return a valid response. The function either returned None or ended without a return statement.
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2022 18:13:52] "[35m[1mGET /federato/data-pipeline HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5656/ (Press CTRL+C to quit)
+INFO:werkzeug: * Running on http://127.0.0.1:5656/ (Press CTRL+C to quit)
+INFO:werkzeug: * Running on http://127.0.0.1:5656/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2022 18:34:14] "GET /federato/data-pipeline HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5656/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2022 18:43:06] "GET /federato/data-pipeline HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5656/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2022 18:52:36] "GET /federato/data-pipeline HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5656/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2022 18:54:57] "GET /federato/data-pipeline HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5656/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2022 18:55:13] "GET /federato/data-pipeline HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5656/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2022 19:00:27] "GET /federato/data-pipeline HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2022 19:00:29] "GET /federato/data-pipeline HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2022 19:00:30] "GET /federato/data-pipeline HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2022 19:00:31] "GET /federato/data-pipeline HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2022 19:00:33] "GET /federato/data-pipeline HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2022 19:00:37] "GET /federato/data-pipeline HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2022 19:00:38] "GET /federato/data-pipeline HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2022 19:00:39] "GET /federato/data-pipeline HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5656/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2022 19:00:51] "GET /federato/data-pipeline HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5656/ (Press CTRL+C to quit)
+ERROR:flaskapp:Exception on /federato/data-pipeline [GET]
+Traceback (most recent call last):
+  File "/home/snvercil/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/snvercil/.local/lib/python3.8/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/snvercil/.local/lib/python3.8/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/snvercil/.local/lib/python3.8/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "flaskapp.py", line 25, in federato
+    os.system(f"echo 'SDFSDFSDF'  >> timestamps/{r}")
+NameError: name 'r' is not defined
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2022 01:57:16] "[35m[1mGET /federato/data-pipeline HTTP/1.1[0m" 500 -
+ERROR:flaskapp:Exception on /federato/data-pipeline [GET]
+Traceback (most recent call last):
+  File "/home/snvercil/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/snvercil/.local/lib/python3.8/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/snvercil/.local/lib/python3.8/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/snvercil/.local/lib/python3.8/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "flaskapp.py", line 25, in federato
+    os.system(f"echo 'SDFSDFSDF'  >> timestamps/{r}")
+NameError: name 'r' is not defined
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2022 01:57:23] "[35m[1mGET /federato/data-pipeline HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5656/ (Press CTRL+C to quit)
+ERROR:flaskapp:Exception on /federato/data-pipeline [GET]
+Traceback (most recent call last):
+  File "/home/snvercil/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/snvercil/.local/lib/python3.8/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/snvercil/.local/lib/python3.8/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/snvercil/.local/lib/python3.8/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "flaskapp.py", line 25, in federato
+    os.system(f"echo 'SDFSDFSDF'  >> timestamps/{r}")
+NameError: name 'r' is not defined
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2022 01:58:53] "[35m[1mGET /federato/data-pipeline HTTP/1.1[0m" 500 -
+ERROR:flaskapp:Exception on /federato/data-pipeline [GET]
+Traceback (most recent call last):
+  File "/home/snvercil/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/snvercil/.local/lib/python3.8/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/snvercil/.local/lib/python3.8/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/snvercil/.local/lib/python3.8/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "flaskapp.py", line 25, in federato
+    os.system(f"echo 'SDFSDFSDF'  >> timestamps/{r}")
+NameError: name 'r' is not defined
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2022 01:58:58] "[35m[1mGET /federato/data-pipeline HTTP/1.1[0m" 500 -
+ERROR:flaskapp:Exception on /federato/data-pipeline [GET]
+Traceback (most recent call last):
+  File "/home/snvercil/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/snvercil/.local/lib/python3.8/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/snvercil/.local/lib/python3.8/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/snvercil/.local/lib/python3.8/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "flaskapp.py", line 25, in federato
+    os.system(f"echo 'SDFSDFSDF'  >> timestamps/{r}")
+NameError: name 'r' is not defined
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2022 01:58:59] "[35m[1mGET /federato/data-pipeline HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5656/ (Press CTRL+C to quit)
+ERROR:flaskapp:Exception on /federato/data-pipeline [GET]
+Traceback (most recent call last):
+  File "/home/snvercil/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/snvercil/.local/lib/python3.8/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/snvercil/.local/lib/python3.8/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/snvercil/.local/lib/python3.8/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "flaskapp.py", line 25, in federato
+    os.system(f"echo 'SDFSDFSDF'  >> timestamps/{r}")
+NameError: name 'r' is not defined
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2022 01:59:15] "[35m[1mGET /federato/data-pipeline HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5656/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2022 01:59:38] "GET /federato/data-pipeline HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5656/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2022 02:09:07] "GET /federato/data-pipeline HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2022 02:09:12] "GET /federato/data-pipeline HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2022 02:09:30] "GET /getFlightData HTTP/1.1" 200 -

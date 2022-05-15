@@ -1,0 +1,26 @@
+version: '2'
+services:
+  app:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    environment:
+      FAKE_KAFKA_CONSUMER_DEP_INJ: "false"
+      GOOGLE_APPLICATION_CREDENTIALS: /tmp/keys/keyfile.json
+      MAX_NUM_CONSUMERS: 40
+      MAX_NUM_LISTENERS: 3
+      GPG_PASSPHRASE: passphrase
+      GPG_PUB_KEY_PATH: ../gpg/pub_key.asc
+      GPG_PRIV_KEY_PATH: ../gpg/priv_key.asc
+      BUCKET_NAME: example-customer-json
+      SLACK_BOT_TOKEN: "${SLACK_BOT_TOKEN}"
+
+      # Kafka config
+      KAFKA_BOOTSTRAP_SERVER: deluxe-travois-01.srvs.cloudkafka.com:9094
+      KAFKA_SECURITY_PROTOCOL: SASL_SSL
+      KAFKA_SASL_USERNAME: as0n6jqr
+      KAFKA_SASL_PASSWORD: hghPgmhaXJf82R9CZgLpr1OEZG4_OPlp
+      KAKFA_SASL_MECHANISM: SCRAM-SHA-256
+    volumes:
+      # Inject your specific service account keyfile into the container at runtime.
+      - /home/snvercil/federato_credentials.json:/tmp/keys/keyfile.json:ro

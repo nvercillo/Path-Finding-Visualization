@@ -1,0 +1,7 @@
+models/original/*
+models/scaled/*
+
+*/json_objs/*
+*/encrypted/*
+
+**/dump_file.txt

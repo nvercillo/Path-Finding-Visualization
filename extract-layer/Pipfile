@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+google-cloud-storage = "*"
+kafka-python = "==2.0.2"
+requests = "*"
+python-gnupg = "*"
+fs = "*"
+slack-sdk = "*"
+slacker-log-handler = "*"
+slack-logger = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"

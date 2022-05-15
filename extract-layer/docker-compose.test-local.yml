@@ -1,0 +1,19 @@
+version: '2'
+services:
+  app:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    environment:
+      FAKE_KAFKA_CONSUMER_DEP_INJ: "false"
+      GOOGLE_APPLICATION_CREDENTIALS: /tmp/keys/keyfile.json
+      MAX_NUM_CONSUMERS: 40
+      MAX_NUM_LISTENERS: 3
+      GPG_PASSPHRASE: passphrase
+      GPG_PUB_KEY_PATH: ../gpg/pub_key.asc
+      GPG_PRIV_KEY_PATH: ../gpg/priv_key.asc
+      BUCKET_NAME: example-customer-json
+      SLACK_BOT_TOKEN: "${SLACK_BOT_TOKEN}"2
+    volumes:
+      # Inject your specific service account keyfile into the container at runtime.
+      - /home/stefan/Downloads/federato-720b488328b4.json:/tmp/keys/keyfile.json:ro

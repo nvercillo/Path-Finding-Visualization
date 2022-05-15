@@ -1,0 +1,453 @@
+{
+    "Account": [
+        {
+            "ACCT_NBR": "3036683308",
+            "NAMED_INSURED_NM": "Company 4368",
+            "CNA_SIC": "69158",
+            "SIC_DESCRIPTION": "Long description... ",
+            "AGENCY_NAME": "Agency 3889",
+            "SYS_GEN_DUNS": "099179218 ",
+            "CUSTOMER_SEGMENT": "Manufacturing",
+            "YEARS_IN_BUSINESS": "28",
+            "BANKRUPTCY_INDICATOR": "NO",
+            "PAYDEX": "79",
+            "PERCENT_NEGATIVE_PAYMENT": null,
+            "PERCENT_SLOW_PAYMENT": "37",
+            "PERCENT_TOTAL_PAYMENT": "39",
+            "POLICY": [
+                {
+                    "TAP_POLICY_STATUS": "Pending Quote",
+                    "POL_NBR": "6080012528",
+                    "TERM_EFF_DT": "2022-01-01",
+                    "TERM_EXP_DT": "2023-01-01",
+                    "POL_SYMBOL_CD": "PMT",
+                    "SBU_NAME": "5",
+                    "PRODUCER_NBR": "527681",
+                    "EFFECTIVE_TYPE_CD": "R",
+                    "POL_SIC": "61331",
+                    "POL_INS_LINE_TS": "2021-12-20 11:07:10.0"
+                },
+                {
+                    "TAP_POLICY_STATUS": "Quote Not Taken",
+                    "POL_NBR": "6080012531",
+                    "TERM_EFF_DT": "2022-01-01",
+                    "TERM_EXP_DT": "2023-01-01",
+                    "POL_SYMBOL_CD": "BUA",
+                    "SBU_NAME": "7",
+                    "PRODUCER_NBR": "179362",
+                    "EFFECTIVE_TYPE_CD": "R",
+                    "POL_SIC": "88415",
+                    "POL_INS_LINE_TS": "2021-11-30 08:28:27.0"
+                }
+            ],
+            "LOSS": []
+        },
+        {
+            "ACCT_NBR": "0113755172",
+            "NAMED_INSURED_NM": "Company 2426",
+            "CNA_SIC": "54186",
+            "SIC_DESCRIPTION": "Long description... ",
+            "AGENCY_NAME": "Agency 4374",
+            "SYS_GEN_DUNS": "081743387 ",
+            "CUSTOMER_SEGMENT": "Manufacturing",
+            "YEARS_IN_BUSINESS": "57",
+            "BANKRUPTCY_INDICATOR": "NO",
+            "PAYDEX": "86",
+            "PERCENT_NEGATIVE_PAYMENT": null,
+            "PERCENT_SLOW_PAYMENT": "5",
+            "PERCENT_TOTAL_PAYMENT": "65",
+            "POLICY": [
+                {
+                    "TAP_POLICY_STATUS": "Issued",
+                    "POL_NBR": "2094236448",
+                    "TERM_EFF_DT": "2022-01-01",
+                    "TERM_EXP_DT": "2023-01-01",
+                    "POL_SYMBOL_CD": "PMT",
+                    "SBU_NAME": "1",
+                    "PRODUCER_NBR": "274827",
+                    "EFFECTIVE_TYPE_CD": "R",
+                    "POL_SIC": "67573",
+                    "POL_INS_LINE_TS": "2021-12-25 09:30:36.0"
+                },
+                {
+                    "TAP_POLICY_STATUS": "Policy Active",
+                    "POL_NBR": "2094236479",
+                    "TERM_EFF_DT": "2022-01-01",
+                    "TERM_EXP_DT": "2023-01-01",
+                    "POL_SYMBOL_CD": "BUA",
+                    "SBU_NAME": "7",
+                    "PRODUCER_NBR": "651155",
+                    "EFFECTIVE_TYPE_CD": "R",
+                    "POL_SIC": "46623",
+                    "POL_INS_LINE_TS": "2021-12-22 07:59:50.0"
+                }
+            ],
+            "LOSS": []
+        },
+        {
+            "ACCT_NBR": "3038088873",
+            "NAMED_INSURED_NM": "Company 4998",
+            "CNA_SIC": "97324",
+            "SIC_DESCRIPTION": "Long description... ",
+            "AGENCY_NAME": "Agency 9423",
+            "SYS_GEN_DUNS": "101040028 ",
+            "CUSTOMER_SEGMENT": "Construction",
+            "YEARS_IN_BUSINESS": "2",
+            "BANKRUPTCY_INDICATOR": "NO",
+            "PAYDEX": "72",
+            "PERCENT_NEGATIVE_PAYMENT": null,
+            "PERCENT_SLOW_PAYMENT": "7",
+            "PERCENT_TOTAL_PAYMENT": "6",
+            "POLICY": [
+                {
+                    "TAP_POLICY_STATUS": "Issued",
+                    "POL_NBR": "7012129098",
+                    "TERM_EFF_DT": "2022-01-01",
+                    "TERM_EXP_DT": "2023-01-01",
+                    "POL_SYMBOL_CD": "PMT",
+                    "SBU_NAME": "5",
+                    "PRODUCER_NBR": "674956",
+                    "EFFECTIVE_TYPE_CD": "R",
+                    "POL_SIC": "87755",
+                    "POL_INS_LINE_TS": "2022-01-25 02:16:35.0"
+                },
+                {
+                    "TAP_POLICY_STATUS": "Policy Active",
+                    "POL_NBR": "7011921480",
+                    "TERM_EFF_DT": "2022-01-01",
+                    "TERM_EXP_DT": "2023-01-01",
+                    "POL_SYMBOL_CD": "BUA",
+                    "SBU_NAME": "6",
+                    "PRODUCER_NBR": "319819",
+                    "EFFECTIVE_TYPE_CD": "R",
+                    "POL_SIC": "91648",
+                    "POL_INS_LINE_TS": "2021-12-30 01:43:00.0"
+                }
+            ],
+            "LOSS": []
+        },
+        {
+            "ACCT_NBR": "3000580294",
+            "NAMED_INSURED_NM": "Company 5248",
+            "CNA_SIC": "75466",
+            "SIC_DESCRIPTION": "Long description... ",
+            "AGENCY_NAME": "Agency 9348",
+            "SYS_GEN_DUNS": "041405317 ",
+            "CUSTOMER_SEGMENT": "Construction",
+            "YEARS_IN_BUSINESS": "88",
+            "BANKRUPTCY_INDICATOR": "NO",
+            "PAYDEX": "14",
+            "PERCENT_NEGATIVE_PAYMENT": null,
+            "PERCENT_SLOW_PAYMENT": "6",
+            "PERCENT_TOTAL_PAYMENT": "84",
+            "POLICY": [
+                {
+                    "TAP_POLICY_STATUS": "Issued",
+                    "POL_NBR": "5090991823",
+                    "TERM_EFF_DT": "2022-01-01",
+                    "TERM_EXP_DT": "2023-01-01",
+                    "POL_SYMBOL_CD": "PMT",
+                    "SBU_NAME": "5",
+                    "PRODUCER_NBR": "564267",
+                    "EFFECTIVE_TYPE_CD": "R",
+                    "POL_SIC": "88321",
+                    "POL_INS_LINE_TS": "2021-12-31 05:14:55.0"
+                },
+                {
+                    "TAP_POLICY_STATUS": "Policy Active",
+                    "POL_NBR": "5090991840",
+                    "TERM_EFF_DT": "2022-01-01",
+                    "TERM_EXP_DT": "2023-01-01",
+                    "POL_SYMBOL_CD": "BUA",
+                    "SBU_NAME": "3",
+                    "PRODUCER_NBR": "341523",
+                    "EFFECTIVE_TYPE_CD": "R",
+                    "POL_SIC": "63782",
+                    "POL_INS_LINE_TS": "2021-12-30 20:24:21.0"
+                }
+            ],
+            "LOSS": [
+                {
+                    "LOB_INDICATOR": "GL ",
+                    "CARRIER": null,
+                    "LOSS_DATE": "2016-08-13",
+                    "LOSS_AMOUNT": "845658.43",
+                    "CLAIM_DESCRIPTION": "Long description... "
+                }
+            ]
+        },
+        {
+            "ACCT_NBR": "3025597876",
+            "NAMED_INSURED_NM": "Company 3143",
+            "CNA_SIC": "22139",
+            "SIC_DESCRIPTION": "Long description... ",
+            "AGENCY_NAME": "Agency 9211",
+            "SYS_GEN_DUNS": "791857824 ",
+            "CUSTOMER_SEGMENT": "Services",
+            "YEARS_IN_BUSINESS": null,
+            "BANKRUPTCY_INDICATOR": null,
+            "PAYDEX": null,
+            "PERCENT_NEGATIVE_PAYMENT": null,
+            "PERCENT_SLOW_PAYMENT": null,
+            "PERCENT_TOTAL_PAYMENT": null,
+            "POLICY": [],
+            "LOSS": []
+        },
+        {
+            "ACCT_NBR": "3024189677",
+            "NAMED_INSURED_NM": "Company 2539",
+            "CNA_SIC": "66343",
+            "SIC_DESCRIPTION": "Long description... ",
+            "AGENCY_NAME": "Agency 2218",
+            "SYS_GEN_DUNS": "106785428 ",
+            "CUSTOMER_SEGMENT": "Construction",
+            "YEARS_IN_BUSINESS": "75",
+            "BANKRUPTCY_INDICATOR": "NO",
+            "PAYDEX": "2",
+            "PERCENT_NEGATIVE_PAYMENT": "7",
+            "PERCENT_SLOW_PAYMENT": null,
+            "PERCENT_TOTAL_PAYMENT": "1",
+            "POLICY": [
+                {
+                    "TAP_POLICY_STATUS": "Policy Active",
+                    "POL_NBR": "5099095119",
+                    "TERM_EFF_DT": "2022-01-01",
+                    "TERM_EXP_DT": "2023-01-01",
+                    "POL_SYMBOL_CD": "BUA",
+                    "SBU_NAME": "5",
+                    "PRODUCER_NBR": "735824",
+                    "EFFECTIVE_TYPE_CD": "R",
+                    "POL_SIC": "87959",
+                    "POL_INS_LINE_TS": "2022-01-09 19:12:00.0"
+                },
+                {
+                    "TAP_POLICY_STATUS": "Issued",
+                    "POL_NBR": "5099095136",
+                    "TERM_EFF_DT": "2022-01-01",
+                    "TERM_EXP_DT": "2023-01-01",
+                    "POL_SYMBOL_CD": "PMT",
+                    "SBU_NAME": "8",
+                    "PRODUCER_NBR": "569738",
+                    "EFFECTIVE_TYPE_CD": "R",
+                    "POL_SIC": "55544",
+                    "POL_INS_LINE_TS": "2022-01-07 03:06:35.0"
+                }
+            ],
+            "LOSS": []
+        },
+        {
+            "ACCT_NBR": "0109021636",
+            "NAMED_INSURED_NM": "Company 2116",
+            "CNA_SIC": "28261",
+            "SIC_DESCRIPTION": "Long description... ",
+            "AGENCY_NAME": "Agency 9411",
+            "SYS_GEN_DUNS": "026513150 ",
+            "CUSTOMER_SEGMENT": "Distribution",
+            "YEARS_IN_BUSINESS": "38",
+            "BANKRUPTCY_INDICATOR": "NO",
+            "PAYDEX": "14",
+            "PERCENT_NEGATIVE_PAYMENT": null,
+            "PERCENT_SLOW_PAYMENT": "8",
+            "PERCENT_TOTAL_PAYMENT": "35",
+            "POLICY": [
+                {
+                    "TAP_POLICY_STATUS": "Quote Not Taken",
+                    "POL_NBR": "4020350705",
+                    "TERM_EFF_DT": "2022-01-01",
+                    "TERM_EXP_DT": "2023-01-01",
+                    "POL_SYMBOL_CD": "BUA",
+                    "SBU_NAME": "7",
+                    "PRODUCER_NBR": "356121",
+                    "EFFECTIVE_TYPE_CD": "R",
+                    "POL_SIC": "95489",
+                    "POL_INS_LINE_TS": "2021-08-19 03:54:11.0"
+                },
+                {
+                    "TAP_POLICY_STATUS": "NOT TAKEN",
+                    "POL_NBR": "4020350686",
+                    "TERM_EFF_DT": "2022-01-01",
+                    "TERM_EXP_DT": "2023-01-01",
+                    "POL_SYMBOL_CD": "PMT",
+                    "SBU_NAME": "Name 5179",
+                    "PRODUCER_NBR": "171444",
+                    "EFFECTIVE_TYPE_CD": "R",
+                    "POL_SIC": "87993",
+                    "POL_INS_LINE_TS": "2021-11-30 16:03:50.0"
+                }
+            ],
+            "LOSS": [
+                {
+                    "LOB_INDICATOR": "CF ",
+                    "CARRIER": null,
+                    "LOSS_DATE": "2018-06-06",
+                    "LOSS_AMOUNT": "124552.37",
+                    "CLAIM_DESCRIPTION": "Long description... "
+                }
+            ]
+        },
+        {
+            "ACCT_NBR": "3036532172",
+            "NAMED_INSURED_NM": "Company 8265",
+            "CNA_SIC": "82685",
+            "SIC_DESCRIPTION": "Long description... ",
+            "AGENCY_NAME": "Agency 8787",
+            "SYS_GEN_DUNS": "191197227 ",
+            "CUSTOMER_SEGMENT": "Technology",
+            "YEARS_IN_BUSINESS": "36",
+            "BANKRUPTCY_INDICATOR": "NO",
+            "PAYDEX": "13",
+            "PERCENT_NEGATIVE_PAYMENT": null,
+            "PERCENT_SLOW_PAYMENT": "6",
+            "PERCENT_TOTAL_PAYMENT": "56",
+            "POLICY": [
+                {
+                    "TAP_POLICY_STATUS": "Policy Active",
+                    "POL_NBR": "6079752447",
+                    "TERM_EFF_DT": "2022-01-01",
+                    "TERM_EXP_DT": "2023-01-01",
+                    "POL_SYMBOL_CD": "BUA",
+                    "SBU_NAME": "9",
+                    "PRODUCER_NBR": "534496",
+                    "EFFECTIVE_TYPE_CD": "R",
+                    "POL_SIC": "66368",
+                    "POL_INS_LINE_TS": "2022-01-05 04:16:00.0"
+                },
+                {
+                    "TAP_POLICY_STATUS": "Issued",
+                    "POL_NBR": "6079752433",
+                    "TERM_EFF_DT": "2022-01-01",
+                    "TERM_EXP_DT": "2023-01-01",
+                    "POL_SYMBOL_CD": "PMT",
+                    "SBU_NAME": "7",
+                    "PRODUCER_NBR": "448523",
+                    "EFFECTIVE_TYPE_CD": "R",
+                    "POL_SIC": "81956",
+                    "POL_INS_LINE_TS": "2022-01-04 11:47:07.0"
+                }
+            ],
+            "LOSS": [
+                {
+                    "LOB_INDICATOR": "CF ",
+                    "CARRIER": null,
+                    "LOSS_DATE": "2021-03-17",
+                    "LOSS_AMOUNT": "499913.4",
+                    "CLAIM_DESCRIPTION": "Long description... "
+                },
+                {
+                    "LOB_INDICATOR": "CF ",
+                    "CARRIER": null,
+                    "LOSS_DATE": "2021-03-17",
+                    "LOSS_AMOUNT": "614926.23",
+                    "CLAIM_DESCRIPTION": "Long description... "
+                },
+                {
+                    "LOB_INDICATOR": "CF ",
+                    "CARRIER": null,
+                    "LOSS_DATE": "2021-03-17",
+                    "LOSS_AMOUNT": "7316238.76",
+                    "CLAIM_DESCRIPTION": "Long description... "
+                }
+            ]
+        },
+        {
+            "ACCT_NBR": "3026210797",
+            "NAMED_INSURED_NM": "Company 6576",
+            "CNA_SIC": "64298",
+            "SIC_DESCRIPTION": "Long description... ",
+            "AGENCY_NAME": "Agency 3976",
+            "SYS_GEN_DUNS": "108914565 ",
+            "CUSTOMER_SEGMENT": "Professional Services",
+            "YEARS_IN_BUSINESS": "14",
+            "BANKRUPTCY_INDICATOR": "NO",
+            "PAYDEX": "55",
+            "PERCENT_NEGATIVE_PAYMENT": null,
+            "PERCENT_SLOW_PAYMENT": "8",
+            "PERCENT_TOTAL_PAYMENT": "62",
+            "POLICY": [
+                {
+                    "TAP_POLICY_STATUS": "Policy Active",
+                    "POL_NBR": "5099243043",
+                    "TERM_EFF_DT": "2022-01-01",
+                    "TERM_EXP_DT": "2023-01-01",
+                    "POL_SYMBOL_CD": "BUA",
+                    "SBU_NAME": "3",
+                    "PRODUCER_NBR": "199581",
+                    "EFFECTIVE_TYPE_CD": "R",
+                    "POL_SIC": "44369",
+                    "POL_INS_LINE_TS": "2021-12-07 12:27:44.0"
+                },
+                {
+                    "TAP_POLICY_STATUS": "Pending Quote",
+                    "POL_NBR": "5099243026",
+                    "TERM_EFF_DT": "2022-01-01",
+                    "TERM_EXP_DT": "2023-01-01",
+                    "POL_SYMBOL_CD": "PMT",
+                    "SBU_NAME": "9",
+                    "PRODUCER_NBR": "521281",
+                    "EFFECTIVE_TYPE_CD": "R",
+                    "POL_SIC": "68359",
+                    "POL_INS_LINE_TS": "2021-12-07 12:43:48.0"
+                }
+            ],
+            "LOSS": [
+                {
+                    "LOB_INDICATOR": "WC ",
+                    "CARRIER": null,
+                    "LOSS_DATE": "2019-07-29",
+                    "LOSS_AMOUNT": "754282.49",
+                    "CLAIM_DESCRIPTION": "Long description... "
+                }
+            ]
+        },
+        {
+            "ACCT_NBR": "3011458660",
+            "NAMED_INSURED_NM": "Company 4445",
+            "CNA_SIC": "39246",
+            "SIC_DESCRIPTION": "Long description... ",
+            "AGENCY_NAME": "Agency 9557",
+            "SYS_GEN_DUNS": "199618013 ",
+            "CUSTOMER_SEGMENT": "Distribution",
+            "YEARS_IN_BUSINESS": "18",
+            "BANKRUPTCY_INDICATOR": "NO",
+            "PAYDEX": "32",
+            "PERCENT_NEGATIVE_PAYMENT": null,
+            "PERCENT_SLOW_PAYMENT": "2",
+            "PERCENT_TOTAL_PAYMENT": "24",
+            "POLICY": [
+                {
+                    "TAP_POLICY_STATUS": "Pending Quote",
+                    "POL_NBR": "7018055026",
+                    "TERM_EFF_DT": "2022-01-01",
+                    "TERM_EXP_DT": "2023-01-01",
+                    "POL_SYMBOL_CD": "PMT",
+                    "SBU_NAME": "3",
+                    "PRODUCER_NBR": "178176",
+                    "EFFECTIVE_TYPE_CD": "N",
+                    "POL_SIC": "89371",
+                    "POL_INS_LINE_TS": "2021-12-22 17:38:30.0"
+                },
+                {
+                    "TAP_POLICY_STATUS": "Rated Not Quoted",
+                    "POL_NBR": "7018055043",
+                    "TERM_EFF_DT": "2022-01-01",
+                    "TERM_EXP_DT": "2023-01-01",
+                    "POL_SYMBOL_CD": "BUA",
+                    "SBU_NAME": "3",
+                    "PRODUCER_NBR": "627591",
+                    "EFFECTIVE_TYPE_CD": "N",
+                    "POL_SIC": "51479",
+                    "POL_INS_LINE_TS": "2021-12-22 09:35:06.0"
+                }
+            ],
+            "LOSS": [
+                {
+                    "LOB_INDICATOR": "BUA",
+                    "CARRIER": "Carrier 7471",
+                    "LOSS_DATE": "2021-09-29",
+                    "LOSS_AMOUNT": "72742.7",
+                    "CLAIM_DESCRIPTION": "Long description... "
+                }
+            ]
+        }
+    ]
+}
