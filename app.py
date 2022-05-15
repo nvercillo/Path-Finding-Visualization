@@ -112,7 +112,7 @@ def about():
     return json.dumps(airportdata)
 
 
-if __name__ == "__main__":
-    print("Running web server: ")
-    logging.basicConfig(filename="error.log", level=logging.DEBUG)
-    app.run(port=5656, host="0.0.0.0")
+# if __name__ == "__main__":
+#     print("Running web server: ")
+#     logging.basicConfig(filename="error.log", level=logging.DEBUG)
+#     app.run(port=5656, host="0.0.0.0")
